@@ -1,7 +1,7 @@
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR-build/CMakeFiles/install/local.dir
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR-build/CMakeFiles/rebuild_cache.dir
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR-build/CMakeFiles/edit_cache.dir
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR-build/CMakeFiles/install/strip.dir
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR-build/CMakeFiles/install.dir
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR-build/CMakeFiles/list_install_components.dir
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR-build/CMakeFiles/tutorial.dir
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR-build/CMakeFiles/rebuild_cache.dir
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR-build/CMakeFiles/edit_cache.dir
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR-build/CMakeFiles/install/local.dir
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR-build/CMakeFiles/rich.dir

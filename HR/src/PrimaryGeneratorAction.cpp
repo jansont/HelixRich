@@ -14,6 +14,10 @@
 #include "G4SystemOfUnits.hh"
 #include "G4ParticleTable.hh"
 #include "G4ParticleDefinition.hh"
+#include "Randomize.hh"
+#include "G4GeneralParticleSource.hh"
+#include "SimulationConstants.hh"
+
 
 /* We'll use the Geantino (non-interacting particle) for the gun, can be changed. 
  * This particle is generally used for testing. Think of it as similar to a neutrino. 
@@ -22,14 +26,10 @@
  * */
 PrimaryGeneratorAction::PrimaryGeneratorAction()
 {
-	G4int n_particle = 100;   // Number of particles fired per beamOn run
-	particleGun = new G4ParticleGun(n_particle);  // creation of particle gun
-
+	particleGun = new G4ParticleGun(SimulationConstants::n_particle);  // creation of particle gu
 	G4ParticleDefinition* particleDefinition = G4ParticleTable::GetParticleTable()->FindParticle("e-");
 	particleGun->SetParticleDefinition(particleDefinition);
-	// 1GeV energy of gun, this can be changed from the command line
-	particleGun -> SetParticleEnergy(35.0 * MeV);  
-	particleGun -> SetParticlePosition(G4ThreeVector(0.*m, 0.*m, -25.*cm));   // Set gun to be at furthest z in world (far left to standard orientation)
+	particleGun -> SetParticleEnergy(SimulationConstants::electronEnergy);  
 }
 
 // Create destructor
@@ -41,7 +41,25 @@ PrimaryGeneratorAction::~PrimaryGeneratorAction()
 // Primary event
 void PrimaryGeneratorAction::GeneratePrimaries(G4Event* anEvent)
 {
-   particleGun -> SetParticleMomentumDirection(G4ThreeVector(0.,0.,1.));  // Pure z momentum
- 
-   particleGun -> GeneratePrimaryVertex(anEvent);  // creates the initial momentum
+	G4ThreeVector* v;
+	if (SimulationConstants::distribution == 1)
+		particleGun -> SetParticleMomentumDirection(G4ThreeVector(0,0,1));
+	else if (SimulationConstants::distribution == 2){
+		G4double Phi = CLHEP::twopi * G4UniformRand();
+  		G4double Theta = 0.5 * CLHEP::pi * G4UniformRand();	
+		particleGun -> SetParticleMomentumDirection(G4ThreeVector(cos(Theta), sin(Theta)*cos(Phi), sin(Theta)*sin(Phi)));
+	}
+	else if (SimulationConstants::distribution == 3){
+		// // https://github.com/DavidSarria89/TGF-TEB-Propagation-Geant4/blob/master/src/src/PrimaryGeneratorAction.cc
+		// R_max = 10000.;      // -> maximum angle is atan(10000) = 89.9943 degrees
+  //       sigma_sample_R = std::tan(SimulationConstants::std_dev * degree);
+  //       R_try = R_max + 10.; // just for initialization
+  //       while (R_try > R_max) {
+  //           X_try = CLHEP::RandGauss::shoot(SimulationConstants::mean, sigma_sample_R); // gaussian position sample
+  //           Y_try = CLHEP::RandGauss::shoot(SimulationConstants::mean, sigma_sample_R); // gaussian position sample
+  //           R_try = sqrt(X_try * X_try + Y_try * Y_try);
+	}
+  	// Pure z momentum
+  	particleGun -> GeneratePrimaryVertex(anEvent);  // creates the initial momentum
 }
+

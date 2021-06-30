@@ -38,14 +38,14 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR-build/tutorial")
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/tutorial" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/tutorial")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR-build/rich")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/rich" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/rich")
     execute_process(COMMAND /usr/bin/install_name_tool
       -delete_rpath "/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4-build/BuildProducts/lib"
-      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/tutorial")
+      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/rich")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/Library/Developer/CommandLineTools/usr/bin/strip" -u -r "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/tutorial")
+      execute_process(COMMAND "/Library/Developer/CommandLineTools/usr/bin/strip" -u -r "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/rich")
     endif()
   endif()
 endif()

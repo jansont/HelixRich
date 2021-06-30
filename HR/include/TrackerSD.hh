@@ -3,6 +3,7 @@
 
 #include "G4VSensitiveDetector.hh"
 #include "TrackerHit.hh"
+#include "StackingAction.hh"
 
 class G4Step;
 class G4HCofThisEvent;

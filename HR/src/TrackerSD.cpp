@@ -33,21 +33,23 @@ G4bool TrackerSD::ProcessHits(G4Step* aStep, G4TouchableHistory*)
   G4double x = position.X;
   G4double y = position.Y;
   G4double z = position.Z;
-  G4double energy = aStep->GetPostStepPoint()->GetTotalEnergy();
+  // G4double energy = aStep->GetPostStepPoint()->GetTotalEnergy();
+  G4double energy = aStep->GetPostStepPoint()->GetKineticEnergy();
 
-  if (aStep->GetTrack()->GetDefinition()->GetParticleType() != "opticalphoton")
-    return false;
 
-  if (aStep->GetTrack()->GetDefinition()->GetParticleType() == "opticalphoton"
-    && (x > windowX/2 || y > windowY/2 ))
-    return false;
-
-    if (aStep->GetTrack()->GetDefinition()->GetParticleType() == "opticalphoton"
-    && (z > 201.*mm || z < 200.*mm ))
-    return false;
-
-  // // if (aStep->GetPostStepPoint()->GetPhysicalVolume() != detector)
-  // //   return false;
+  if (SimulationConstants::electron){
+    // if (aStep->GetTrack()->GetDefinition()->GetParticleType() != "e-")
+    //   return false; 
+    // if  (x > windowX/2 || y > windowY/2 )
+    //   return false;
+    // if(z > 200.00*mm || z < 200.05*mm )
+    // return false;
+  } else {
+    if (aStep->GetPostStepPoint()->GetPhysicalVolume() != detector)
+      return false;
+     if (aStep->GetTrack()->GetDefinition()->GetParticleType() == "e-")
+      return false; 
+  }
 
   TrackerHit* newHit = new TrackerHit();
   newHit->SetEnergy(energy);
@@ -70,12 +72,12 @@ void  TrackerSD::EndOfEvent(G4HCofThisEvent* HCE){
     if (saveposition) {
       if (savetime)
         outFile << "\t";
-      outFile << "Position (x in mm)\tPosition (y in mm)\tPosition (z in mm)";
+      outFile << "Position (x in mm)\tPosition (y in mm)\tPosition (z in mm)\t";
     }
     if (saveenergy) {
       if (savetime || saveposition)
         outFile << "\t";
-      outFile << "Energy (eV)";
+      outFile << "Energy (MeV)";
     }
 
     outFile << std::endl;
@@ -102,7 +104,7 @@ void  TrackerSD::EndOfEvent(G4HCofThisEvent* HCE){
     if (saveposition) {
       if (savetime)
         outFile << "\t";
-      outFile << "Position (x in mm)\tPosition (y in mm)\tPosition (z in mm)";
+      outFile << "Position (x in mm)\tPosition (y in mm)\tPosition (z in mm)\t";
     }
     if (saveenergy) {
       if (savetime || saveposition)

@@ -15,7 +15,6 @@ TrackerHit::TrackerHit(const TrackerHit& hit): G4VHit()
   position  = hit.position;
 }
 
-
 const TrackerHit& TrackerHit::operator=(const TrackerHit& hit)
 {
   time = hit.time;
@@ -30,7 +29,6 @@ G4int TrackerHit::operator==(const TrackerHit& hit) const
   return (this==&hit) ? 1 : 0;
 }
 
-
 void TrackerHit::Print(std::ostream &stream, bool printtime, bool printposition, bool printenergy)
 {
   if (printtime)
@@ -38,12 +36,12 @@ void TrackerHit::Print(std::ostream &stream, bool printtime, bool printposition,
   if (printposition) {
     if (printtime)
       stream << "\t";
-    stream  << position.x() <<'mm' << "\t" << position.y() <<'mm'  << "\t" << position.z() <<'mm';
+    stream  << position.x() <<'mm' << "\t" << position.y() <<'mm'  << "\t" << position.z() <<'mm'<< "\t" ;
   }
   if (printenergy) {
     if (printtime || printposition)
       stream << "\t";
-    stream << energy<<'eV';
+    stream << energy <<'eV';
   }
   stream << std::endl;
 }

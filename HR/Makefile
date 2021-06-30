@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/steven/GEANT4/Builds/tutorial
+CMAKE_SOURCE_DIR = /home/steven/GEANT4/Builds/rich
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/steven/GEANT4/Builds/tutorial
+CMAKE_BINARY_DIR = /home/steven/GEANT4/Builds/rich
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -124,9 +124,9 @@ install/local/fast: install/local
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/steven/GEANT4/Builds/tutorial/CMakeFiles /home/steven/GEANT4/Builds/tutorial/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/steven/GEANT4/Builds/rich/CMakeFiles /home/steven/GEANT4/Builds/rich/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/steven/GEANT4/Builds/tutorial/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/steven/GEANT4/Builds/rich/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -155,17 +155,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named tutorial
+# Target rules for targets named rich
 
 # Build rule for target.
-tutorial: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 tutorial
-.PHONY : tutorial
+rich: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 rich
+.PHONY : rich
 
 # fast build rule for target.
-tutorial/fast:
-	$(MAKE) -f CMakeFiles/tutorial.dir/build.make CMakeFiles/tutorial.dir/build
-.PHONY : tutorial/fast
+rich/fast:
+	$(MAKE) -f CMakeFiles/rich.dir/build.make CMakeFiles/rich.dir/build
+.PHONY : rich/fast
 
 src/DetectorConstruction.o: src/DetectorConstruction.cpp.o
 
@@ -173,7 +173,7 @@ src/DetectorConstruction.o: src/DetectorConstruction.cpp.o
 
 # target to build an object file
 src/DetectorConstruction.cpp.o:
-	$(MAKE) -f CMakeFiles/tutorial.dir/build.make CMakeFiles/tutorial.dir/src/DetectorConstruction.cpp.o
+	$(MAKE) -f CMakeFiles/rich.dir/build.make CMakeFiles/rich.dir/src/DetectorConstruction.cpp.o
 .PHONY : src/DetectorConstruction.cpp.o
 
 src/DetectorConstruction.i: src/DetectorConstruction.cpp.i
@@ -182,7 +182,7 @@ src/DetectorConstruction.i: src/DetectorConstruction.cpp.i
 
 # target to preprocess a source file
 src/DetectorConstruction.cpp.i:
-	$(MAKE) -f CMakeFiles/tutorial.dir/build.make CMakeFiles/tutorial.dir/src/DetectorConstruction.cpp.i
+	$(MAKE) -f CMakeFiles/rich.dir/build.make CMakeFiles/rich.dir/src/DetectorConstruction.cpp.i
 .PHONY : src/DetectorConstruction.cpp.i
 
 src/DetectorConstruction.s: src/DetectorConstruction.cpp.s
@@ -191,7 +191,7 @@ src/DetectorConstruction.s: src/DetectorConstruction.cpp.s
 
 # target to generate assembly for a file
 src/DetectorConstruction.cpp.s:
-	$(MAKE) -f CMakeFiles/tutorial.dir/build.make CMakeFiles/tutorial.dir/src/DetectorConstruction.cpp.s
+	$(MAKE) -f CMakeFiles/rich.dir/build.make CMakeFiles/rich.dir/src/DetectorConstruction.cpp.s
 .PHONY : src/DetectorConstruction.cpp.s
 
 src/PhysicsList.o: src/PhysicsList.cpp.o
@@ -200,7 +200,7 @@ src/PhysicsList.o: src/PhysicsList.cpp.o
 
 # target to build an object file
 src/PhysicsList.cpp.o:
-	$(MAKE) -f CMakeFiles/tutorial.dir/build.make CMakeFiles/tutorial.dir/src/PhysicsList.cpp.o
+	$(MAKE) -f CMakeFiles/rich.dir/build.make CMakeFiles/rich.dir/src/PhysicsList.cpp.o
 .PHONY : src/PhysicsList.cpp.o
 
 src/PhysicsList.i: src/PhysicsList.cpp.i
@@ -209,7 +209,7 @@ src/PhysicsList.i: src/PhysicsList.cpp.i
 
 # target to preprocess a source file
 src/PhysicsList.cpp.i:
-	$(MAKE) -f CMakeFiles/tutorial.dir/build.make CMakeFiles/tutorial.dir/src/PhysicsList.cpp.i
+	$(MAKE) -f CMakeFiles/rich.dir/build.make CMakeFiles/rich.dir/src/PhysicsList.cpp.i
 .PHONY : src/PhysicsList.cpp.i
 
 src/PhysicsList.s: src/PhysicsList.cpp.s
@@ -218,7 +218,7 @@ src/PhysicsList.s: src/PhysicsList.cpp.s
 
 # target to generate assembly for a file
 src/PhysicsList.cpp.s:
-	$(MAKE) -f CMakeFiles/tutorial.dir/build.make CMakeFiles/tutorial.dir/src/PhysicsList.cpp.s
+	$(MAKE) -f CMakeFiles/rich.dir/build.make CMakeFiles/rich.dir/src/PhysicsList.cpp.s
 .PHONY : src/PhysicsList.cpp.s
 
 src/PrimaryGeneratorAction.o: src/PrimaryGeneratorAction.cpp.o
@@ -227,7 +227,7 @@ src/PrimaryGeneratorAction.o: src/PrimaryGeneratorAction.cpp.o
 
 # target to build an object file
 src/PrimaryGeneratorAction.cpp.o:
-	$(MAKE) -f CMakeFiles/tutorial.dir/build.make CMakeFiles/tutorial.dir/src/PrimaryGeneratorAction.cpp.o
+	$(MAKE) -f CMakeFiles/rich.dir/build.make CMakeFiles/rich.dir/src/PrimaryGeneratorAction.cpp.o
 .PHONY : src/PrimaryGeneratorAction.cpp.o
 
 src/PrimaryGeneratorAction.i: src/PrimaryGeneratorAction.cpp.i
@@ -236,7 +236,7 @@ src/PrimaryGeneratorAction.i: src/PrimaryGeneratorAction.cpp.i
 
 # target to preprocess a source file
 src/PrimaryGeneratorAction.cpp.i:
-	$(MAKE) -f CMakeFiles/tutorial.dir/build.make CMakeFiles/tutorial.dir/src/PrimaryGeneratorAction.cpp.i
+	$(MAKE) -f CMakeFiles/rich.dir/build.make CMakeFiles/rich.dir/src/PrimaryGeneratorAction.cpp.i
 .PHONY : src/PrimaryGeneratorAction.cpp.i
 
 src/PrimaryGeneratorAction.s: src/PrimaryGeneratorAction.cpp.s
@@ -245,35 +245,35 @@ src/PrimaryGeneratorAction.s: src/PrimaryGeneratorAction.cpp.s
 
 # target to generate assembly for a file
 src/PrimaryGeneratorAction.cpp.s:
-	$(MAKE) -f CMakeFiles/tutorial.dir/build.make CMakeFiles/tutorial.dir/src/PrimaryGeneratorAction.cpp.s
+	$(MAKE) -f CMakeFiles/rich.dir/build.make CMakeFiles/rich.dir/src/PrimaryGeneratorAction.cpp.s
 .PHONY : src/PrimaryGeneratorAction.cpp.s
 
-tutorial.o: tutorial.cpp.o
+rich.o: rich.cpp.o
 
-.PHONY : tutorial.o
+.PHONY : rich.o
 
 # target to build an object file
-tutorial.cpp.o:
-	$(MAKE) -f CMakeFiles/tutorial.dir/build.make CMakeFiles/tutorial.dir/tutorial.cpp.o
-.PHONY : tutorial.cpp.o
+rich.cpp.o:
+	$(MAKE) -f CMakeFiles/rich.dir/build.make CMakeFiles/rich.dir/rich.cpp.o
+.PHONY : rich.cpp.o
 
-tutorial.i: tutorial.cpp.i
+rich.i: rich.cpp.i
 
-.PHONY : tutorial.i
+.PHONY : rich.i
 
 # target to preprocess a source file
-tutorial.cpp.i:
-	$(MAKE) -f CMakeFiles/tutorial.dir/build.make CMakeFiles/tutorial.dir/tutorial.cpp.i
-.PHONY : tutorial.cpp.i
+rich.cpp.i:
+	$(MAKE) -f CMakeFiles/rich.dir/build.make CMakeFiles/rich.dir/rich.cpp.i
+.PHONY : rich.cpp.i
 
-tutorial.s: tutorial.cpp.s
+rich.s: rich.cpp.s
 
-.PHONY : tutorial.s
+.PHONY : rich.s
 
 # target to generate assembly for a file
-tutorial.cpp.s:
-	$(MAKE) -f CMakeFiles/tutorial.dir/build.make CMakeFiles/tutorial.dir/tutorial.cpp.s
-.PHONY : tutorial.cpp.s
+rich.cpp.s:
+	$(MAKE) -f CMakeFiles/rich.dir/build.make CMakeFiles/rich.dir/rich.cpp.s
+.PHONY : rich.cpp.s
 
 # Help Target
 help:
@@ -285,7 +285,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... install"
-	@echo "... tutorial"
+	@echo "... rich"
 	@echo "... list_install_components"
 	@echo "... install/local"
 	@echo "... src/DetectorConstruction.o"
@@ -297,9 +297,9 @@ help:
 	@echo "... src/PrimaryGeneratorAction.o"
 	@echo "... src/PrimaryGeneratorAction.i"
 	@echo "... src/PrimaryGeneratorAction.s"
-	@echo "... tutorial.o"
-	@echo "... tutorial.i"
-	@echo "... tutorial.s"
+	@echo "... rich.o"
+	@echo "... rich.i"
+	@echo "... rich.s"
 .PHONY : help
 
 

@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applic
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/tutorial.dir/all
+all: CMakeFiles/rich.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +71,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/tutorial.dir/clean
+clean: CMakeFiles/rich.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/tutorial.dir
+# Target rules for target CMakeFiles/rich.dir
 
 # All Build rule for target.
-CMakeFiles/tutorial.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tutorial.dir/build.make CMakeFiles/tutorial.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tutorial.dir/build.make CMakeFiles/tutorial.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR-build/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target tutorial"
-.PHONY : CMakeFiles/tutorial.dir/all
+CMakeFiles/rich.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rich.dir/build.make CMakeFiles/rich.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rich.dir/build.make CMakeFiles/rich.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR-build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12 "Built target rich"
+.PHONY : CMakeFiles/rich.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/tutorial.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR-build/CMakeFiles 7
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/tutorial.dir/all
+CMakeFiles/rich.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR-build/CMakeFiles 12
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/rich.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR-build/CMakeFiles 0
-.PHONY : CMakeFiles/tutorial.dir/rule
+.PHONY : CMakeFiles/rich.dir/rule
 
 # Convenience name for target.
-tutorial: CMakeFiles/tutorial.dir/rule
-.PHONY : tutorial
+rich: CMakeFiles/rich.dir/rule
+.PHONY : rich
 
 # clean rule for target.
-CMakeFiles/tutorial.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tutorial.dir/build.make CMakeFiles/tutorial.dir/clean
-.PHONY : CMakeFiles/tutorial.dir/clean
+CMakeFiles/rich.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rich.dir/build.make CMakeFiles/rich.dir/clean
+.PHONY : CMakeFiles/rich.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

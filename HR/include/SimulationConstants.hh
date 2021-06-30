@@ -1,33 +1,57 @@
-#ifndef SimulationConstants_h
-#define SimulationConstants_h 1
+#include "G4SystemOfUnits.hh"
+#include "G4UnitsTable.hh"
 
-/*-------------------------------Detector geometry------------------------------*/
-//World volume
-static const G4double worldX = 2.*m;
-static const G4double worldY = 2.*m;
-static const G4double worldZ = 2.*m;
-//Tile Volume
-static const G4double tileX = 15*cm; 
-static const G4double tileY = 15*cm;
-static const G4double tileZ = 1.*cm;  
-//Detector Volume
-static const G4double windowX = 400*mm; 
-static const G4double windowY = 400*mm;
-static const G4double windowZ = 1.*mm; 
+// ....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
+namespace SimulationConstants{
+ /*------------------------------Detector geometry------------------------------*/
+    //World volume
+    extern const G4double worldX;
+    extern const G4double worldY;
+    extern const G4double worldZ;
+    extern const bool curved;
+    //Tile Volume: box
+    extern const G4double tileX; 
+    extern const G4double tileY;
+    extern const G4double tileZ; 
+    //Tile Volume: curved 
+    extern const G4double pRMin; //Inner radius
+    extern const G4double pRMax; //Outer radius
+    extern const G4double pDz; //Half length in z
+    extern const G4double pSPhi; //Starting phi angle in radians
+    extern const G4double pDPhi; //Angle of the segment in radians 
+    //Detector Volume
+    extern const G4double windowX; 
+    extern const G4double windowY;
+    extern const G4double windowZ; 
 
-/*-------------------------------Detector Materials------------------------------*/
-static const int Aerogel_type = 1;
-static const int Aerogel_properties = 1;
-static const int world_material_type = 1;
+    /*-------------------------------Detector Materials------------------------------*/
+    extern const G4double aerogel_density;
+    extern const G4double silica_prop;
+    extern const G4double water_prop;
+    extern const int Aerogel_properties;
+    extern const int world_material_type;
+    extern const G4double silica_density;
+    extern const int altitude;
 
-/*-------------------------------Physics Materials------------------------------*/
-//Electromagnetic processes
-static const bool multiple_scattering = true;
-static const bool ionization = true;
-static const bool bremsstrahlung = true;
-//Optical processes 
-static bool bool cerenkov = true;
-static bool bool rayleigh_scattering = true;
-G4int MaxNumPhotons = 100;
+    /*-------------------------------Sensitive Detector------------------------------*/
+    extern const bool air;
+    extern const bool electron;
 
-#endif
+    /*-------------------------------Particle Generator------------------------------*/
+    extern const G4int n_particle; 
+    extern const G4double electronEnergy;
+    extern const int distribution;
+    extern const double mean;
+    extern const double std_dev;
+
+    /*-------------------------------Physics Processes------------------------------*/
+    //Electromagnetic processes
+    extern const bool multiple_scattering;
+    extern const bool ionization;
+    extern const bool bremsstrahlung;
+    //Optical processes 
+    extern const bool cerenkov;
+    extern const bool rayleigh_scattering;
+    extern const bool absorption;
+    extern const G4int MaxNumPhotons;
+}
