@@ -8,7 +8,7 @@ HELIX (High Energy Light Isotope eXperiment) is a balloon-borne experiment with 
 
 ## Geant4 - an Object-oriented Toolkit for Simulating High Energy Physics
 
-Geant4 is a toolkit for the simulation of the passage of particles through matter. Its areas of application include high energy, nuclear and accelerator physics, as well as studies in medical and space science.
+Geant4 is a C++ toolkit for the simulation of the passage of particles through matter. Its areas of application include high energy, nuclear and accelerator physics, as well as studies in medical and space science.
 
 ### Geant4 Installation 
 
