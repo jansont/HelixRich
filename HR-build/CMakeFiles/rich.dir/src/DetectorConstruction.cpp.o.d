@@ -409,5 +409,15 @@ CMakeFiles/rich.dir/src/DetectorConstruction.cpp.o: \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR/include/SimulationConstants.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4UnitsTable.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4UnitsTable.icc \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/materials/include/G4OpticalSurface.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4Physics2DVector.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4Physics2DVector.icc \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/materials/include/G4SurfaceProperty.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/volumes/include/G4LogicalBorderSurface.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4LogicalSurface.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4LogicalSurface.icc \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/volumes/include/G4LogicalBorderSurface.icc \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/volumes/include/G4LogicalSkinSurface.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/volumes/include/G4LogicalSkinSurface.icc \
   /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/random \
   /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/numeric

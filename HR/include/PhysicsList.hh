@@ -19,6 +19,7 @@ class PhysicsList : public G4VModularPhysicsList
     void ConstructLeptons();
     void ConstructBosons();
     void ConstructEM();
+    void ConstructIons();
     void ConstructOp();
     virtual void SetCuts();
 

@@ -13,10 +13,15 @@
 #include "G4ProcessManager.hh"
 #include "G4Cerenkov.hh"
 #include "G4OpAbsorption.hh"
+#include "G4ParticleDefinition.hh"
 #include "G4OpRayleigh.hh"
 #include "G4OpBoundaryProcess.hh"
 #include "SimulationConstants.hh"
-
+#include "G4OpMieHG.hh"
+#include "G4RayleighScattering.hh"
+#include "G4PhotoElectricEffect.hh"
+#include "G4ComptonScattering.hh"
+#include "G4IonConstructor.hh"
 
 PhysicsList::PhysicsList(): G4VModularPhysicsList()
 {
@@ -49,6 +54,16 @@ void PhysicsList::ConstructProcess(){
 void PhysicsList::ConstructParticle(){
   ConstructLeptons();
   ConstructBosons();
+  ConstructIons();
+}
+
+void PhysicsList::ConstructIons(){
+  {
+    //  Construct light ions
+    G4IonConstructor pConstructor;
+    pConstructor.ConstructParticle();  
+}
+
 }
 
 void PhysicsList::ConstructBosons()
@@ -68,7 +83,8 @@ void PhysicsList::ConstructEM()
 {
   theParticleIterator->reset();
   G4cout<<" Now creating EM processes"<<G4endl;
-  while( (*theParticleIterator)() ){
+  while((*theParticleIterator)() )
+  {
     G4ParticleDefinition* particle = theParticleIterator->value();
     G4ProcessManager* pmanager = particle->GetProcessManager();
     G4String particleName = particle->GetParticleName();
@@ -78,7 +94,13 @@ void PhysicsList::ConstructEM()
       pmanager->AddProcess(new G4eIonisation(),-1,2,2);
     if (SimulationConstants::bremsstrahlung)
       pmanager->AddProcess(new G4eBremsstrahlung(),-1,-1,3);
-    }
+    if (SimulationConstants::rayleigh)
+      pmanager->AddProcess(new G4RayleighScattering());
+    if (SimulationConstants::photoElectric)
+  pmanager->AddProcess(new G4PhotoElectricEffect());
+    if (SimulationConstants::compton)
+  pmanager->AddProcess(new G4ComptonScattering());
+  } 
 }
 
 //Optical processes (ie: Cerenkov radiation)
@@ -87,19 +109,24 @@ void PhysicsList::ConstructOp()
   G4Cerenkov* theCerenkovProcess = new G4Cerenkov("Cerenkov");
   G4OpAbsorption* theAbsorptionProcess = new G4OpAbsorption();
   G4OpRayleigh* theRayleighScatteringProcess = new G4OpRayleigh();
+  G4OpMieHG* theMieHGScatteringProcess = new G4OpMieHG();
+  G4OpBoundaryProcess* theBoundaryProcess = new G4OpBoundaryProcess();
+  G4OpticalSurfaceModel themodel = unified;
+  // theBoundaryProcess->SetModel(themodel);
+
   if (SimulationConstants::cerenkov){
     theCerenkovProcess->SetVerboseLevel(0);
-    theCerenkovProcess->SetMaxBetaChangePerStep(10.0);
+    theCerenkovProcess->SetMaxBetaChangePerStep(SimulationConstants::maxBetaChange);
     theCerenkovProcess->SetTrackSecondariesFirst(true);
     theCerenkovProcess->SetMaxNumPhotonsPerStep(SimulationConstants::MaxNumPhotons);
   }
-  // G4OpBoundaryProcess* theBoundaryProcess = new G4OpBoundaryProcess();
   if (SimulationConstants::absorption){
     theAbsorptionProcess->SetVerboseLevel(0);
   }
   if (SimulationConstants::rayleigh_scattering){
   theRayleighScatteringProcess->SetVerboseLevel(0);
   }
+
   // theBoundaryProcess->SetVerboseLevel(0);
   //G4OpticalSurfaceModel themodel = unified;
   // theBoundaryProcess->SetModel(themodel);
@@ -116,9 +143,13 @@ void PhysicsList::ConstructOp()
         pmanager->AddDiscreteProcess(theAbsorptionProcess);
       if (SimulationConstants::rayleigh_scattering)
         pmanager->AddDiscreteProcess(theRayleighScatteringProcess);
-    //  pmanager->AddDiscreteProcess(theBoundaryProcess);
+      if (SimulationConstants::mie)
+        pmanager->AddDiscreteProcess(theMieHGScatteringProcess);
     }
-  }
+    if (SimulationConstants::cerenkov)
+      pmanager->AddDiscreteProcess(theCerenkovProcess); 
+      pmanager->AddDiscreteProcess(theBoundaryProcess);
+   }
 }
 
 

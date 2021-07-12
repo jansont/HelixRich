@@ -292,6 +292,8 @@ CMakeFiles/rich.dir/src/PrimaryGeneratorAction.cpp.o: \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/management/include/G4ParticleTable.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/management/include/G4ParticleTableIterator.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/management/include/G4ParticleTable.icc \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/management/include/G4IonTable.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/management/include/G4Ions.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/HEPRandom/include/Randomize.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/Randomize.h \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/DualRand.h \
@@ -444,4 +446,7 @@ CMakeFiles/rich.dir/src/PrimaryGeneratorAction.cpp.o: \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/event/include/G4GeneralParticleSourceData.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR/include/SimulationConstants.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4UnitsTable.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4UnitsTable.icc
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4UnitsTable.icc \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/bosons/include/G4ChargedGeantino.hh \
+  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/random \
+  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/numeric

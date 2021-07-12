@@ -1,5 +1,6 @@
 #include "TrackerHit.hh"
 #include "G4UnitsTable.hh"
+#include <typeinfo>
 
 G4Allocator<TrackerHit> TrackerHitAllocator;
 
@@ -32,18 +33,23 @@ G4int TrackerHit::operator==(const TrackerHit& hit) const
 void TrackerHit::Print(std::ostream &stream, bool printtime, bool printposition, bool printenergy)
 {
   if (printtime)
-    stream << time <<'ns';
+    stream << "\t";
+    stream << time <<'ns'<< "\t";
+    stream << std::ends;
   if (printposition) {
     if (printtime)
-      stream << "\t";
-    stream  << position.x() <<'mm' << "\t" << position.y() <<'mm'  << "\t" << position.z() <<'mm'<< "\t" ;
+      // stream << "\t";
+    stream  << position.x() <<'mm' << "\t" << position.y() <<'mm'  << "\t" << position.z() * 0.001 <<'mm'<< "\t" ;
+    stream << std::ends;
   }
   if (printenergy) {
-    if (printtime || printposition)
-      stream << "\t";
-    stream << energy <<'eV';
+    // G4float e m= (G4float) energy;
+    // stream << typeid(e).name() <<'eV';
+    energy *= 1000000;
+    std::string e = std::to_string (energy);
+    stream << e << "\n" <<'eV';
+    stream << std::flush;
   }
-  stream << std::endl;
 }
 
 

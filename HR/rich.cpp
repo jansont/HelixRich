@@ -13,6 +13,8 @@
 #include "EventAction.hh"
 #include "SteppingAction.hh"
 
+//Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR-build
+//source ../../../geant4-install/bin/geant4.sh
 
 
 // add "int argc, char** argv" to int main if you'd like to run arguments
@@ -51,7 +53,7 @@ int main()
   UI -> ApplyCommand("/tracking/verbose 1");
 
   // start a run
-  int numberOfEvents = 250;
+  int numberOfEvents = 1;
   runManager -> BeamOn(numberOfEvents);
 
   // TERMINATE job

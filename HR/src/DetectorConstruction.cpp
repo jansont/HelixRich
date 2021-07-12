@@ -18,27 +18,31 @@
 #include "G4SDManager.hh"
 #include "G4MaterialTable.hh"
 #include "SimulationConstants.hh"
+#include "G4OpticalSurface.hh"
+#include "G4LogicalBorderSurface.hh"
+#include "G4LogicalSkinSurface.hh"
+#include "G4Isotope.hh"
 #include <random>
 
 // constructor 
 DetectorConstruction::DetectorConstruction()  : G4VUserDetectorConstruction(), physical_detector(0)
 {
-   DefineMaterials(); // Construct materials for detector
+  DefineMaterials(); // Construct materials for detector
 }
 
 // destructor
 DetectorConstruction::~DetectorConstruction()
 {}  // Don't need to destruct anything, but we keep good habits
 
-
-std::vector<G4double> InitializePhotonMomentumVector() {
+std::vector<G4double> InitializePhotonMomentumVector()
+{
   G4int ibin;
-  //PhotonEnergy
+  //Fill  vector of photon momentums using min and max energy
+  //Used to create rindex and abslength vectors 
   G4int NumPhotWaveLengthBins = 1000;
-  G4double PhotonMinEnergy=1.3*CLHEP::eV; //sim constant
-  G4double PhotonMaxEnergy=7.3*CLHEP::eV; //sim constant
+  G4double PhotonMinEnergy=SimulationConstants::PhotonMinEnergy_; 
+  G4double PhotonMaxEnergy=SimulationConstants::PhotonMaxEnergy_; 
   G4double PhotonEnergyStep=(PhotonMaxEnergy-PhotonMinEnergy)/ NumPhotWaveLengthBins;
-  
   std::vector<G4double>PhotMomVect(NumPhotWaveLengthBins);
   for (ibin=0; ibin<NumPhotWaveLengthBins; ibin++){
     PhotMomVect[ibin]=PhotonMinEnergy+PhotonEnergyStep*ibin;
@@ -46,14 +50,14 @@ std::vector<G4double> InitializePhotonMomentumVector() {
   return PhotMomVect;
 }
 
-std::vector<G4double> InitAgelPhotW() {
-  return InitializePhotonMomentumVector() ; 
-}
 
 void DetectorConstruction::DefineMaterials()
 {
   /*--------------------------------------Define Elements-----------------------------------*/
   G4String name, symbol;
+  G4double density, fractionmass, a, z;
+  G4int ncomponents, natoms, n, iz;
+
   G4NistManager* nist = G4NistManager::Instance();
   G4Element *N = nist->FindOrBuildElement("N");
   G4Element *C = nist->FindOrBuildElement("C");
@@ -64,18 +68,22 @@ void DetectorConstruction::DefineMaterials()
   G4Element *Sb = nist->FindOrBuildElement("Sb");
   G4Element *Rb = nist->FindOrBuildElement("Rb");
   G4Element *Cs = nist->FindOrBuildElement("Cs");
+  G4Element *Be = nist->FindOrBuildElement("Be");  
+
+/*--------------------------------------Define Isotopes-----------------------------------*/
+  //Isotope = name, atomic number, nucleon count, mass per mole 
+  G4Isotope* Be9 = new G4Isotope(name = "Be9", iz = 4, n = 9, a = 9.012182*g/mole);
+  G4Isotope* Be10 = new G4Isotope(name = "Be10", iz = 4, n = 10, a = 10.0135347*g/mole);
 
 /*--------------------------------------Define Materials-----------------------------------*/
   // secondary materials: 
-  G4int ncomponents, natoms;
-  G4double density, fractionmass, a, z;
   
   // water
   density = 1.0*g/cm3;
   G4Material* H2O = new G4Material(name="Water", density, ncomponents=2);
   H2O -> AddElement(H, natoms=2);
   H2O -> AddElement(O, natoms=1);
-    //o2
+  //o2
   density = 1.43*g/L;
   G4Material* O2 = new G4Material(name="Oxygen2", density, ncomponents=1);
   O2 -> AddElement(O, natoms=2);
@@ -88,42 +96,40 @@ void DetectorConstruction::DefineMaterials()
   G4double pressure;
   G4double temperature;
   G4double atmospheric_density;
-  switch(SimulationConstants::altitude){
-    case 0: //0m 
+  if (SimulationConstants::altitude ==  "sea"){ //0m 
       pressure = 101325.00*pascal;
       temperature = 288.15*kelvin;
       atmospheric_density = 1.225*kg/m3;
-      break;
-    case 1: //110000m
+  }
+  else if (SimulationConstants::altitude == "troposphere"){ //110000m
       pressure = 22632.10*pascal;
       temperature = 216.65*kelvin;
       atmospheric_density =0.4135*kg/m3;
-      break;
-    case 2: //20000m
+  }
+  else if (SimulationConstants::altitude == "stratosphere"){ //20000m
       pressure = 5474.89*pascal;
       temperature = 216.65*kelvin;
       atmospheric_density = 0.08891*kg/m3;
-      break;
-    case 3: //32000;
+  }
+  else if (SimulationConstants::altitude == "mesosphere1"){ //32000;
       pressure = 868.02*pascal;
       temperature = 228.65*kelvin;
       atmospheric_density = 0.01841*kg/m3;
-      break;
-    case 4: //47000m
+  }
+  else if (SimulationConstants::altitude == "mesosphere2"){ //47000m
       pressure = 110.91*pascal;
       temperature = 270.65*kelvin;
       atmospheric_density = 0.001027*kg/m3;
-      break;
-    case 5: //51000m
+  }
+  else if (SimulationConstants::altitude == "thermosphere1"){ //51000m
       pressure = 66.94*pascal;
       temperature = 270.65*kelvin;
       atmospheric_density = 0.001027*kg/m3;
-      break;
-    case 6: //71000m
+  }
+  else if (SimulationConstants::altitude ==  "thermosphere2"){ //71000m
       pressure = 13.96*pascal;
       temperature = 214.65*kelvin;
       atmospheric_density = 0.00008283*kg/m3;
-      break;
   }
 
   //n2
@@ -143,10 +149,10 @@ void DetectorConstruction::DefineMaterials()
   Air -> AddMaterial(CO2, 0.0360*perCent);
   Air -> AddElement(Ar, 0.9340*perCent);
 
+  //photon energy vector for world material
   G4int ibin;
-  //PhotonEnergy
-  G4double PhotonMinEnergy=1.3*CLHEP::eV; //sim constant
-  G4double PhotonMaxEnergy=7.3*CLHEP::eV; //sim constant
+  G4double PhotonMinEnergy=SimulationConstants::PhotonMinEnergy_; 
+  G4double PhotonMaxEnergy=SimulationConstants::PhotonMaxEnergy_; 
   G4int NumPhotWaveLengthBins = 1000;
   G4double PhotonEnergyStep = (PhotonMaxEnergy-PhotonMinEnergy) / NumPhotWaveLengthBins;
   G4double* PhotonMomentum = new G4double[NumPhotWaveLengthBins];
@@ -154,12 +160,7 @@ void DetectorConstruction::DefineMaterials()
     PhotonMomentum[ibin] = PhotonMinEnergy + PhotonEnergyStep * ibin;
   }
 
-  //vacuum
-  density = universe_mean_density; //from PhysicalConstants.h pressure = 1.e-19*pascal;
-  temperature = 0.1*kelvin;
-  G4Material* vacuum = new G4Material(name="Galactic", z=1., a=1.01*g/mole, density,kStateGas,temperature,pressure);
-
-  //Materila properties of air
+  //Material properties of air
   G4double* AirAbsorpLength = new G4double[NumPhotWaveLengthBins];
   G4double* AirRindex = new G4double[NumPhotWaveLengthBins];
 
@@ -174,67 +175,106 @@ void DetectorConstruction::DefineMaterials()
   Air->SetMaterialPropertiesTable(AirMPT);
 
 
-/*---------------------------------Aerogel: Material and properties-----------------------------------*/
-//density, state, temperature, pressure,
-  
+  //vacuum
+  density = universe_mean_density; //from PhysicalConstants.h pressure = 1.e-19*pascal;
+  temperature = 0.1*kelvin;
+  G4Material* vacuum = new G4Material(name="Galactic", z=1., a=1.01*g/mole, density,kStateGas,temperature,pressure);
+
+
+
+/*---------------------------------Aerogel: Material and properties-----------------------------------*/  
   // Aerogel type
   G4Material* Aerogel = new G4Material(name="Aerogel", SimulationConstants::aerogel_density, ncomponents=2); 
   Aerogel -> AddMaterial(SiO2, SimulationConstants::silica_prop);
   Aerogel -> AddMaterial(H2O , SimulationConstants::water_prop);
 
   //define index of refraction for aerogel
-  switch (SimulationConstants::Aerogel_properties){
-    case 1:
+  G4MaterialPropertiesTable* AerogelMPT = new G4MaterialPropertiesTable(); //create a table for aerogel properties
 
-      G4MaterialPropertiesTable* AerogelMPT = new G4MaterialPropertiesTable(); //create a table for aerogel properties
+  G4double* AerogelRindex = new G4double[NumPhotWaveLengthBins];        
+  G4double* AerogelAbsorpLength = new G4double[NumPhotWaveLengthBins];
+  G4double* AerogelRScatLength = new G4double[NumPhotWaveLengthBins];
+  G4double* AerogelRaleighScatLength = new G4double[NumPhotWaveLengthBins];
 
-      G4double* AerogelRindex = new G4double[NumPhotWaveLengthBins];        
-      G4double* AerogelAbsorpLength = new G4double[NumPhotWaveLengthBins];
-      G4double* AerogelRScatLength = new G4double[NumPhotWaveLengthBins];
-      G4double* AgelRaleighScatLength = new G4double[NumPhotWaveLengthBins];
-    
+  static const G4double PhotMomWaveConv=1243.125;
+  static const G4double AerogelClarity =0.00719*micrometer*micrometer*micrometer*micrometer/cm;
+  std::vector<G4double>AgelPhotW = InitializePhotonMomentumVector();
+  G4double aClarity=AerogelClarity/(micrometer*micrometer*micrometer*micrometer);
+  for(G4int ibinw=0; ibinw<NumPhotWaveLengthBins; ibinw++ ){
+    G4double ephoton=AgelPhotW[ibinw]/eV;
+    //In the following the 1000 is to convert form nm to micrometer
+    G4double wphoton=(PhotMomWaveConv/ephoton)/1000.0;
+    AerogelRaleighScatLength[ibinw]=(std::pow(wphoton,4))/aClarity;
+  }
+
+  if (SimulationConstants::Aerogel_properties == "GaussianRindex"){
+      //rindex is gaussian around 1.15
       std::random_device rd{};
       std::mt19937 gen{rd()};
-      float std_dev = 0.0007; //sim constant
-      float mean = 1.15;       // sim constant
-      std::normal_distribution<float> d{mean, std_dev}; 
-
-
-      static const G4double PhotMomWaveConv=1243.125;
-      static const G4double AerogelClarity =0.00719*micrometer*micrometer*micrometer*micrometer/cm;
-      std::vector<G4double>AgelPhotW = InitAgelPhotW();
-      G4double aClarity=AerogelClarity/(micrometer*micrometer*micrometer*micrometer);
-      for(G4int ibinw=0; ibinw<NumPhotWaveLengthBins; ibinw++ ){
-        G4double ephoton=AgelPhotW[ibinw]/eV;
-        //In the following the 1000 is to convert form nm to micrometer
-        G4double wphoton=(PhotMomWaveConv/ephoton)/1000.0;
-        AgelRaleighScatLength[ibinw]=(std::pow(wphoton,4))/aClarity;
-      }
-
+      std::normal_distribution<float> d{SimulationConstants::refractive_index, SimulationConstants::rindex_sdev}; 
       for (ibin=0; ibin<NumPhotWaveLengthBins; ibin++){
           AerogelAbsorpLength[ibin]=1.E32*mm;
           AerogelRindex[ibin]= d(gen);
-          AerogelRScatLength[ibin] = AgelRaleighScatLength[ibin];
-        }
-      AerogelMPT->AddProperty("ABSLENGTH",PhotonMomentum, AerogelAbsorpLength,NumPhotWaveLengthBins);
-      AerogelMPT->AddProperty("RAYLEIGH",PhotonMomentum,AerogelRScatLength,NumPhotWaveLengthBins);
-      AerogelMPT->AddProperty("RINDEX", PhotonMomentum, AerogelRindex, NumPhotWaveLengthBins);
-      Aerogel->SetMaterialPropertiesTable(AerogelMPT);
-      break;
-  }
+          AerogelRScatLength[ibin] = AerogelRaleighScatLength[ibin];
+      }
+    }
+    else if (SimulationConstants::Aerogel_properties == "ExactRindex"){
+     //rindex is constant 1.15 
+      for (ibin=0; ibin<NumPhotWaveLengthBins; ibin++){
+        AerogelAbsorpLength[ibin]=1.E32*mm;
+        AerogelRindex[ibin]= SimulationConstants::refractive_index;
+
+        AerogelRScatLength[ibin] = AerogelRaleighScatLength[ibin];
+      }
+    }
+
+  AerogelMPT->AddProperty("ABSLENGTH",PhotonMomentum, AerogelAbsorpLength,NumPhotWaveLengthBins);
+  AerogelMPT->AddProperty("RAYLEIGH",PhotonMomentum,AerogelRScatLength,NumPhotWaveLengthBins);
+  AerogelMPT->AddProperty("RINDEX", PhotonMomentum, AerogelRindex, NumPhotWaveLengthBins);
+  Aerogel->SetMaterialPropertiesTable(AerogelMPT);
+
+/*------------------------------------------------Aerogel Surface----------------------------------------------------------------------*/
+G4MaterialPropertiesTable* AergoelSurfaceMPT = new G4MaterialPropertiesTable();
+G4OpticalSurface* AerogelSurfaceFront = new G4OpticalSurface("AerogelSurfaceFront");
+G4LogicalBorderSurface* AerogelSurfaceFront_logical = new G4LogicalBorderSurface("AerogelSurfaceFront",physical_tile_box,physical_world,AerogelSurfaceFront);
+
+AerogelSurfaceFront->SetType(dielectric_dielectric);
+AerogelSurfaceFront->SetModel(unified);
+AerogelSurfaceFront->SetFinish(groundbackpainted);
+AerogelSurfaceFront->SetSigmaAlpha(0.1);
+
+std::vector<G4double> pp = {2.038*eV, 4.144*eV};
+std::vector<G4double> specularlobe = {0.0, 0.0};
+std::vector<G4double> specularspike = {0.0, 0.0};
+std::vector<G4double> backscatter = {0.0, 0.0};
+std::vector<G4double> rindex = {1.15, 1.15};
+std::vector<G4double> reflectivity = {0.0, 0.0};
+std::vector<G4double> efficiency = {0.0, 0.0};
+
+AergoelSurfaceMPT->AddProperty("RINDEX", pp, rindex);
+AergoelSurfaceMPT->AddProperty("SPECULARLOBECONSTANT", pp, specularlobe);
+AergoelSurfaceMPT->AddProperty("SPECULARSPIKECONSTANT", pp, specularspike);
+AergoelSurfaceMPT->AddProperty("BACKSCATTERCONSTANT", pp, backscatter);
+AergoelSurfaceMPT->AddProperty("REFLECTIVITY", pp, reflectivity);
+AergoelSurfaceMPT->AddProperty("EFFICIENCY", pp, efficiency);
+AerogelSurfaceFront->SetMaterialPropertiesTable(AergoelSurfaceMPT);                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
+
+
+
+/*---------------------------------Detector Plane (photocathode): Material and properties-----------------------------------*/  
 
   G4Material* BialkaliCathode = new G4Material("photoCathode", 3*g/cm3, 3, kStateSolid);
   BialkaliCathode->AddElement(Sb, 1);
   BialkaliCathode->AddElement(Rb, 1);
   BialkaliCathode->AddElement(Cs, 1);
   G4MaterialPropertiesTable* BialkaliCathodeProp = new G4MaterialPropertiesTable();
-  const G4int numentriesbialkalicath = 2;
-  G4double bialkalicathodeenergy[numentriesbialkalicath] = {1.2*eV, 6.5*eV};
-  G4double bialkalicathodeabsorp[numentriesbialkalicath] = {1.e-6*mm, 1.e-6*mm}; // absorb all
-  BialkaliCathodeProp->AddProperty("ABSLENGTH", bialkalicathodeenergy, bialkalicathodeabsorp, numentriesbialkalicath);
-   const  G4int nGlass = 4;
-  G4double BoroSiGlassEnergy[nGlass]= {3.1*eV, 3.87*eV, 4.13*eV, 4.96*eV} ;// {1.2*eV, 3.1*eV, 6.5*eV};
-  G4double BoroSiGlassRindex[nGlass]= {1.15, 1.15, 1.15, 1.15};
+  const G4int num_bialkalicath = 2;
+  G4double bialkalicathodeenergy[num_bialkalicath] = {1.2*eV, 6.5*eV};
+  G4double bialkalicathodeabsorp[num_bialkalicath] = {1.e-6*mm, 1.e-6*mm}; // absorb all
+  BialkaliCathodeProp->AddProperty("ABSLENGTH", bialkalicathodeenergy, bialkalicathodeabsorp, num_bialkalicath);
+  const  G4int nGlass = 4;
+  G4double BoroSiGlassEnergy[nGlass]= {3.1*eV, 3.87*eV, 4.13*eV, 4.96*eV};
+  G4double BoroSiGlassRindex[nGlass]= {1,1,1,1};
   BialkaliCathodeProp->AddProperty("RINDEX", BoroSiGlassEnergy,BoroSiGlassRindex ,nGlass ); // use values from window to prevent refraction
   BialkaliCathode->SetMaterialPropertiesTable(BialkaliCathodeProp);
 }
@@ -246,13 +286,11 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
    G4NistManager* nist = G4NistManager::Instance();
   //--------------------------------World Geometry------------------------------------------------------------
   G4Material* world_material;
-  switch (SimulationConstants::world_material_type){
-    case 1:
+    if (SimulationConstants::world_material_type == "Air")
       world_material = nist -> FindOrBuildMaterial("Air"); //manager finds materials defined above 
-      break;
-    case 2: 
+    else if (SimulationConstants::world_material_type == "Galactic")
       world_material = nist -> FindOrBuildMaterial("Galactic");
-  }
+  
 
   solid_world = new G4Box("World", SimulationConstants::worldX, SimulationConstants::worldY, SimulationConstants::worldZ);   //simple volume (name, x_size, y_size, z_size)
   logical_world = new G4LogicalVolume(solid_world, world_material, "World"); //logical volume (solid volume, material, name)

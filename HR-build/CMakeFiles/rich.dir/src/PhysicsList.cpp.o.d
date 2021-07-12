@@ -527,4 +527,12 @@ CMakeFiles/rich.dir/src/PhysicsList.cpp.o: \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4Physics2DVector.icc \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/materials/include/G4SurfaceProperty.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR/include/SimulationConstants.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4SystemOfUnits.hh
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4SystemOfUnits.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/optical/include/G4OpMieHG.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/electromagnetic/lowenergy/include/G4RayleighScattering.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/electromagnetic/utils/include/G4VEmProcess.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4ParticleChangeForGamma.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/electromagnetic/utils/include/G4EmDataHandler.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/electromagnetic/standard/include/G4PhotoElectricEffect.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/electromagnetic/standard/include/G4ComptonScattering.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/ions/include/G4IonConstructor.hh
