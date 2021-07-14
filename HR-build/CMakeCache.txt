@@ -223,7 +223,7 @@ PKG_CONFIG_EXECUTABLE:FILEPATH=/usr/local/bin/pkg-config
 PTL_DIR:PATH=/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4-build/source/externals/ptl
 
 //Build example with Geant4 UI and Vis drivers
-WITH_GEANT4_UIVIS:BOOL=OFF
+WITH_GEANT4_UIVIS:BOOL=ON
 
 //Path to a library.
 pkgcfg_lib_PC_EXPAT_expat:FILEPATH=/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/lib/libexpat.tbd

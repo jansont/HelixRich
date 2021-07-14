@@ -1,3 +1,31 @@
+//
+// ********************************************************************
+// * License and Disclaimer                                           *
+// *                                                                  *
+// * The  Geant4 software  is  copyright of the Copyright Holders  of *
+// * the Geant4 Collaboration.  It is provided  under  the terms  and *
+// * conditions of the Geant4 Software License,  included in the file *
+// * LICENSE and available at  http://cern.ch/geant4/license .  These *
+// * include a list of copyright holders.                             *
+// *                                                                  *
+// * Neither the authors of this software system, nor their employing *
+// * institutes,nor the agencies providing financial support for this *
+// * work  make  any representation or  warranty, express or implied, *
+// * regarding  this  software system or assume any liability for its *
+// * use.  Please see the license in the file  LICENSE  and URL above *
+// * for the full disclaimer and the limitation of liability.         *
+// *                                                                  *
+// * This  code  implementation is the result of  the  scientific and *
+// * technical work of the GEANT4 collaboration.                      *
+// * By using,  copying,  modifying or  distributing the software (or *
+// * any work based  on the software)  you  agree  to acknowledge its *
+// * use  in  resulting  scientific  publications,  and indicate your *
+// * acceptance of all terms of the Geant4 Software license.          *
+// ********************************************************************
+//
+// Helix Rich
+// Author: Theodore Janson (theodore.janson@mail.mcgill.ca)
+
 #include "TrackerSD.hh"
 #include "TrackerHit.hh"
 #include "G4ios.hh"
@@ -37,18 +65,24 @@ G4bool TrackerSD::ProcessHits(G4Step* aStep, G4TouchableHistory*)
   G4double energy = aStep->GetPostStepPoint()->GetKineticEnergy();
 
 
-  if (SimulationConstants::electron){
-    // if (aStep->GetTrack()->GetDefinition()->GetParticleType() != "e-")
-    //   return false; 
-    // if  (x > windowX/2 || y > windowY/2 )
+  if (SimulationConstants::particle_to_detect == "primary"){
+    // if (aStep->GetPostStepPoint()->GetPhysicalVolume() != detector)
     //   return false;
-    // if(z > 200.00*mm || z < 200.05*mm )
-    // return false;
-  } else {
+    if (aStep->GetTrack()->GetDefinition()->GetParticleType() == "opticalphoton")
+      return false;
+  } 
+  else if (SimulationConstants::particle_to_detect == "optical"){
     if (aStep->GetPostStepPoint()->GetPhysicalVolume() != detector)
       return false;
-     if (aStep->GetTrack()->GetDefinition()->GetParticleType() == "e-")
+     if (aStep->GetTrack()->GetDefinition()->GetParticleType() != "opticalphoton")
       return false; 
+  }
+  else if (SimulationConstants::particle_to_detect == "all"){
+    if (aStep->GetPostStepPoint()->GetPhysicalVolume() != detector)
+      return false;
+  }
+  else{
+    return false;
   }
 
   TrackerHit* newHit = new TrackerHit();
@@ -71,13 +105,11 @@ void  TrackerSD::EndOfEvent(G4HCofThisEvent* HCE){
       outFile << "Time (ns)";
     if (saveposition) {
       if (savetime)
-        outFile << "\t";
-      outFile << "Position (x in mm)\tPosition (y in mm)\tPosition (z in mm)\t";
+      outFile << "\tPosition (x in mm)\tPosition (y in mm)\tPosition (z in mm)\t";
     }
     if (saveenergy) {
       if (savetime || saveposition)
-        outFile << "\t";
-      outFile << "Energy (MeV)";
+      outFile << "Energy (eV)";
     }
 
     outFile << std::endl;
@@ -103,12 +135,10 @@ void  TrackerSD::EndOfEvent(G4HCofThisEvent* HCE){
       outFile << "Time (ns)";
     if (saveposition) {
       if (savetime)
-        outFile << "\t";
-      outFile << "Position (x in mm)\tPosition (y in mm)\tPosition (z in mm)\t";
+      outFile << "\tPosition (x in mm)\tPosition (y in mm)\tPosition (z in mm)\t";
     }
     if (saveenergy) {
       if (savetime || saveposition)
-        outFile << "\t";
       outFile << "Energy (eV)";
     }
     outFile << std::endl;

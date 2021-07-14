@@ -11,6 +11,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.20.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.20.2/CMakeSystem.cmake"
   "/Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR/CMakeLists.txt"
+  "/Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR/vis.mac"
   "/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4-build/G4EXPATShim.cmake"
   "/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4-build/Geant4Config.cmake"
   "/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4-build/Geant4ConfigVersion.cmake"
@@ -140,6 +141,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/3.20.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.20.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.20.2/CMakeCXXCompiler.cmake"
+  "vis.mac"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 

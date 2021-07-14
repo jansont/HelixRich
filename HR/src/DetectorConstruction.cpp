@@ -1,8 +1,30 @@
-/******* We will create the most basics of a detector construction file  ********/
-/*** 
- * To do this we will create a world box and place another box inside it and fill it. We need 
- * to create the logical volume, use the solid, and add other attributes (like composition)
- * ***/
+//
+// ********************************************************************
+// * License and Disclaimer                                           *
+// *                                                                  *
+// * The  Geant4 software  is  copyright of the Copyright Holders  of *
+// * the Geant4 Collaboration.  It is provided  under  the terms  and *
+// * conditions of the Geant4 Software License,  included in the file *
+// * LICENSE and available at  http://cern.ch/geant4/license .  These *
+// * include a list of copyright holders.                             *
+// *                                                                  *
+// * Neither the authors of this software system, nor their employing *
+// * institutes,nor the agencies providing financial support for this *
+// * work  make  any representation or  warranty, express or implied, *
+// * regarding  this  software system or assume any liability for its *
+// * use.  Please see the license in the file  LICENSE  and URL above *
+// * for the full disclaimer and the limitation of liability.         *
+// *                                                                  *
+// * This  code  implementation is the result of  the  scientific and *
+// * technical work of the GEANT4 collaboration.                      *
+// * By using,  copying,  modifying or  distributing the software (or *
+// * any work based  on the software)  you  agree  to acknowledge its *
+// * use  in  resulting  scientific  publications,  and indicate your *
+// * acceptance of all terms of the Geant4 Software license.          *
+// ********************************************************************
+//
+// Helix Rich
+// Author: Theodore Janson (theodore.janson@mail.mcgill.ca)
 
 #include "DetectorConstruction.hh"
 #include "G4NistManager.hh"         // Contains the NIST data for particles
@@ -233,33 +255,6 @@ void DetectorConstruction::DefineMaterials()
   AerogelMPT->AddProperty("RINDEX", PhotonMomentum, AerogelRindex, NumPhotWaveLengthBins);
   Aerogel->SetMaterialPropertiesTable(AerogelMPT);
 
-/*------------------------------------------------Aerogel Surface----------------------------------------------------------------------*/
-G4MaterialPropertiesTable* AergoelSurfaceMPT = new G4MaterialPropertiesTable();
-G4OpticalSurface* AerogelSurfaceFront = new G4OpticalSurface("AerogelSurfaceFront");
-G4LogicalBorderSurface* AerogelSurfaceFront_logical = new G4LogicalBorderSurface("AerogelSurfaceFront",physical_tile_box,physical_world,AerogelSurfaceFront);
-
-AerogelSurfaceFront->SetType(dielectric_dielectric);
-AerogelSurfaceFront->SetModel(unified);
-AerogelSurfaceFront->SetFinish(groundbackpainted);
-AerogelSurfaceFront->SetSigmaAlpha(0.1);
-
-std::vector<G4double> pp = {2.038*eV, 4.144*eV};
-std::vector<G4double> specularlobe = {0.0, 0.0};
-std::vector<G4double> specularspike = {0.0, 0.0};
-std::vector<G4double> backscatter = {0.0, 0.0};
-std::vector<G4double> rindex = {1.15, 1.15};
-std::vector<G4double> reflectivity = {0.0, 0.0};
-std::vector<G4double> efficiency = {0.0, 0.0};
-
-AergoelSurfaceMPT->AddProperty("RINDEX", pp, rindex);
-AergoelSurfaceMPT->AddProperty("SPECULARLOBECONSTANT", pp, specularlobe);
-AergoelSurfaceMPT->AddProperty("SPECULARSPIKECONSTANT", pp, specularspike);
-AergoelSurfaceMPT->AddProperty("BACKSCATTERCONSTANT", pp, backscatter);
-AergoelSurfaceMPT->AddProperty("REFLECTIVITY", pp, reflectivity);
-AergoelSurfaceMPT->AddProperty("EFFICIENCY", pp, efficiency);
-AerogelSurfaceFront->SetMaterialPropertiesTable(AergoelSurfaceMPT);                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
-
-
 
 /*---------------------------------Detector Plane (photocathode): Material and properties-----------------------------------*/  
 
@@ -362,7 +357,118 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
   SDman->AddNewDetector(theTrackerSD);
   logical_detector->SetSensitiveDetector(theTrackerSD);
 
+
+  /*------------------------------------------------Aerogel Surface----------------------------------------------------------------------*/
+  
+  //photon energy vector for world material
+  G4int ibin;
+  G4double PhotonMinEnergy=SimulationConstants::PhotonMinEnergy_; 
+  G4double PhotonMaxEnergy=SimulationConstants::PhotonMaxEnergy_; 
+  G4int NumPhotWaveLengthBins = 1000;
+  G4double PhotonEnergyStep = (PhotonMaxEnergy-PhotonMinEnergy) / NumPhotWaveLengthBins;
+  G4double* PhotonMomentum = new G4double[NumPhotWaveLengthBins];
+  for (ibin=0; ibin<NumPhotWaveLengthBins; ibin++){
+    PhotonMomentum[ibin] = PhotonMinEnergy + PhotonEnergyStep * ibin;
+  }
+
+  G4double* AerogelRindex = new G4double[NumPhotWaveLengthBins];        
+  G4double* AerogelAbsorpLength = new G4double[NumPhotWaveLengthBins];
+  G4double* AerogelRScatLength = new G4double[NumPhotWaveLengthBins];
+  G4double* AerogelRaleighScatLength = new G4double[NumPhotWaveLengthBins];
+
+  static const G4double PhotMomWaveConv=1243.125;
+  static const G4double AerogelClarity =0.00719*micrometer*micrometer*micrometer*micrometer/cm;
+  std::vector<G4double>AgelPhotW = InitializePhotonMomentumVector();
+  G4double aClarity=AerogelClarity/(micrometer*micrometer*micrometer*micrometer);
+  for(G4int ibinw=0; ibinw<NumPhotWaveLengthBins; ibinw++ ){
+    G4double ephoton=AgelPhotW[ibinw]/eV;
+    //In the following the 1000 is to convert form nm to micrometer
+    G4double wphoton=(PhotMomWaveConv/ephoton)/1000.0;
+    AerogelRaleighScatLength[ibinw]=(std::pow(wphoton,4))/aClarity;
+  }
+
+  if (SimulationConstants::Aerogel_properties == "GaussianRindex"){
+      //rindex is gaussian around 1.15
+      std::random_device rd{};
+      std::mt19937 gen{rd()};
+      std::normal_distribution<float> d{SimulationConstants::refractive_index, SimulationConstants::rindex_sdev}; 
+      for (G4int i=0; i<NumPhotWaveLengthBins; i++){
+          AerogelAbsorpLength[i]=1.E32*mm;
+          AerogelRindex[ibin]= d(gen);
+          AerogelRScatLength[ibin] = AerogelRaleighScatLength[i];
+      }
+    }
+    else if (SimulationConstants::Aerogel_properties == "ExactRindex"){
+     //rindex is constant 1.15 
+      for (G4int j=0; j<NumPhotWaveLengthBins; j++){
+        AerogelAbsorpLength[j]=1.E32*mm;
+        AerogelRindex[j]= SimulationConstants::refractive_index;
+
+        AerogelRScatLength[j] = AerogelRaleighScatLength[j];
+      }
+    }
+
+  // Surface roughness defined using unified model
+  if (SimulationConstants::surfaceModel == "unified"){
+    G4MaterialPropertiesTable* AerogelSurfaceMPT = new G4MaterialPropertiesTable();
+    G4OpticalSurface* AerogelSurface = new G4OpticalSurface("AerogelSurface");
+    G4LogicalBorderSurface* AerogelSurface_logical = new G4LogicalBorderSurface("AerogelSurface",physical_tile_box,physical_world,AerogelSurface);
+
+    AerogelSurface->SetType(dielectric_metal);
+    AerogelSurface->SetModel(unified);
+    AerogelSurface->SetFinish(groundbackpainted);
+    AerogelSurface->SetSigmaAlpha(SimulationConstants::aerogel_roughness);
+
+    std::vector<G4double> pp = {1.*eV, 4.*eV};
+    std::vector<G4double> specularlobe = {0.0, 0.0};
+    std::vector<G4double> specularspike = {0.0, 0.0};
+    std::vector<G4double> backscatter = {0.0, 0.0};
+    std::vector<G4double> reflectivity = {0.0, 0.0};
+    std::vector<G4double> efficiency = {0.0, 0.0};
+
+    AerogelSurfaceMPT->AddProperty("RINDEX", PhotonMomentum, AerogelRindex, NumPhotWaveLengthBins);
+    AerogelSurfaceMPT->AddProperty("SPECULARLOBECONSTANT", pp, specularlobe);
+    AerogelSurfaceMPT->AddProperty("SPECULARSPIKECONSTANT", pp, specularspike);
+    AerogelSurfaceMPT->AddProperty("BACKSCATTERCONSTANT", pp, backscatter);
+    // AerogelSurfaceMPT->AddProperty("REFLECTIVITY", pp, reflectivity);
+    AerogelSurfaceMPT->AddProperty("EFFICIENCY", pp, efficiency);
+    AerogelSurface->SetMaterialPropertiesTable(AerogelSurfaceMPT);  
+  }   
+
+  // Surface roughness defined using glisur model
+  if (SimulationConstants::surfaceModel == "glisur"){
+    std::vector<G4double> pp = {1.*eV, 4.*eV};
+    std::vector<G4double> specularlobe = {0.0, 0.0};
+    std::vector<G4double> specularspike = {0.0, 0.0};
+    std::vector<G4double> backscatter = {0.0, 0.0};
+    std::vector<G4double> efficiency = {0.0, 0.0};                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+
+    G4OpticalSurface* OpSurface = new G4OpticalSurface("AerogelSurface");
+    G4LogicalSkinSurface* Surface = new G4LogicalSkinSurface("AerogelSurface",logical_tile_box,OpSurface);
+    OpSurface->SetType(dielectric_dielectric);
+    OpSurface->SetFinish(ground);
+    OpSurface->SetModel(glisur);
+    OpSurface->SetPolish(SimulationConstants::aerogel_roughness);
+
+    G4MaterialPropertiesTable* OpSurfaceProperty = new G4MaterialPropertiesTable();
+    OpSurfaceProperty->AddProperty("RINDEX", PhotonMomentum, AerogelRindex, NumPhotWaveLengthBins);
+    OpSurfaceProperty->AddProperty("EFFICIENCY", pp, efficiency);
+    OpSurface->SetMaterialPropertiesTable(OpSurfaceProperty);
+    }
+
+  // Surface roughness defined using LUT Davis model
+  if (SimulationConstants::surfaceModel == "davis"){
+    G4OpticalSurface* OpSurface = new G4OpticalSurface("AerogelSurface");
+    OpSurface->SetType(dielectric_LUTDAVIS);
+    if (SimulationConstants::davis_roughness == "rough")
+      OpSurface->SetFinish(Rough_LUT);
+    else if (SimulationConstants::davis_roughness == "polished")
+      OpSurface->SetFinish(Polished_LUT);
+    OpSurface->SetModel(DAVIS);
+    G4LogicalBorderSurface* aerogelSurface = new G4LogicalBorderSurface( "AerogelSurface", physical_tile_box, physical_world, OpSurface);
+  }
+
    return physical_world; // Always return the world 
 }
 
-
+///Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR-build
