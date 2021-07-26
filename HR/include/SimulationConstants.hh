@@ -32,6 +32,8 @@
 // ....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 namespace SimulationConstants{
  /*------------------------------Detector geometry------------------------------*/
+    //Global
+    extern const G4int runCount;
     //World volume
     extern const G4double worldX;
     extern const G4double worldY;
@@ -86,6 +88,8 @@ namespace SimulationConstants{
     extern const double sdev_momentum_x;
     extern const double mean_momentum_y;
     extern const double sdev_momentum_y;
+    extern const double mean_theta;
+    extern const double sdev_theta;
     extern const std::string source;
     extern const G4double uniform_source_center;
     extern const G4double uniform_source_radius;

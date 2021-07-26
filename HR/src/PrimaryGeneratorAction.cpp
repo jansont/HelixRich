@@ -26,6 +26,8 @@
 // Helix Rich
 // Author: Theodore Janson (theodore.janson@mail.mcgill.ca)
 
+//Note that "G4UniformRand() generates values uniformily in range 0-1"
+
 
 #include "PrimaryGeneratorAction.hh"
 #include "G4Event.hh"
@@ -42,6 +44,7 @@
 #include "SimulationConstants.hh"
 #include "G4ChargedGeantino.hh"
 #include <random>
+#include <fstream>
 
 PrimaryGeneratorAction::PrimaryGeneratorAction()
 {
@@ -109,9 +112,9 @@ void PrimaryGeneratorAction::GeneratePrimaries(G4Event* anEvent)
 	if (SimulationConstants::momentumDistribution == "exact")
 		particleGun -> SetParticleMomentumDirection(G4ThreeVector(0,0,1));
 	else if (SimulationConstants::momentumDistribution == "uniform"){
-		G4double Phi = CLHEP::twopi * G4UniformRand();
-  		G4double Theta = 0.5 * CLHEP::pi * G4UniformRand();	
-		particleGun -> SetParticleMomentumDirection(G4ThreeVector(cos(Theta), sin(Theta)*cos(Phi), sin(Theta)*sin(Phi)));
+	    G4double pux = G4UniformRand();
+	    G4double puy = G4UniformRand();
+		particleGun -> SetParticleMomentumDirection(G4ThreeVector(pux,puy,1));
 	}
 	else if (SimulationConstants::momentumDistribution == "gaussian"){
 		std::random_device rd{};
@@ -127,16 +130,28 @@ void PrimaryGeneratorAction::GeneratePrimaries(G4Event* anEvent)
 
 		particleGun -> SetParticleMomentumDirection(G4ThreeVector(x_dir,y_dir,z_dir));
       }
+     else if (SimulationConstants::momentumDistribution == "divergence"){
+     	//spherical coordinates
+     	G4double phi = CLHEP::twopi * G4UniformRand();
+
+     	std::random_device rd{};
+		std::mt19937 gen{rd()};
+		std::normal_distribution<double> theta_rand{SimulationConstants::mean_theta, SimulationConstants::sdev_theta}; 
+		G4double theta = theta_rand(gen);
+
+		G4double pz = cos(theta);
+		G4double px = sin(theta)*cos(phi);
+		G4double py = sin(theta)*sin(phi);
+		particleGun -> SetParticleMomentumDirection(G4ThreeVector(px,py,1));		
+     }
 
      //define particle source location
       if (SimulationConstants::source == "uniform_plane"){
 		G4double x0 = SimulationConstants::uniform_source_center;
 		G4double y0 = SimulationConstants::uniform_source_center;
-		// G4double z0 = SimulationConstants::uniform_source_center;	  
 		G4double source_radius = SimulationConstants::uniform_source_radius;
 		x0 += source_radius*(G4UniformRand()-0.5);
 		y0 += source_radius*(G4UniformRand()-0.5);
-		// z0 += source_radius*(G4UniformRand()-0.5);
 		x0 *= cm;
 		y0 *= cm;
 		particleGun->SetParticlePosition(G4ThreeVector(x0,y0,0.*cm)); //constant z-position
@@ -155,5 +170,33 @@ void PrimaryGeneratorAction::GeneratePrimaries(G4Event* anEvent)
       else{
       	particleGun->SetParticlePosition(G4ThreeVector(0.,0.,0.));
       }
-  	particleGun -> GeneratePrimaryVertex(anEvent);  // creates the initial momentum
+      particleGun -> GeneratePrimaryVertex(anEvent);  // creates the initial momentum
+      GetPrimaries();
 }
+
+
+// Primary event
+void PrimaryGeneratorAction::GetPrimaries(){
+	CLHEP::Hep3Vector primaryPosition = particleGun->GetParticlePosition();
+  CLHEP::Hep3Vector primaryMomentum = particleGun->GetParticleMomentumDirection();
+  G4double primaryEnergy = particleGun->GetParticleEnergy();
+
+    primaryFile.open("PrimaryParticles.out", std::ofstream::app);
+    if (primaryFile){
+    primaryFile << "# Primaries Generated:" << SimulationConstants::sourceParticle<< std::endl;
+    primaryFile << "# Position (x in mm)\tPosition (y in mm)\tPosition (z in mm)\tMomentum (x in mm)\tMomentum (y in mm)\tMomentum (z in mm)\tEnergy (MeV)\t"<< std::endl; 
+    primaryFile << (G4double) primaryPosition.x() << "\t\t\t";
+    primaryFile << (G4double) primaryPosition.y() << "\t\t\t";
+    primaryFile << (G4double) primaryPosition.z() << "\t\t\t";
+    primaryFile << (G4double) primaryMomentum.x() << "\t\t\t";
+    primaryFile << (G4double) primaryMomentum.y() << "\t\t\t";
+    primaryFile << (G4double) primaryMomentum.z() << "\t\t\t";
+    primaryFile << (G4double) primaryEnergy << "\t" << std::endl;
+
+    primaryFile.close();
+  }
+
+}
+
+
+

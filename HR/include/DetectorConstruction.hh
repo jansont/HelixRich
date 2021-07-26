@@ -30,9 +30,11 @@
 #define DetectorConstruction_h 1
 
 #include "G4VUserDetectorConstruction.hh"
+#include "G4VUserPrimaryGeneratorAction.hh"
 #include "globals.hh"
 #include "G4MaterialTable.hh"
 #include "G4Tubs.hh"
+#include "PrimaryGeneratorAction.hh"
 
 
 // These two classes are called within the construct function
@@ -43,7 +45,7 @@ class G4Box;
 class DetectorConstruction : public G4VUserDetectorConstruction
 {
    public:
-      DetectorConstruction();
+      DetectorConstruction(PrimaryGeneratorAction* primary_generator);
       virtual ~DetectorConstruction();
       virtual G4VPhysicalVolume* Construct();
 
@@ -67,5 +69,6 @@ class DetectorConstruction : public G4VUserDetectorConstruction
       G4Box* solid_detector;
       G4LogicalVolume* logical_detector;
       G4VPhysicalVolume* physical_detector;
+      PrimaryGeneratorAction* primary_generator;
 };
 #endif

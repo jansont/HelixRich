@@ -32,6 +32,7 @@
 #include "G4VSensitiveDetector.hh"
 #include "TrackerHit.hh"
 #include "StackingAction.hh"
+#include "PrimaryGeneratorAction.hh"
 
 class G4Step;
 class G4HCofThisEvent;
@@ -41,7 +42,7 @@ class G4HCofThisEvent;
 class TrackerSD : public G4VSensitiveDetector
 {
   public:
-      TrackerSD(G4String, G4VPhysicalVolume *detector);
+      TrackerSD(G4String, G4VPhysicalVolume *detector, PrimaryGeneratorAction* primary_generator);
      ~TrackerSD();
 
       void Initialize(G4HCofThisEvent*);
@@ -58,12 +59,12 @@ class TrackerSD : public G4VSensitiveDetector
 
   private:
       TrackerHitsCollection* photonCollection;
+      PrimaryGeneratorAction* primary_generator;
       bool savetime;
       bool saveposition;
       bool saveenergy;
       const G4VPhysicalVolume *detector;
       std::ofstream outFile;
-
 };
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......

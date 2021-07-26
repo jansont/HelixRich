@@ -34,13 +34,21 @@
 #include "G4SDManager.hh"
 #include "G4SystemOfUnits.hh"
 #include "SimulationConstants.hh"
+#include "PrimaryGeneratorAction.hh"
+#include "G4ParticleGun.hh"
+#include "G4UIdirectory.hh"
+#include "G4UIcmdWithoutParameter.hh"
+#include "G4UIcmdWithAString.hh"
+#include "G4UIcmdWithADoubleAndUnit.hh"
+#include "G4UIcmdWith3Vector.hh"
+#include "G4UIcmdWith3VectorAndUnit.hh"
 
-
-TrackerSD::TrackerSD(G4String detector_name, G4VPhysicalVolume *detector)
+TrackerSD::TrackerSD(G4String detector_name, G4VPhysicalVolume *detector, PrimaryGeneratorAction* primary_generator)
  : G4VSensitiveDetector(detector_name), savetime(true), saveposition(true),saveenergy(true), detector(detector)
 {
 	G4String HCname;
 	collectionName.insert(HCname="HelixRichHitsCollection");
+  this->primary_generator = primary_generator;
 }
 
 TrackerSD::~TrackerSD(){}
@@ -53,6 +61,7 @@ void TrackerSD::Initialize(G4HCofThisEvent* HCE)
   { HCID = G4SDManager::GetSDMpointer()->GetCollectionID(collectionName[0]); }
   HCE->AddHitsCollection( HCID, photonCollection );
   outFile.open("HelixRich.out", std::ofstream::app);
+  // primaryFile.open("PrimaryParticles.out", std::ofstream::app);
 }
 
 G4bool TrackerSD::ProcessHits(G4Step* aStep, G4TouchableHistory*)
@@ -66,8 +75,8 @@ G4bool TrackerSD::ProcessHits(G4Step* aStep, G4TouchableHistory*)
 
 
   if (SimulationConstants::particle_to_detect == "primary"){
-    // if (aStep->GetPostStepPoint()->GetPhysicalVolume() != detector)
-    //   return false;
+    if (aStep->GetPostStepPoint()->GetPhysicalVolume() != detector)
+      return false;
     if (aStep->GetTrack()->GetDefinition()->GetParticleType() == "opticalphoton")
       return false;
   } 
@@ -101,6 +110,8 @@ void  TrackerSD::EndOfEvent(G4HCofThisEvent* HCE){
     G4cout<< "Here1 "<<G4endl;
     outFile << "# " << NbHits << " Hits detected." << std::endl;
     outFile << "# ";
+
+
     if (savetime)
       outFile << "Time (ns)";
     if (saveposition) {
@@ -113,7 +124,8 @@ void  TrackerSD::EndOfEvent(G4HCofThisEvent* HCE){
     }
 
     outFile << std::endl;
-    for (G4int i=0;i<NbHits;i++) (*photonCollection)[i]->Print(outFile, savetime, saveposition, saveenergy);
+    for (G4int i=0;i<NbHits;i++)
+     (*photonCollection)[i]->Print(outFile, savetime, saveposition, saveenergy);
     outFile << std::endl << std::endl;
     outFile.close();
   }
@@ -123,31 +135,13 @@ void  TrackerSD::EndOfEvent(G4HCofThisEvent* HCE){
     G4cout << "=============" << G4endl << "Sensitive Detector : " << NbHits << " optical photons detected" << G4endl;
     
     outFile.open("HelixRich.out", std::ofstream::app);
-    if (outFile.is_open()) G4cout<< " File Open" <<G4endl;
-    else G4cout<< "File not open"<<G4endl;
-    G4cout << "# " << NbHits << " Hits detected." <<G4endl;
-
-    outFile << "# " << NbHits << " Hits detected." << std::endl;
-    outFile << "# ";
-
-
-    if (savetime)
-      outFile << "Time (ns)";
-    if (saveposition) {
-      if (savetime)
-      outFile << "\tPosition (x in mm)\tPosition (y in mm)\tPosition (z in mm)\t";
-    }
-    if (saveenergy) {
-      if (savetime || saveposition)
-      outFile << "Energy (eV)";
-    }
+   
     outFile << std::endl;
     for (G4int i=0;i<NbHits;i++) (*photonCollection)[i]->Print(outFile, savetime, saveposition, saveenergy);
     outFile << std::endl << std::endl;
 
     outFile.close();
   }
-
 
 }
 

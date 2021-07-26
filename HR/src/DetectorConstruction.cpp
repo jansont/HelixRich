@@ -45,9 +45,12 @@
 #include "G4LogicalSkinSurface.hh"
 #include "G4Isotope.hh"
 #include <random>
+#include "PrimaryGeneratorAction.hh"
+#include "G4ParticleGun.hh"
 
 // constructor 
-DetectorConstruction::DetectorConstruction()  : G4VUserDetectorConstruction(), physical_detector(0)
+DetectorConstruction::DetectorConstruction(PrimaryGeneratorAction* primary_generator):
+ G4VUserDetectorConstruction(), physical_detector(0)
 {
   DefineMaterials(); // Construct materials for detector
 }
@@ -197,12 +200,24 @@ void DetectorConstruction::DefineMaterials()
   Air->SetMaterialPropertiesTable(AirMPT);
 
 
+
+  //Material properties of air
+  G4double* VacAbsorpLength = new G4double[NumPhotWaveLengthBins];
+  G4double* VacRindex = new G4double[NumPhotWaveLengthBins];
+
+  for (ibin=0; ibin<NumPhotWaveLengthBins; ibin++){
+    VacAbsorpLength[ibin]=1.E32*mm;
+    VacRindex[ibin]=1.0;
+  }
+
   //vacuum
   density = universe_mean_density; //from PhysicalConstants.h pressure = 1.e-19*pascal;
   temperature = 0.1*kelvin;
   G4Material* vacuum = new G4Material(name="Galactic", z=1., a=1.01*g/mole, density,kStateGas,temperature,pressure);
-
-
+  G4MaterialPropertiesTable* vacMPT = new G4MaterialPropertiesTable();
+  vacuum->SetMaterialPropertiesTable(vacMPT);
+  vacMPT->AddProperty("RINDEX", PhotonMomentum, VacRindex,NumPhotWaveLengthBins);
+  Air->SetMaterialPropertiesTable(vacMPT);
 
 /*---------------------------------Aerogel: Material and properties-----------------------------------*/  
   // Aerogel type
@@ -311,7 +326,7 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
                                     SimulationConstants::pDPhi); //Angle of the segment in radians
     logical_tile_curved = new G4LogicalVolume(solid_tile_curved, tile_material, "Tile"); //logical tile volume (solid volume, material, name)
     physical_tile_curved = new G4PVPlacement(0,  // Rotation
-                                      G4ThreeVector(),   // its location
+                                      G4ThreeVector(0,0,15.*cm),   // its location
                                       logical_tile_curved,      // the logical volume
                                       "Tile",            // its name
                                       logical_world,     // its mother volume 
@@ -322,7 +337,7 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
     logical_tile_box = new G4LogicalVolume(solid_tile_box, tile_material, "Tile"); //logical tile volume (solid volume, material, name)
     // Physical volume is a placed instance of the logical volume in its mother logical volume
     physical_tile_box = new G4PVPlacement(0,  // Rotation
-                                    G4ThreeVector(),   // its location
+                                    G4ThreeVector(0,0,15.*cm),   // its location
                                     logical_tile_box,      // the logical volume
                                     "Tile",            // its name
                                     logical_world,     // its mother volume 
@@ -338,7 +353,7 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
   G4Material* window_material = nist -> FindOrBuildMaterial("Air");
   logical_detector = new G4LogicalVolume(solid_detector,window_material,"Detector"); //logical tile volume (solid volume, material, name)
   physical_detector = new G4PVPlacement(0,                         // Rotation
-                                        G4ThreeVector(0,0,20.*cm),  // its location
+                                        G4ThreeVector(0,0,30.*cm),  // its location
                                         logical_detector,           // the logical volume
                                         "Detector",                 // its name
                                         logical_world,              // its mother volume 
@@ -347,13 +362,13 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
   } else {
   G4Material* window_material2 = nist -> FindOrBuildMaterial("photoCathode");
   logical_detector = new G4LogicalVolume(solid_detector,window_material2, "detector", 0,0,0);
-  physical_detector = new G4PVPlacement(0, G4ThreeVector(0,0,20.*cm), logical_detector, "detector", logical_world, false, 0);
+  physical_detector = new G4PVPlacement(0, G4ThreeVector(0,0,30.*cm), logical_detector, "detector", logical_world, false, 0);
   }
 
-  //set the sensitivity of the detector (uses TrackerSD.cpp)
+  //set the sensitivity of the detector (uses TrackerSD.cpp
   G4SDManager* SDman = G4SDManager::GetSDMpointer();
   G4String sensitiveDetectorName = "/detector/sensitiveDetector";
-  TrackerSD* theTrackerSD = new TrackerSD(sensitiveDetectorName, physical_detector); 
+  TrackerSD* theTrackerSD = new TrackerSD(sensitiveDetectorName, physical_detector, primary_generator); 
   SDman->AddNewDetector(theTrackerSD);
   logical_detector->SetSensitiveDetector(theTrackerSD);
 

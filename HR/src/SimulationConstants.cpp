@@ -3,6 +3,8 @@
 
 namespace SimulationConstants {
     /*------------------------------Detector geometry------------------------------*/
+    //Global 
+    const G4int runCount = 1;                            //$ Run Count>
     //World volume
     const G4double worldX = 2.*m;                         //$ World size x>
     const G4double worldY = 2.*m;                         //$ World size y>
@@ -26,9 +28,9 @@ namespace SimulationConstants {
     /*-------------------------------Detector Materials------------------------------*/
     //Aerogel
     const G4double aerogel_density = 0.200*g/cm3;         //$ Aerogel density> 0.200*g/cm3
-    const std::string surfaceModel = "unified";           //$ Aerogel surface roughness model> "unified" , "glisur" , "davis" - unified currently causing some issues in terminal
-    const G4double aerogel_roughness = 0.1;               //$ Aerogel surface roughness parameter> 
-    const std::string davis_roughness = "rough";          //$ LUT Davis roughness parameter>  "rough" , "polished", "none"
+    const std::string surfaceModel = "none";           //$ Aerogel surface roughness model> "unified" , "glisur" , "davis" - unified currently causing some issues in terminal
+    const G4double aerogel_roughness = 0.3;               //$ Aerogel surface roughness parameter> 
+    const std::string davis_roughness = "polished";          //$ LUT Davis roughness parameter>  "rough" , "polished", "none"
     const G4double silica_density = 2.200*g/cm3;          //$ Silica density> 2.200*g/cm3 
     const G4double silica_prop = 97*perCent;              //$ Aerogel silica proportion> 97
     const G4double water_prop =  3*perCent;               //$ Aerogel water proportion> 3
@@ -38,7 +40,7 @@ namespace SimulationConstants {
     const G4double PhotonMinEnergy_= 1.3*CLHEP::eV;        //$ Minimum threshold for photon generation> 1.3 = lower end of visible
     const G4double PhotonMaxEnergy_= 7.3*CLHEP::eV;         //$ Maximum threshold for photon generation> 3.18 = upper end of visible
     //Environment
-    const std::string world_material_type = "Air";        //$ Environment type> "Air", "Galactic" (nothing detected for galactic??)
+    const std::string world_material_type = "Galactic";        //$ Environment type> "Air", "Galactic" (nothing detected for galactic??)
     const std::string altitude = "sea";                   //$ Detector altitude> "sea", "troposhere", "stratosphere", "mesosphere1", "mesosphere2", "thermosphere1", "thermosphere2"
 
     /*-------------------------------Sensitive Detector------------------------------*/
@@ -49,26 +51,28 @@ namespace SimulationConstants {
     const std::string sourceParticle = "e-";              //$ Primary particle> "e-" ,  "Be9"  , "Be10"
     const G4int n_particle = 1;                           //$ Primaries generated>
     //energy
-    const G4double particleEnergy = 35.0*MeV;              //$ Primary particle energy>
+    const G4double particleEnergy = 35*MeV;              //$ Primary particle energy>
     const std::string energyDistribution = "exact";        //$ Primary energy distribution> "exact" , "uniform", "gaussian"
-    const float E_sdev = 1.0;                              //$ Standard deviation of Gaussian energy>
-    const G4double uniformEnergyRadius = 1.0;              //$ Radius of uniform energy>
+    const float E_sdev = 20.0;                              //$ Standard deviation of Gaussian energy>
+    const G4double uniformEnergyRadius = 30.0;              //$ Radius of uniform energy>
     //momentum
-    const std::string momentumDistribution = "exact";      //$ Momentum distribution> "exact" , "uniform", "gaussian"
+    const std::string momentumDistribution = "exact";      //$ Momentum distribution> "exact" , "uniform", "gaussian", "divergence"
     const double mean_momentum_z = 1;                     //$ Mean z for Gaussian momentum> 
-    const double sdev_momentum_z = 0.05;                   //$ Standard deviation of z for Gaussian momentum>
+    const double sdev_momentum_z = 0;                   //$ Standard deviation of z for Gaussian momentum>
     const double mean_momentum_x = 0;                      //$ Mean x for Gaussian momentum>                           
-    const double sdev_momentum_x = 0.001;                  //$ Standard deviation of x for Gaussian momentum>
+    const double sdev_momentum_x = 0.05;                  //$ Standard deviation of x for Gaussian momentum>
     const double mean_momentum_y = 0;                      //$ Mean y for Gaussian momentum>
-    const double sdev_momentum_y = 0.001;                  //$ Standard deviation of y for Gaussian momentum>
+    const double sdev_momentum_y = 0.05;                  //$ Standard deviation of y for Gaussian momentum>
+    const double mean_theta = 0;                            //$ Mean theta for beam divergence> 0, 0.0872665, 0.174533, 0.261799
+    const double sdev_theta = 0.261799;                     //$ Standard deviation of theta for beam divergence>
     //location
     const std::string source = "exact";                    //$ Particle source location> "exact", "gaussian_plane", "uniform_plane"
     const G4double uniform_source_center = 0*cm;           //$ Uniform source location center>
     const G4double uniform_source_radius = 1*cm;           //$ Uniform source location radius>
     const double mean_source_x = 0;                        //$ Gaussian source mean location x>
-    const double sdev_source_x = 0.1;                     //$ Gaussian source standard deviation location x>
+    const double sdev_source_x = 0.05;                     //$ Gaussian source standard deviation location x>
     const double mean_source_y = 0;                        //$ Gaussian source mean location y>
-    const double sdev_source_y = 0.1;                     //$ Gaussian source standard deviation location y>
+    const double sdev_source_y = 0.05;                     //$ Gaussian source standard deviation location y>
     /*-------------------------------Physics Processes------------------------------*/
     //Electromagnetic processes
     const bool multiple_scattering = false;                  //$ Multiple scattering>

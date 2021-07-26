@@ -376,6 +376,8 @@ CMakeFiles/rich.dir/src/TrackerSD.cpp.o: \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR/include/StackingAction.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/event/include/G4UserStackingAction.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/event/include/G4ClassificationOfNewTrack.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR/include/PrimaryGeneratorAction.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/run/include/G4VUserPrimaryGeneratorAction.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/management/include/G4VProcess.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/HEPRandom/include/Randomize.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/Randomize.h \
@@ -440,4 +442,18 @@ CMakeFiles/rich.dir/src/TrackerSD.cpp.o: \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4SystemOfUnits.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR/include/SimulationConstants.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4UnitsTable.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4UnitsTable.icc
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4UnitsTable.icc \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/event/include/G4ParticleGun.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/event/include/G4VPrimaryGenerator.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/management/include/G4PrimaryVertex.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/management/include/G4PrimaryParticle.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/intercoms/include/G4UIdirectory.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/intercoms/include/G4UIcommand.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/intercoms/include/G4UIparameter.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/intercoms/include/G4UItokenNum.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4ApplicationState.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/intercoms/include/G4UIcmdWithoutParameter.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/intercoms/include/G4UIcmdWithAString.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/intercoms/include/G4UIcmdWithADoubleAndUnit.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/intercoms/include/G4UIcmdWith3Vector.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/intercoms/include/G4UIcmdWith3VectorAndUnit.hh

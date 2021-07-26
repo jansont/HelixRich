@@ -12,6 +12,7 @@
 #include "RunAction.hh"
 #include "EventAction.hh"
 #include "SteppingAction.hh"
+#include "SimulationConstants.hh"
 
 //Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR-build
 //source ../../../geant4-install/bin/geant4.sh
@@ -37,11 +38,14 @@ int main(int argc,char** argv)
   //visManager -> initialize();
 
   // Set MANDATORY initialization classes
-  runManager -> SetUserInitialization(new DetectorConstruction);
   runManager -> SetUserInitialization(new PhysicsList);
-
   // Set MANDATORY user action class
-  runManager -> SetUserAction(new PrimaryGeneratorAction);
+  PrimaryGeneratorAction* primary_generator = new PrimaryGeneratorAction;
+  runManager -> SetUserAction(primary_generator);
+  // Set MANDATORY initialization classes
+  DetectorConstruction* detector = new DetectorConstruction(primary_generator);
+  runManager -> SetUserInitialization(detector);
+
   //Other action classes
   runManager->SetUserAction(new StackingAction);
   RunAction* run_action = new RunAction;
@@ -101,7 +105,7 @@ int main(int argc,char** argv)
   UI -> ApplyCommand("/tracking/verbose 1");
 
   // start a run
-  int numberOfEvents = 1;
+  int numberOfEvents = SimulationConstants::runCount;
   runManager -> BeamOn(numberOfEvents);
 
   // TERMINATE job

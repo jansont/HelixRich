@@ -500,6 +500,7 @@ CMakeFiles/rich.dir/rich.cpp.o: \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/intercoms/include/G4UIcommandStatus.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR/include/DetectorConstruction.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/run/include/G4VUserDetectorConstruction.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/run/include/G4VUserPrimaryGeneratorAction.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/solids/CSG/include/G4Tubs.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4GeomTypes.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4-build/source/geometry/include/G4GeomConfig.hh \
@@ -511,6 +512,7 @@ CMakeFiles/rich.dir/rich.cpp.o: \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/graphics_reps/include/G4Visible.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/graphics_reps/include/G4Visible.icc \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/solids/CSG/include/G4Tubs.icc \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR/include/PrimaryGeneratorAction.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR/include/PhysicsList.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/run/include/G4VModularPhysicsList.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/run/include/G4VPhysicsConstructor.hh \
@@ -525,8 +527,6 @@ CMakeFiles/rich.dir/rich.cpp.o: \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/cuts/include/G4MaterialCutsCouple.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/cuts/include/G4ProductionCuts.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/cuts/include/G4MCCIndexConversionTable.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR/include/PrimaryGeneratorAction.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/run/include/G4VUserPrimaryGeneratorAction.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR/include/StackingAction.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR/include/RunAction.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/run/include/G4UserRunAction.hh \
@@ -537,4 +537,8 @@ CMakeFiles/rich.dir/rich.cpp.o: \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/analysis/accumulables/include/G4Accumulable.icc \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR/include/EventAction.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/event/include/G4UserEventAction.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR/include/SteppingAction.hh
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR/include/SteppingAction.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR/include/SimulationConstants.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4SystemOfUnits.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4UnitsTable.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4UnitsTable.icc

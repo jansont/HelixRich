@@ -249,6 +249,7 @@ CMakeFiles/rich.dir/src/DetectorConstruction.cpp.o: \
   /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/optional \
   /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/vector \
   /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/__split_buffer \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/run/include/G4VUserPrimaryGeneratorAction.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/materials/include/G4MaterialTable.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/solids/CSG/include/G4Tubs.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4GeomTypes.hh \
@@ -291,6 +292,11 @@ CMakeFiles/rich.dir/src/DetectorConstruction.cpp.o: \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/graphics_reps/include/G4Visible.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/graphics_reps/include/G4Visible.icc \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/solids/CSG/include/G4Tubs.icc \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR/include/PrimaryGeneratorAction.hh \
+  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/fstream \
+  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/filesystem \
+  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/stack \
+  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/deque \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/materials/include/G4NistManager.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/materials/include/G4Material.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/materials/include/G4Element.hh \
@@ -303,10 +309,6 @@ CMakeFiles/rich.dir/src/DetectorConstruction.cpp.o: \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/materials/include/G4MaterialPropertyVector.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4PhysicsOrderedFreeVector.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4PhysicsVector.hh \
-  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/fstream \
-  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/filesystem \
-  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/stack \
-  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/deque \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4Log.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4PhysicsVectorType.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4PhysicsVector.icc \
@@ -420,4 +422,8 @@ CMakeFiles/rich.dir/src/DetectorConstruction.cpp.o: \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/volumes/include/G4LogicalSkinSurface.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/volumes/include/G4LogicalSkinSurface.icc \
   /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/random \
-  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/numeric
+  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/numeric \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/event/include/G4ParticleGun.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/event/include/G4VPrimaryGenerator.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/management/include/G4PrimaryVertex.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/management/include/G4PrimaryParticle.hh
