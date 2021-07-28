@@ -1,24 +1,17 @@
-/geometry/source ../gears.tg
-/run/initialize
-/vis/ASCIITree/verbose 13
-/vis/drawTree
-/geometry/test/run
-
-
 # Use this open statement to create an OpenGL view:
-#/vis/open OGL 600x600-0+0
+/vis/open OGL 600x600-0+0
 #
 # Use this open statement to create a .prim file suitable for
 # viewing in DAWN:
-/vis/open DAWNFILE
+#/vis/open DAWNFILE
 #
 # Use this open statement to create a .heprep file suitable for
 # viewing in HepRApp:
-/vis/open HepRepFile
+#/vis/open HepRepFile
 #
 # Use this open statement to create a .wrl file suitable for
 # viewing in a VRML viewer:
-/vis/open VRML2FILE
+#/vis/open VRML2FILE
 #
 # Disable auto refresh and quieten vis messages whilst scene and
 # trajectories are established:

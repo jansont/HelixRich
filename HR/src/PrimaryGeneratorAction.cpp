@@ -56,7 +56,7 @@ PrimaryGeneratorAction::PrimaryGeneratorAction()
 // Create destructor
 PrimaryGeneratorAction::~PrimaryGeneratorAction()
 {
-   delete particleGun;
+	delete particleGun;
 }
 
 // Primary event
@@ -66,7 +66,8 @@ void PrimaryGeneratorAction::GeneratePrimaries(G4Event* anEvent)
 	G4int z;
 	G4double A, excitEnergy, ionCharge;
 	//define particle type
-	if (SimulationConstants::sourceParticle == "Be9"){
+	if (SimulationConstants::sourceParticle == "Be9")
+	{
 		z = 4; //atomic number
 		A = 9.012182; //atomic mass
 		excitEnergy = 0.*keV;
@@ -76,7 +77,8 @@ void PrimaryGeneratorAction::GeneratePrimaries(G4Event* anEvent)
 		particleGun->SetParticleCharge(ionCharge);
 		particleGun->SetParticleDefinition(ion);
 	}
-	else if (SimulationConstants::sourceParticle == "Be10"){
+	else if (SimulationConstants::sourceParticle == "Be10")
+	{
 		z = 4; //atomic number
 		A = 10.0135347; //atomic mass
 		excitEnergy = 0.*keV;
@@ -85,38 +87,44 @@ void PrimaryGeneratorAction::GeneratePrimaries(G4Event* anEvent)
 		particleGun->SetParticleCharge(ionCharge);
 		particleGun->SetParticleDefinition(ion);
 	}
-	else{
+	else
+	{
 		G4ParticleDefinition* particleDefinition = G4ParticleTable::GetParticleTable()->FindParticle("e-");
 		particleGun->SetParticleDefinition(particleDefinition);
 	}
 
 	//define particle energy
-	if (SimulationConstants::energyDistribution == "uniform"){
-  	G4double energy_center = SimulationConstants::particleEnergy;
-  	G4double energy_radius = SimulationConstants::uniformEnergyRadius;
-  	energy_center += energy_radius*(G4UniformRand());
+	if (SimulationConstants::energyDistribution == "uniform")
+	{
+		G4double energy_center = SimulationConstants::particleEnergy;
+  		G4double energy_radius = SimulationConstants::uniformEnergyRadius;
+  		energy_center += energy_radius*(G4UniformRand());
 	}
-	else if (SimulationConstants::energyDistribution == "gaussian"){
+	else if (SimulationConstants::energyDistribution == "gaussian")
+	{
 		std::random_device rd{};
 		std::mt19937 gen{rd()};
 		std::normal_distribution<double> E_rand{SimulationConstants::particleEnergy, SimulationConstants::E_sdev}; 
 		G4double energy = E_rand(gen);
-    	particleGun->SetParticleEnergy(energy);    
-    }
+		particleGun->SetParticleEnergy(energy);    
+	}
     
-	else if (SimulationConstants::energyDistribution == "exact"){
-    	particleGun->SetParticleEnergy(SimulationConstants::particleEnergy);    
-    }
+	else if (SimulationConstants::energyDistribution == "exact")
+	{
+		particleGun->SetParticleEnergy(SimulationConstants::particleEnergy);    
+	}
 
 	//define particle momentum
 	if (SimulationConstants::momentumDistribution == "exact")
 		particleGun -> SetParticleMomentumDirection(G4ThreeVector(0,0,1));
-	else if (SimulationConstants::momentumDistribution == "uniform"){
-	    G4double pux = G4UniformRand();
-	    G4double puy = G4UniformRand();
+	else if (SimulationConstants::momentumDistribution == "uniform")
+	{
+		G4double pux = G4UniformRand();
+		G4double puy = G4UniformRand();
 		particleGun -> SetParticleMomentumDirection(G4ThreeVector(pux,puy,1));
 	}
-	else if (SimulationConstants::momentumDistribution == "gaussian"){
+	else if (SimulationConstants::momentumDistribution == "gaussian")
+	{
 		std::random_device rd{};
 		std::mt19937 gen{rd()};
 		std::normal_distribution<double> z_rand{SimulationConstants::mean_momentum_z, SimulationConstants::sdev_momentum_z}; 
@@ -129,12 +137,13 @@ void PrimaryGeneratorAction::GeneratePrimaries(G4Event* anEvent)
 		G4double y_dir = y_rand(gen);
 
 		particleGun -> SetParticleMomentumDirection(G4ThreeVector(x_dir,y_dir,z_dir));
-      }
-     else if (SimulationConstants::momentumDistribution == "divergence"){
-     	//spherical coordinates
-     	G4double phi = CLHEP::twopi * G4UniformRand();
+	}
+	else if (SimulationConstants::momentumDistribution == "divergence")
+	{
+		//spherical coordinates
+		G4double phi = CLHEP::twopi * G4UniformRand();
 
-     	std::random_device rd{};
+		std::random_device rd{};
 		std::mt19937 gen{rd()};
 		std::normal_distribution<double> theta_rand{SimulationConstants::mean_theta, SimulationConstants::sdev_theta}; 
 		G4double theta = theta_rand(gen);
@@ -145,8 +154,9 @@ void PrimaryGeneratorAction::GeneratePrimaries(G4Event* anEvent)
 		particleGun -> SetParticleMomentumDirection(G4ThreeVector(px,py,1));		
      }
 
-     //define particle source location
-      if (SimulationConstants::source == "uniform_plane"){
+	//define particle source location
+	if (SimulationConstants::source == "uniform_plane")
+	{
 		G4double x0 = SimulationConstants::uniform_source_center;
 		G4double y0 = SimulationConstants::uniform_source_center;
 		G4double source_radius = SimulationConstants::uniform_source_radius;
@@ -155,8 +165,9 @@ void PrimaryGeneratorAction::GeneratePrimaries(G4Event* anEvent)
 		x0 *= cm;
 		y0 *= cm;
 		particleGun->SetParticlePosition(G4ThreeVector(x0,y0,0.*cm)); //constant z-position
-      }
-      else if (SimulationConstants::source == "gaussian_plane"){
+	}
+	else if (SimulationConstants::source == "gaussian_plane")
+	{
 		std::random_device rd{};
 		std::mt19937 gen{rd()};
 		std::normal_distribution<double> x_rand{SimulationConstants::mean_source_x, SimulationConstants::sdev_source_x}; 
@@ -166,36 +177,37 @@ void PrimaryGeneratorAction::GeneratePrimaries(G4Event* anEvent)
 		G4double Y = y_rand(gen);
 		Y *= cm;
 		particleGun -> SetParticleMomentumDirection(G4ThreeVector(X,Y,0.));
-      }
-      else{
-      	particleGun->SetParticlePosition(G4ThreeVector(0.,0.,0.));
-      }
-      particleGun -> GeneratePrimaryVertex(anEvent);  // creates the initial momentum
-      GetPrimaries();
+	}
+	else
+	{
+		particleGun->SetParticlePosition(G4ThreeVector(0.,0.,0.));
+	}
+	particleGun -> GeneratePrimaryVertex(anEvent);  // creates the initial momentum
+	GetPrimaries();
 }
 
 
 // Primary event
-void PrimaryGeneratorAction::GetPrimaries(){
+void PrimaryGeneratorAction::GetPrimaries()
+{
 	CLHEP::Hep3Vector primaryPosition = particleGun->GetParticlePosition();
-  CLHEP::Hep3Vector primaryMomentum = particleGun->GetParticleMomentumDirection();
-  G4double primaryEnergy = particleGun->GetParticleEnergy();
+	CLHEP::Hep3Vector primaryMomentum = particleGun->GetParticleMomentumDirection();
+	G4double primaryEnergy = particleGun->GetParticleEnergy();
 
-    primaryFile.open("PrimaryParticles.out", std::ofstream::app);
-    if (primaryFile){
-    primaryFile << "# Primaries Generated:" << SimulationConstants::sourceParticle<< std::endl;
-    primaryFile << "# Position (x in mm)\tPosition (y in mm)\tPosition (z in mm)\tMomentum (x in mm)\tMomentum (y in mm)\tMomentum (z in mm)\tEnergy (MeV)\t"<< std::endl; 
-    primaryFile << (G4double) primaryPosition.x() << "\t\t\t";
-    primaryFile << (G4double) primaryPosition.y() << "\t\t\t";
-    primaryFile << (G4double) primaryPosition.z() << "\t\t\t";
-    primaryFile << (G4double) primaryMomentum.x() << "\t\t\t";
-    primaryFile << (G4double) primaryMomentum.y() << "\t\t\t";
-    primaryFile << (G4double) primaryMomentum.z() << "\t\t\t";
-    primaryFile << (G4double) primaryEnergy << "\t" << std::endl;
-
-    primaryFile.close();
-  }
-
+	primaryFile.open("PrimaryParticles.out", std::ofstream::app);
+	if (primaryFile)
+	{
+		primaryFile << "# Primaries Generated:" << SimulationConstants::sourceParticle<< std::endl;
+		primaryFile << "# Position (x in mm)\tPosition (y in mm)\tPosition (z in mm)\tMomentum (x in mm)\tMomentum (y in mm)\tMomentum (z in mm)\tEnergy (MeV)\t"<< std::endl; 
+		primaryFile << (G4double) primaryPosition.x() << "\t\t\t";
+		primaryFile << (G4double) primaryPosition.y() << "\t\t\t";
+		primaryFile << (G4double) primaryPosition.z() << "\t\t\t";
+		primaryFile << (G4double) primaryMomentum.x() << "\t\t\t";
+		primaryFile << (G4double) primaryMomentum.y() << "\t\t\t";
+		primaryFile << (G4double) primaryMomentum.z() << "\t\t\t";
+		primaryFile << (G4double) primaryEnergy << "\t" << std::endl;
+	}
+	primaryFile.close();
 }
 
 

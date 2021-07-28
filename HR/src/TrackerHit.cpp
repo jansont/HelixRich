@@ -60,21 +60,23 @@ G4int TrackerHit::operator==(const TrackerHit& hit) const
 
 void TrackerHit::Print(std::ostream &stream, bool printtime, bool printposition, bool printenergy)
 {
-  if (printtime)
-    stream << time << "\t\t";
-  if (printposition) {
-    if (printtime)
-    stream  << position.x() << "\t\t" << position.y() << "\t\t" << position.z();
-  }
-  if (printenergy) {
-    // G4float e m= (G4float) energy;
-    // stream << typeid(e).name() <<'eV';
-    stream  << "\t";
-    energy *= 1e6; //convert   to eV
-    std::string e = std::to_string (energy);
-    stream << e << "\n";
-  }
-  stream << std::endl;
-}
+	if (printtime)
+		stream << time << "\t\t";
+	if (printposition)
+	{
+		if (printtime)
+			stream  << position.x() << "\t\t" << position.y() << "\t\t" << position.z();
+	}
+	if (printenergy)
+	{
+		// G4float e m= (G4float) energy;
+		// stream << typeid(e).name() <<'eV';
+		stream  << "\t";
+		energy *= 1e6; //convert   to eV
+		std::string e = std::to_string (energy);
+		stream << e << "\n";
+	}
+	stream << std::endl;
+}	
 
 

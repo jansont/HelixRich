@@ -34,37 +34,58 @@
 #include "G4RunManager.hh"
 #include "G4LogicalVolume.hh"
 #include "SimulationConstants.hh"
+#include "G4ThreeVector.hh"
+#include "G4OpticalPhoton.hh"
+#include "G4Electron.hh"
+#include <fstream>
 
-
-SteppingAction::SteppingAction(EventAction* eventAction)
-: G4UserSteppingAction(),
-  fEventAction(eventAction),
-  fScoringVolume(0)
-{}
-
-SteppingAction::~SteppingAction(){}
-
-void SteppingAction::UserSteppingAction(const G4Step* step){
-  // if (!fScoringVolume) { 
-  //   const DetectorConstruction* detectorConstruction
-  //     = static_cast<const DetectorConstruction*>
-  //       (G4RunManager::GetRunManager()->GetUserDetectorConstruction());
-  //   if (curved){
-  //     fScoringVolume = detectorConstruction->GetLogicalCurved();   
-  //   } else {
-  //     fScoringVolume = detectorConstruction->GetLogicalBox();
-  //     }
-  // }
-
-  // // get volume of the current step
-  // G4LogicalVolume* volume = step->GetPreStepPoint()->GetTouchableHandle()->GetVolume()->GetLogicalVolume();
-      
-  // // check if we are in scoring volume
-  // if (volume != fScoringVolume) return;
-
-  // // collect energy deposited in this step
-  // G4double edepStep = step->GetTotalEnergyDeposit();
-  // fEventAction->AddEdep(edepStep);  
+SteppingAction::SteppingAction(EventAction* eventAction):
+G4UserSteppingAction(),
+fEventAction(eventAction),
+fScoringVolume(0)
+{
+	eFile.open("ElectronTracking.out", std::ofstream::app);
+	if (eFile)
+	{
+		eFile << "# Pre Step Z (mm)" << "\t\t\t";
+		// eFile << "Post Step Z (mm)" << "\t\t\t";
+		eFile << "Post Step Energy (mm)" << "\t\t\t"<< std::endl;
+	}
+	eFile.close();
 }
 
+SteppingAction::~SteppingAction()
+{}
+
+void SteppingAction::UserSteppingAction(const G4Step* aStep)
+{
+	G4StepPoint* pPreStepPoint  = aStep ->GetPreStepPoint();
+	G4StepPoint* pPostStepPoint = aStep ->GetPostStepPoint();
+	const G4ThreeVector prePos= pPreStepPoint->GetPosition();
+	const G4ThreeVector postPos= pPostStepPoint->GetPosition();
+	const G4double preEnergy  = pPreStepPoint->GetKineticEnergy();
+	const G4double  postEnergy  =  pPostStepPoint->GetKineticEnergy();
+
+	G4Track* eTrack = aStep -> GetTrack();
+	const G4DynamicParticle* aParticle = eTrack->GetDynamicParticle();
+	const G4double energy = aParticle->GetKineticEnergy();
+
+	if (aParticle->GetDefinition() != G4OpticalPhoton::OpticalPhoton())
+	{
+		G4String preVol = pPreStepPoint->GetPhysicalVolume()->GetName();
+		// G4String postVol = pPostStepPoint->GetPhysicalVolume()->GetName();
+
+		G4String vol = "Tile";
+		if (preVol == vol)
+		{
+			eFile.open("ElectronTracking.out", std::ofstream::app);
+			if (eFile){
+				eFile << (G4double) prePos.z() << "\t\t\t";
+				// eFile << (G4double) postPos.z() << "\t\t\t";
+				eFile << (G4double) postEnergy << "\t\t\t"<< std::endl;
+			}
+			eFile.close();
+		}
+	}
+}
 

@@ -45,7 +45,7 @@ class G4Box;
 class DetectorConstruction : public G4VUserDetectorConstruction
 {
    public:
-      DetectorConstruction(PrimaryGeneratorAction* primary_generator);
+      DetectorConstruction();
       virtual ~DetectorConstruction();
       virtual G4VPhysicalVolume* Construct();
 
@@ -69,6 +69,5 @@ class DetectorConstruction : public G4VUserDetectorConstruction
       G4Box* solid_detector;
       G4LogicalVolume* logical_detector;
       G4VPhysicalVolume* physical_detector;
-      PrimaryGeneratorAction* primary_generator;
 };
 #endif

@@ -247,12 +247,16 @@ CMakeFiles/rich.dir/src/SteppingAction.cpp.o: \
   /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/__tree \
   /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/__node_handle \
   /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/optional \
+  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/fstream \
+  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/filesystem \
+  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/stack \
+  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/deque \
+  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/__split_buffer \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR/include/EventAction.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/event/include/G4UserEventAction.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR/include/DetectorConstruction.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/run/include/G4VUserDetectorConstruction.hh \
   /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/vector \
-  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/__split_buffer \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/run/include/G4VUserPrimaryGeneratorAction.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/materials/include/G4MaterialTable.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/solids/CSG/include/G4Tubs.hh \
@@ -297,10 +301,6 @@ CMakeFiles/rich.dir/src/SteppingAction.cpp.o: \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/graphics_reps/include/G4Visible.icc \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/solids/CSG/include/G4Tubs.icc \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR/include/PrimaryGeneratorAction.hh \
-  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/fstream \
-  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/filesystem \
-  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/stack \
-  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/deque \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4Step.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4VPhysicalVolume.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4RotationMatrix.hh \
@@ -515,4 +515,6 @@ CMakeFiles/rich.dir/src/SteppingAction.cpp.o: \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR/include/SimulationConstants.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4SystemOfUnits.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4UnitsTable.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4UnitsTable.icc
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4UnitsTable.icc \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/bosons/include/G4OpticalPhoton.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/leptons/include/G4Electron.hh

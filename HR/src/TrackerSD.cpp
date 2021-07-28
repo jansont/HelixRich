@@ -43,110 +43,108 @@
 #include "G4UIcmdWith3Vector.hh"
 #include "G4UIcmdWith3VectorAndUnit.hh"
 
-TrackerSD::TrackerSD(G4String detector_name, G4VPhysicalVolume *detector, PrimaryGeneratorAction* primary_generator)
- : G4VSensitiveDetector(detector_name), savetime(true), saveposition(true),saveenergy(true), detector(detector)
+
+//constructor:initialize hits collection
+TrackerSD::TrackerSD(G4String detector_name, G4VPhysicalVolume *detector):
+G4VSensitiveDetector(detector_name), savetime(true),saveposition(true),saveenergy(true), detector(detector)
 {
 	G4String HCname;
 	collectionName.insert(HCname="HelixRichHitsCollection");
-  this->primary_generator = primary_generator;
 }
 
-TrackerSD::~TrackerSD(){}
+//destructor
+TrackerSD::~TrackerSD()
+{}
 
+//initialize sensitive detector with empty hit collection
 void TrackerSD::Initialize(G4HCofThisEvent* HCE)
 {
-  photonCollection = new TrackerHitsCollection(SensitiveDetectorName,collectionName[0]);
-  static G4int HCID = -1;
-  if(HCID<0)
-  { HCID = G4SDManager::GetSDMpointer()->GetCollectionID(collectionName[0]); }
-  HCE->AddHitsCollection( HCID, photonCollection );
-  outFile.open("HelixRich.out", std::ofstream::app);
-  // primaryFile.open("PrimaryParticles.out", std::ofstream::app);
-}
+	hitsCollection = new TrackerHitsCollection(SensitiveDetectorName,collectionName[0]);
+	static G4int HCID = -1;
+	if(HCID<0)
+	{
+		//Add new hits to the total collection and prepare to write to file
+		HCID = G4SDManager::GetSDMpointer()->GetCollectionID(collectionName[0]); }
+		HCE->AddHitsCollection( HCID, hitsCollection );
+		outFile.open("HelixRich.out", std::ofstream::app);
+	}
 
+//process the hits  in  collection  (get position, energy, etc)
 G4bool TrackerSD::ProcessHits(G4Step* aStep, G4TouchableHistory*)
 {
-  G4ThreeVector position = aStep->GetPostStepPoint()->GetPosition();
-  G4double x = position.X;
-  G4double y = position.Y;
-  G4double z = position.Z;
-  // G4double energy = aStep->GetPostStepPoint()->GetTotalEnergy();
-  G4double energy = aStep->GetPostStepPoint()->GetKineticEnergy();
+	G4ThreeVector position = aStep->GetPostStepPoint()->GetPosition();
+	G4double x = position.X;
+	G4double y = position.Y;
+	G4double z = position.Z;
+	G4double energy = aStep->GetPostStepPoint()->GetKineticEnergy();
 
+	//Get only primary particle hits
+	if (SimulationConstants::particle_to_detect == "primary")
+	{
+		if (aStep->GetPostStepPoint()->GetPhysicalVolume() != detector)
+			return false;
+		if (aStep->GetTrack()->GetDefinition()->GetParticleType() == "opticalphoton")
+			return false;
+	}
+	//Get only secondary particle hits
+	else if (SimulationConstants::particle_to_detect == "optical")
+	{
+		if (aStep->GetPostStepPoint()->GetPhysicalVolume() != detector)
+			return false;
+		if (aStep->GetTrack()->GetDefinition()->GetParticleType() != "opticalphoton")
+			return false; 
+	}
+	//Get all hits
+	else if (SimulationConstants::particle_to_detect == "all")
+	{
+		if (aStep->GetPostStepPoint()->GetPhysicalVolume() != detector)
+			return false;
+	}
+	else
+	{
+		return false;
+	}
 
-  if (SimulationConstants::particle_to_detect == "primary"){
-    if (aStep->GetPostStepPoint()->GetPhysicalVolume() != detector)
-      return false;
-    if (aStep->GetTrack()->GetDefinition()->GetParticleType() == "opticalphoton")
-      return false;
-  } 
-  else if (SimulationConstants::particle_to_detect == "optical"){
-    if (aStep->GetPostStepPoint()->GetPhysicalVolume() != detector)
-      return false;
-     if (aStep->GetTrack()->GetDefinition()->GetParticleType() != "opticalphoton")
-      return false; 
-  }
-  else if (SimulationConstants::particle_to_detect == "all"){
-    if (aStep->GetPostStepPoint()->GetPhysicalVolume() != detector)
-      return false;
-  }
-  else{
-    return false;
-  }
-
-  TrackerHit* newHit = new TrackerHit();
-  newHit->SetEnergy(energy);
-  newHit->SetTime  (aStep->GetPostStepPoint()->GetGlobalTime());
-  newHit->SetPos   (aStep->GetPostStepPoint()->GetPosition());
-  photonCollection->insert( newHit );
-  return true;
+	//Add new hit to hit collection
+	TrackerHit* hit = new TrackerHit();
+	hit->SetEnergy(energy);
+	hit->SetTime  (aStep->GetPostStepPoint()->GetGlobalTime());
+	hit->SetPos   (aStep->GetPostStepPoint()->GetPosition());
+	hitsCollection->insert(hit);
+	return true;
 }
 
-void  TrackerSD::EndOfEvent(G4HCofThisEvent* HCE){
-  // save results
-  G4int NbHits = photonCollection->entries();
+void  TrackerSD::EndOfEvent(G4HCofThisEvent* HCE)
+{
+	//At the end of the run, write these hits to file
+	G4int NbHits = hitsCollection->entries();
+	if (outFile)
+	{
+		G4cout << "=============" << G4endl << "Sensitive Detector : " << NbHits << " optical photons detected" << G4endl;
+		outFile << "# " << NbHits << " Hits detected." << std::endl;
+		outFile << "# ";
+		if (savetime)
+			outFile << "Time (ns)";
+		if (saveposition && savetime)
+			outFile << "\tPosition (x in mm)\tPosition (y in mm)\tPosition (z in mm)\t";
+		if (saveenergy) 
+			outFile << "Energy (eV)";
+		outFile << std::endl;
+		for (G4int i=0;i<NbHits;i++) //looping overe hits 
+			(*hitsCollection)[i]->Print(outFile, savetime, saveposition, saveenergy);
+		outFile << std::endl << std::endl;
+		outFile.close();
+	}
 
-  if (outFile) {
-    G4cout<< "Here1 "<<G4endl;
-    outFile << "# " << NbHits << " Hits detected." << std::endl;
-    outFile << "# ";
-
-
-    if (savetime)
-      outFile << "Time (ns)";
-    if (saveposition) {
-      if (savetime)
-      outFile << "\tPosition (x in mm)\tPosition (y in mm)\tPosition (z in mm)\t";
-    }
-    if (saveenergy) {
-      if (savetime || saveposition)
-      outFile << "Energy (eV)";
-    }
-
-    outFile << std::endl;
-    for (G4int i=0;i<NbHits;i++)
-     (*photonCollection)[i]->Print(outFile, savetime, saveposition, saveenergy);
-    outFile << std::endl << std::endl;
-    outFile.close();
-  }
-
-  else {
-
-    G4cout << "=============" << G4endl << "Sensitive Detector : " << NbHits << " optical photons detected" << G4endl;
-    
-    outFile.open("HelixRich.out", std::ofstream::app);
-   
-    outFile << std::endl;
-    for (G4int i=0;i<NbHits;i++) (*photonCollection)[i]->Print(outFile, savetime, saveposition, saveenergy);
-    outFile << std::endl << std::endl;
-
-    outFile.close();
-  }
+	else 
+	{
+		G4cout << "=============" << G4endl << "Sensitive Detector : " << NbHits << " optical photons detected" << G4endl;
+		outFile.open("HelixRich.out", std::ofstream::app);
+		outFile << std::endl;
+		for (G4int i=0;i<NbHits;i++)
+			(*hitsCollection)[i]->Print(outFile, savetime, saveposition, saveenergy);
+		outFile << std::endl << std::endl;
+		outFile.close();
+	}
 
 }
-
-// void  TrackerSD::clear(){} 
-
-// void  TrackerSD::DrawAll(){ } 
-
-// void  TrackerSD::PrintAll(){ } 

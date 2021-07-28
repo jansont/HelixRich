@@ -31,6 +31,7 @@
 
 #include "G4UserSteppingAction.hh"
 #include "globals.hh"
+#include <fstream>
 
 class EventAction;
 class G4LogicalVolume;
@@ -47,6 +48,7 @@ class SteppingAction : public G4UserSteppingAction
   private:
     EventAction*  fEventAction;
     G4LogicalVolume* fScoringVolume;
+    std::ofstream eFile;
 };
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
