@@ -297,7 +297,75 @@ CMakeFiles/rich.dir/src/DetectorConstruction.cpp.o: \
   /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/filesystem \
   /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/stack \
   /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/deque \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/materials/include/G4NistManager.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/electromagnetic/xrays/include/G4Cerenkov.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/HEPRandom/include/Randomize.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/Randomize.h \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/DualRand.h \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandomEngine.h \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandomEngine.icc \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/JamesRandom.h \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/MixMaxRng.h \
+  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/array \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/MTwistEngine.h \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RanecuEngine.h \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RanluxEngine.h \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/Ranlux64Engine.h \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RanshiEngine.h \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandBinomial.h \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/Random.h \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/Random.icc \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Utility/memory.h \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandBinomial.icc \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandBreitWigner.h \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandFlat.h \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Utility/thread_local.h \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandFlat.icc \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandBreitWigner.icc \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandChiSquare.h \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandChiSquare.icc \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandExponential.h \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandExponential.icc \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandExpZiggurat.h \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandBit.h \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandBit.icc \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandGamma.h \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandGamma.icc \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandGauss.h \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandGauss.icc \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandGaussQ.h \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandGaussQ.icc \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandGaussZiggurat.h \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandGeneral.h \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandGeneral.icc \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandLandau.h \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandLandau.icc \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandPoissonQ.h \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandPoisson.h \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandPoisson.icc \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandPoissonQ.icc \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandStudentT.h \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandStudentT.icc \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/management/include/G4ParticleMomentum.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4Step.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4VPhysicalVolume.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4RotationMatrix.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4GeomSplitter.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/geomwdefs.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4AutoLock.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4Threading.hh \
+  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/condition_variable \
+  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/future \
+  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/thread \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4VPhysicalVolume.icc \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4StepPoint.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4Allocator.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4AllocatorPool.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4SteppingControl.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4StepStatus.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4TouchableHandle.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4VTouchable.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4VTouchable.icc \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4ReferenceCountedHandle.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/materials/include/G4Material.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/materials/include/G4Element.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/materials/include/G4Isotope.hh \
@@ -315,49 +383,15 @@ CMakeFiles/rich.dir/src/DetectorConstruction.cpp.o: \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/materials/include/G4MaterialPropertiesTable.icc \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/materials/include/G4IonisParamMat.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4Exp.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4Threading.hh \
-  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/condition_variable \
-  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/future \
-  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/thread \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/materials/include/G4SandiaTable.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4OrderedTable.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4DataVector.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4DataVector.icc \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/materials/include/G4ElementVector.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/materials/include/G4NistElementBuilder.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/materials/include/G4NistMaterialBuilder.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/materials/include/G4ICRU90StoppingData.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4LPhysicsFreeVector.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4PhysicsFreeVector.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4Pow.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/solids/CSG/include/G4Box.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/solids/CSG/include/G4Box.icc \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4LogicalVolume.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4Region.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4GeomSplitter.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/geomwdefs.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4AutoLock.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4Region.icc \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4VPhysicalVolume.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4RotationMatrix.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4VPhysicalVolume.icc \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4LogicalVolume.icc \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/volumes/include/G4PVPlacement.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4PhysicalConstants.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4SystemOfUnits.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR/include/TrackerSD.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/digits_hits/detector/include/G4VSensitiveDetector.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/digits_hits/hits/include/G4VHit.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4Step.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4StepPoint.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4Allocator.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4AllocatorPool.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4SteppingControl.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4StepStatus.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4TouchableHandle.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4VTouchable.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4VTouchable.icc \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4ReferenceCountedHandle.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4StepPoint.icc \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4TrackVector.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4Profiler.hh \
@@ -366,7 +400,6 @@ CMakeFiles/rich.dir/src/DetectorConstruction.cpp.o: \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/ptl/include/PTL/Types.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/ptl/include/PTL/Utility.hh \
   /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/set \
-  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/array \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4Step.icc \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4Track.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/trkdefs.hh \
@@ -376,13 +409,40 @@ CMakeFiles/rich.dir/src/DetectorConstruction.cpp.o: \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/management/include/pwdefs.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/management/include/G4ParticleDefinition.icc \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/HEPGeometry/include/G4LorentzVector.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/management/include/G4ParticleMomentum.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/management/include/G4ElectronOccupancy.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/management/include/G4DynamicParticle.icc \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4TrackStatus.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4VUserTrackInformation.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4PhysicsModelCatalog.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4Track.icc \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/management/include/G4VProcess.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4PhysicsTable.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4PhysicsTable.icc \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4VParticleChange.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4TrackFastVector.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4FastVector.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4VParticleChange.icc \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4ForceCondition.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4GPILSelection.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4ParticleChange.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4ParticleChange.icc \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/management/include/G4ProcessType.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/bosons/include/G4OpticalPhoton.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/materials/include/G4NistManager.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/materials/include/G4NistElementBuilder.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/materials/include/G4NistMaterialBuilder.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/materials/include/G4ICRU90StoppingData.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4LPhysicsFreeVector.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4PhysicsFreeVector.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4Pow.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/solids/CSG/include/G4Box.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/solids/CSG/include/G4Box.icc \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/volumes/include/G4PVPlacement.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4PhysicalConstants.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4SystemOfUnits.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR/include/TrackerSD.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/digits_hits/detector/include/G4VSensitiveDetector.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/digits_hits/hits/include/G4VHit.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/digits_hits/hits/include/G4HCofThisEvent.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/digits_hits/hits/include/G4VHitsCollection.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/digits_hits/detector/include/G4VReadOutGeometry.hh \
@@ -415,6 +475,25 @@ CMakeFiles/rich.dir/src/DetectorConstruction.cpp.o: \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4Physics2DVector.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4Physics2DVector.icc \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/materials/include/G4SurfaceProperty.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR/include/PhysicsList.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/run/include/G4VModularPhysicsList.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/run/include/rundefs.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/run/include/G4VPhysicsConstructor.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/management/include/G4ParticleTable.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/management/include/G4ParticleTableIterator.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/management/include/G4ParticleTable.icc \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/run/include/G4PhysicsListHelper.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/run/include/G4PhysicsListOrderingParameter.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4ThreadLocalSingleton.hh \
+  /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/list \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4Cache.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4CacheDetails.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/run/include/G4VUPLSplitter.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/run/include/G4VUserPhysicsList.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/cuts/include/G4ProductionCutsTable.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/cuts/include/G4MaterialCutsCouple.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/cuts/include/G4ProductionCuts.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/cuts/include/G4MCCIndexConversionTable.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/volumes/include/G4LogicalBorderSurface.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4LogicalSurface.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4LogicalSurface.icc \

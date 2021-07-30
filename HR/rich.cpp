@@ -37,6 +37,8 @@
 #include "EventAction.hh"
 #include "SteppingAction.hh"
 #include "SimulationConstants.hh"
+#include "G4Cerenkov.hh"
+#include "G4Material.hh"
 
 #ifdef G4VIS_USE
 #include "G4VisExecutive.hh"
@@ -58,13 +60,19 @@ int main(int argc,char** argv)
 	//visManager -> initialize();
 
 	// Set MANDATORY initialization classes
-	runManager -> SetUserInitialization(new PhysicsList);
+
+	DetectorConstruction* detector = new DetectorConstruction();
+	runManager -> SetUserInitialization(detector);
+	G4Material* agel = detector->Aerogel;
+
+	PhysicsList* plist = new PhysicsList(agel);
+	runManager -> SetUserInitialization(plist);
+
 	// Set MANDATORY user action class
 	PrimaryGeneratorAction* primary_generator = new PrimaryGeneratorAction;
 	runManager -> SetUserAction(primary_generator);
 	// Set MANDATORY initialization classes
-	DetectorConstruction* detector = new DetectorConstruction();
-	runManager -> SetUserInitialization(detector);
+
 
 	//Other action classes
 	runManager->SetUserAction(new StackingAction);

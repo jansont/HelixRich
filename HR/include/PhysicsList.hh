@@ -31,16 +31,19 @@
 #define PhysicsList_h 1
 
 #include "G4VModularPhysicsList.hh"
+#include "G4Cerenkov.hh"
 #include "G4ParticleTable.hh"
+#include "G4Material.hh"
 
 
 class PhysicsList : public G4VModularPhysicsList
 {
   public:
-    PhysicsList();
+    PhysicsList(G4Material* agel);
     virtual ~PhysicsList();
     void ConstructParticle();
     void ConstructProcess();
+    G4Cerenkov* theCerenkovProcess;
 
     //these methods Construct particles
     // void ConstructBosons();
@@ -48,13 +51,13 @@ class PhysicsList : public G4VModularPhysicsList
     void ConstructBosons();
     void ConstructEM();
     void ConstructIons();
-    void ConstructOp();
+    G4Cerenkov* ConstructOp();
     virtual void SetCuts();
 
    private:
     G4ParticleTable* theParticleTable;
   	G4ParticleTable::G4PTblDicIterator* theParticleIterator;
-
+    G4Material* Agel;
 
 };
 #endif

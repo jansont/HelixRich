@@ -41,11 +41,13 @@
 #include "G4MaterialTable.hh"
 #include "SimulationConstants.hh"
 #include "G4OpticalSurface.hh"
+#include "PhysicsList.hh"
 #include "G4LogicalBorderSurface.hh"
 #include "G4LogicalSkinSurface.hh"
 #include "G4Isotope.hh"
 #include <random>
 #include "G4ParticleGun.hh"
+#include "G4Cerenkov.hh"
 
 // constructor 
 DetectorConstruction::DetectorConstruction(): 
@@ -106,7 +108,7 @@ void DetectorConstruction::DefineMaterials()
 	// secondary materials: 
 
 	// water
-	density = 1.0*g/cm3;
+	density = 1.00*g/cm3;
 	G4Material* H2O = new G4Material(name="Water", density, ncomponents=2);
 	H2O -> AddElement(H, natoms=2);
 	H2O -> AddElement(O, natoms=1);
@@ -182,6 +184,7 @@ void DetectorConstruction::DefineMaterials()
 	Air -> AddMaterial(CO2, 0.0360*perCent);
 	Air -> AddElement(Ar, 0.9340*perCent);
 
+
 	//photon energy vector for world material
 	G4double PhotonMinEnergy=SimulationConstants::PhotonMinEnergy_; 
 	G4double PhotonMaxEnergy=SimulationConstants::PhotonMaxEnergy_; 
@@ -198,7 +201,7 @@ void DetectorConstruction::DefineMaterials()
 	for (i=0; i<numBins; i++)
 	{
 		AirAbsorpLength[i]=1.E32*mm; //absoption 
-		AirRindex[i]=1.000273;		// refractive index
+		AirRindex[i]=1.000273;		// refractive index 
 	}
 	G4MaterialPropertiesTable* AirMPT = new G4MaterialPropertiesTable();
 	Air->SetMaterialPropertiesTable(AirMPT);
@@ -215,7 +218,8 @@ void DetectorConstruction::DefineMaterials()
 		VacRindex[i]=1.0;
 	}
 	//vacuum
-	density = universe_mean_density; //from PhysicalConstants.h pressure = 1.e-19*pascal;
+	density = universe_mean_density; //from PhysicalConstants.h 
+	pressure = 1.e-19*pascal;
 	temperature = 0.1*kelvin;
 	G4Material* vacuum = new G4Material(name="Galactic", z=1., a=1.01*g/mole, density,kStateGas,temperature,pressure);
 	G4MaterialPropertiesTable* vacMPT = new G4MaterialPropertiesTable();
@@ -224,7 +228,7 @@ void DetectorConstruction::DefineMaterials()
 
 	/*---------------------------------Aerogel: Material and properties-----------------------------------*/  
 	// Aerogel type
-	G4Material* Aerogel = new G4Material(name="Aerogel", SimulationConstants::aerogel_density, ncomponents=2); 
+	Aerogel = new G4Material(name="Aerogel", SimulationConstants::aerogel_density, ncomponents=2); 
 	Aerogel -> AddMaterial(SiO2, SimulationConstants::silica_prop);
 	Aerogel -> AddMaterial(H2O , SimulationConstants::water_prop);
 
@@ -270,9 +274,10 @@ void DetectorConstruction::DefineMaterials()
 			AerogelRScatLength[i] = AerogelRaleighScatLength[i];
 		}
 	}
-	AerogelMPT->AddProperty("ABSLENGTH",PhotonMomentum, AerogelAbsorpLength,numBins);
-	AerogelMPT->AddProperty("RAYLEIGH",PhotonMomentum,AerogelRScatLength,numBins);
-	AerogelMPT->AddProperty("RINDEX", PhotonMomentum, AerogelRindex, numBins);
+
+	AerogelMPT->AddProperty("ABSLENGTH",PhotonMomentum, AerogelAbsorpLength,numBins)->SetSpline(true);
+	AerogelMPT->AddProperty("RAYLEIGH",PhotonMomentum,AerogelRScatLength,numBins)->SetSpline(true);
+	AerogelMPT->AddProperty("RINDEX", PhotonMomentum, AerogelRindex, numBins)->SetSpline(true);
 	Aerogel->SetMaterialPropertiesTable(AerogelMPT);
 
 
@@ -345,7 +350,7 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
 												tile_material,
 												 "Tile"); //logical tile volume (solid volume, material, name)
 		physical_tile_curved = new G4PVPlacement(0,  // Rotation
-												G4ThreeVector(0,0,15.*cm),   // its location
+												G4ThreeVector(0,0,100.*mm),   // its location
 												logical_tile_curved,      // the logical volume
 												"Tile",            // its name
 												logical_world,     // its mother volume 
@@ -363,7 +368,7 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
 												"Tile"); //logical tile volume (solid volume, material, name)
 		// Physical volume is a placed instance of the logical volume in its mother logical volume
 		physical_tile_box = new G4PVPlacement(0,  // Rotation
-											G4ThreeVector(0,0,15.*cm),   // its location
+											G4ThreeVector(0,0,100.*mm),   // its location
 											logical_tile_box,      // the logical volume
 											"Tile",            // its name
 											logical_world,     // its mother volume 
@@ -384,7 +389,7 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
 										window_material,
 										"Detector"); //logical tile volume (solid volume, material, name)
 		physical_detector = new G4PVPlacement(0,                         // Rotation
-											G4ThreeVector(0,0,30.*cm),  // its location
+											G4ThreeVector(0,0,373*mm),  // its location
 											logical_detector,           // the logical volume
 											"Detector",                 // its name
 											logical_world,              // its mother volume 

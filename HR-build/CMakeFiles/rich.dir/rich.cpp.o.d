@@ -513,6 +513,8 @@ CMakeFiles/rich.dir/rich.cpp.o: \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/graphics_reps/include/G4Visible.icc \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/solids/CSG/include/G4Tubs.icc \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR/include/PrimaryGeneratorAction.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/electromagnetic/xrays/include/G4Cerenkov.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/bosons/include/G4OpticalPhoton.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR/include/PhysicsList.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/run/include/G4VModularPhysicsList.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/run/include/G4VPhysicsConstructor.hh \

@@ -35,6 +35,7 @@
 #include "G4MaterialTable.hh"
 #include "G4Tubs.hh"
 #include "PrimaryGeneratorAction.hh"
+#include "G4Cerenkov.hh"
 
 
 // These two classes are called within the construct function
@@ -48,6 +49,7 @@ class DetectorConstruction : public G4VUserDetectorConstruction
       DetectorConstruction();
       virtual ~DetectorConstruction();
       virtual G4VPhysicalVolume* Construct();
+      G4Material* Aerogel;
 
       // G4LogicalVolume GetLogicalCurved()  { returnlogical_tile_curved;}
       // G4LogicalVolume GetLogicalBox()  { return logical_tile_box;}
@@ -58,6 +60,7 @@ class DetectorConstruction : public G4VUserDetectorConstruction
       G4Box* solid_world;
       G4LogicalVolume* logical_world;
       G4VPhysicalVolume* physical_world;
+
 
       G4Box* solid_tile_box;
       G4LogicalVolume* logical_tile_box;
