@@ -26,6 +26,8 @@
 // Helix Rich
 // Author: Theodore Janson (theodore.janson@mail.mcgill.ca)
 
+
+
 // Our required includes
 #include "G4RunManager.hh"
 #include "G4UImanager.hh"
@@ -38,7 +40,11 @@
 #include "SteppingAction.hh"
 #include "SimulationConstants.hh"
 #include "G4Cerenkov.hh"
+#include "G4OpticalPhysics.hh"
 #include "G4Material.hh"
+#include "SimulationConstants.hh"
+#include <string> 
+
 
 #ifdef G4VIS_USE
 #include "G4VisExecutive.hh"
@@ -49,9 +55,9 @@
 #include "G4UIExecutive.hh"
 #endif
 
-int main(int argc,char** argv)
+void aRun(int argc,char** argv)
 {
-	// Construct the default run manager
+		// Construct the default run manager
 	// App Dev Guide notes that this is the ONLY manager class in G4 kernel that should be explicitly constructed in main()
 	G4RunManager* runManager = new G4RunManager;
 
@@ -59,13 +65,24 @@ int main(int argc,char** argv)
 	//G4VisManager* visManager = VisManager;
 	//visManager -> initialize();
 
+
+    //choose the Random engine
+    CLHEP::HepRandom::setTheEngine(new CLHEP::HepJamesRandom());;
+    
+    //set (somewhat) random seed with system time
+    G4long seed = std::abs(time(NULL)*(time_t)&runManager);
+    //G4long seed = 3;
+    CLHEP::HepRandom::setTheSeed(seed);
+
 	// Set MANDATORY initialization classes
 
 	DetectorConstruction* detector = new DetectorConstruction();
 	runManager -> SetUserInitialization(detector);
-	G4Material* agel = detector->Aerogel;
 
-	PhysicsList* plist = new PhysicsList(agel);
+	PhysicsList* plist = new PhysicsList();
+	// G4OpticalPhysics* opticalPhysics = new G4OpticalPhysics();
+	// plist->RegisterPhysics(opticalPhysics);
+
 	runManager -> SetUserInitialization(plist);
 
 	// Set MANDATORY user action class
@@ -102,34 +119,35 @@ int main(int argc,char** argv)
 
 	// Run the kernel
 	runManager -> Initialize();
-	// Get the pointer to the User Interface manager
-	G4UImanager* UImanager = G4UImanager::GetUIpointer();
-	if (argc==1)   // Define UI session for interactive mode
+
+	if (SimulationConstants::ShowTerminalUI)
 	{
-		#ifdef G4UI_USE
-			G4UIExecutive * ui = new G4UIExecutive(argc,argv);
-			#ifdef G4VIS_USE
-				UImanager->ApplyCommand("/control/execute vis.mac");
+		//Get the pointer to the User Interface manager
+		G4UImanager* UImanager = G4UImanager::GetUIpointer();
+		if (argc==1)   // Define UI session for interactive mode
+		{
+			#ifdef G4UI_USE
+				G4UIExecutive * ui = new G4UIExecutive(argc,argv);
+				#ifdef G4VIS_USE
+					UImanager->ApplyCommand("/control/execute vis.mac");
+				#endif
+				ui->SessionStart();
+				delete ui;
 			#endif
-			ui->SessionStart();
-			delete ui;
-		#endif
+		}
+		else         // Batch mode
+		{
+			G4String command = "/control/execute ";
+			G4String fileName = argv[1];
+			UImanager->ApplyCommand(command+fileName);
+		}
+	    
+		// get pointer to UI manager and set verbosities
+		G4UImanager* UI = G4UImanager::GetUIpointer();
+		UI -> ApplyCommand("/run/verbose 1");
+		UI -> ApplyCommand("/event/verbose 1");
+		UI -> ApplyCommand("/tracking/verbose 1");
 	}
-	else         // Batch mode
-	{
-		G4String command = "/control/execute ";
-		G4String fileName = argv[1];
-		UImanager->ApplyCommand(command+fileName);
-	}
-
-
-    
-	// get pointer to UI manager and set verbosities
-	G4UImanager* UI = G4UImanager::GetUIpointer();
-	UI -> ApplyCommand("/run/verbose 1");
-	UI -> ApplyCommand("/event/verbose 1");
-	UI -> ApplyCommand("/tracking/verbose 1");
-
 	// start a run
 	int numberOfEvents = SimulationConstants::runCount;
 	runManager -> BeamOn(numberOfEvents);
@@ -141,5 +159,16 @@ int main(int argc,char** argv)
 	#endif
 
  	delete runManager;
+}
+
+
+int main(int argc,char** argv)
+{
+	// G4double* AerogelRindex = [1.150, 1.151, 1.152, 1.153, 1.154, 1.155, 1.156, 1.157, 1.158, 1.159, 1.160];
+	// G4int length = (sizeof(AerogelRindex)/sizeof(*AerogelRindex));
+	aRun(argc,argv);
 	return 0;
 }
+
+
+

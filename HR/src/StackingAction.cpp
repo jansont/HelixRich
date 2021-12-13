@@ -1,3 +1,4 @@
+
 //
 // ********************************************************************
 // * License and Disclaimer                                           *
@@ -29,6 +30,7 @@
 #include "StackingAction.hh"
 #include "G4ParticleDefinition.hh"
 #include "G4ParticleTypes.hh"
+#include "G4VProcess.hh"
 #include "G4Track.hh"
 
 StackingAction::StackingAction(): photonCounter(0) {}
@@ -40,21 +42,29 @@ G4ClassificationOfNewTrack StackingAction::ClassifyNewTrack(const G4Track * aTra
 	{ // particle is optical photon
 		if(aTrack->GetParentID()>0) // particle is secondary
 			photonCounter++;
+
+      if(aTrack->GetCreatorProcess()->GetProcessName() == "Cerenkov")
+        fCerenkovCounter++;
 	}
 	return fUrgent;
 }
 
 void StackingAction::NewStage()
 {
-	G4cout << "Number of optical photons produced in this event : " << photonCounter << G4endl;
+	// G4cout << "Number of optical photons produced in this event : " << photonCounter << G4endl;
 	outFile.open("HelixRich.out", std::ofstream::app);
 	outFile << "# " << photonCounter << " Photons produced." << std::endl;
 	outFile.close();
+
+	  G4cout << "Number of Cerenkov photons produced in this event : "
+         << fCerenkovCounter << G4endl;
 }
 
 void StackingAction::PrepareNewEvent()
 {
 	photonCounter = 0;
+	  fCerenkovCounter = 0;
+
 }
 
 G4int StackingAction::GetPhotonCounter()
@@ -62,3 +72,7 @@ G4int StackingAction::GetPhotonCounter()
 	return photonCounter;
 }
 
+G4int StackingAction::GetCerenkovCounter()
+{
+	return fCerenkovCounter;
+}

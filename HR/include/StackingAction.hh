@@ -44,8 +44,10 @@ class StackingAction : public G4UserStackingAction
     void NewStage();
     void PrepareNewEvent();
     G4int GetPhotonCounter();
+    G4int GetCerenkovCounter();
   private:
     G4int photonCounter;
+    G4int fCerenkovCounter;
     std::ofstream outFile;
 };
 #endif

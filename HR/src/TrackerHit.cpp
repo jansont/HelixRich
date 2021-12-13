@@ -58,7 +58,7 @@ G4int TrackerHit::operator==(const TrackerHit& hit) const
   return (this==&hit) ? 1 : 0;
 }
 
-void TrackerHit::Print(std::ostream &stream, bool printtime, bool printposition, bool printenergy)
+void TrackerHit::PrintStream(std::ostream &stream, bool printtime, bool printposition, bool printenergy)
 {
 	if (printtime)
 		stream << time << "\t\t";

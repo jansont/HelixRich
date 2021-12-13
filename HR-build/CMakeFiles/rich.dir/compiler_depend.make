@@ -6,19 +6,19 @@ CMakeFiles/rich.dir/rich.cpp.o: /Users/theojanson/Project/McGillPhysics/HelixRic
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/run/include/rundefs.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4Types.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4-build/source/global/include/G4GlobalConfig.hh \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/complex \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__config \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/complex \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/pthread.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/type_traits \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cstddef \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__cxx_version \
-  /Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include/stddef.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include/__stddef_max_align_t.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__nullptr \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/stdexcept \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/exception \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cstdlib \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/stdlib.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/type_traits \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cstddef \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/version \
+  /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include/stddef.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include/__stddef_max_align_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__nullptr \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/stdexcept \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/exception \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cstdlib \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/Availability.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/AvailabilityVersions.h \
@@ -61,8 +61,8 @@ CMakeFiles/rich.dir/rich.cpp.o: /Users/theojanson/Project/McGillPhysics/HelixRic
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_size_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_uid_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/resource.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/stdint.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include/stdint.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/stdint.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include/stdint.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/stdint.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types/_uint8_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types/_uint16_t.h \
@@ -84,16 +84,13 @@ CMakeFiles/rich.dir/rich.cpp.o: /Users/theojanson/Project/McGillPhysics/HelixRic
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/malloc/_malloc.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_dev_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_mode_t.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/math.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/math.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/limits \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__undef_macros \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/iosfwd \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/wchar.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/iosfwd \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/wchar.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/stddef.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/wchar.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_mbstate_t.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include/stdarg.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/stdio.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include/stdarg.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_va_list.h \
@@ -109,68 +106,56 @@ CMakeFiles/rich.dir/rich.cpp.o: /Users/theojanson/Project/McGillPhysics/HelixRic
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/__wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_wint_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types/_wctype_t.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/ctype.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/ctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/ctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_ctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/runetype.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cmath \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/sstream \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/ostream \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/ios \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__locale \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/string \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/string_view \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__string \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/algorithm \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/initializer_list \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cstring \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/string.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cmath \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/math.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/math.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/limits \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__undef_macros \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/sstream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/ostream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/ios \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__locale \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/string \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/string_view \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__string \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/algorithm \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/initializer_list \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cstring \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/string.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/string.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_rsize_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_errno_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/strings.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/utility \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__tuple \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cstdint \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__debug \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/memory \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/typeinfo \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/new \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/iterator \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__functional_base \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/tuple \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/atomic \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cassert \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/assert.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/functional \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/bit \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cstdio \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cwchar \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cwctype \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cctype \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/wctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/wctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types/_wctrans_t.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/mutex \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__mutex_base \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/chrono \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/ctime \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/ratio \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/climits \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/limits.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include/limits.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/utility \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__tuple \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cstdint \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__debug \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/memory \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/typeinfo \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/new \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/iterator \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__functional_base \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/tuple \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/atomic \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__threading_support \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/chrono \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/ctime \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/ratio \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/climits \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/limits.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/machine/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/i386/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/i386/_limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/syslimits.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/system_error \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__errc \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cerrno \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/errno.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/errno.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/errno.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/errno.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__threading_support \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/pthread/sched.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/pthread/pthread_impl.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_pthread/_pthread_cond_t.h \
@@ -186,7 +171,23 @@ CMakeFiles/rich.dir/rich.cpp.o: /Users/theojanson/Project/McGillPhysics/HelixRic
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/qos.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_mach_port_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sched.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/locale.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cassert \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/assert.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/functional \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/bit \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cstdio \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cwchar \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cwctype \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cctype \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/wctype.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/wctype.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types/_wctrans_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/mutex \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__mutex_base \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/system_error \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__errc \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cerrno \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/locale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/locale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_locale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/xlocale.h \
@@ -198,10 +199,9 @@ CMakeFiles/rich.dir/rich.cpp.o: /Users/theojanson/Project/McGillPhysics/HelixRic
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/xlocale/_string.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/xlocale/_time.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/xlocale/_wchar.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/stddef.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/xlocale/_wctype.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/streambuf \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/locale \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/streambuf \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/locale \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/nl_types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_u_char.h \
@@ -229,15 +229,15 @@ CMakeFiles/rich.dir/rich.cpp.o: /Users/theojanson/Project/McGillPhysics/HelixRic
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_fsblkcnt_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types/_nl_item.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__bsd_locale_defaults.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/bitset \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__bit_reference \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/istream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/bitset \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__bit_reference \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/istream \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/tls.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/event/include/G4Event.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/globals.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4ios.hh \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/iostream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/iostream \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4String.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4String.icc \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/templates.hh \
@@ -245,11 +245,11 @@ CMakeFiles/rich.dir/rich.cpp.o: /Users/theojanson/Project/McGillPhysics/HelixRic
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4VExceptionHandler.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4ExceptionSeverity.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4EnvironmentUtils.hh \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/iomanip \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/map \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__tree \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__node_handle \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/optional \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/iomanip \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/map \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__tree \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__node_handle \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/optional \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/event/include/evtdefs.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4Allocator.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4AllocatorPool.hh \
@@ -262,8 +262,8 @@ CMakeFiles/rich.dir/rich.cpp.o: /Users/theojanson/Project/McGillPhysics/HelixRic
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/management/include/G4PrimaryParticle.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/digits_hits/hits/include/G4HCofThisEvent.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/digits_hits/hits/include/G4VHitsCollection.hh \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/vector \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__split_buffer \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/vector \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__split_buffer \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/digits_hits/digits/include/G4DCofThisEvent.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/digits_hits/digits/include/G4VDigiCollection.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/event/include/G4TrajectoryContainer.hh \
@@ -274,8 +274,8 @@ CMakeFiles/rich.dir/rich.cpp.o: /Users/theojanson/Project/McGillPhysics/HelixRic
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/ptl/include/PTL/Globals.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/ptl/include/PTL/Types.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/ptl/include/PTL/Utility.hh \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/set \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/array \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/set \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/array \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/event/include/G4EventManager.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/event/include/G4StackManager.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/event/include/G4UserStackingAction.hh \
@@ -293,9 +293,9 @@ CMakeFiles/rich.dir/rich.cpp.o: /Users/theojanson/Project/McGillPhysics/HelixRic
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/geomwdefs.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4AutoLock.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4Threading.hh \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/condition_variable \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/future \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/thread \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/condition_variable \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/future \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/thread \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4Region.icc \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4VPhysicalVolume.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/HEPGeometry/include/geomdefs.hh \
@@ -343,10 +343,10 @@ CMakeFiles/rich.dir/rich.cpp.o: /Users/theojanson/Project/McGillPhysics/HelixRic
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/materials/include/G4MaterialPropertyVector.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4PhysicsOrderedFreeVector.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4PhysicsVector.hh \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/fstream \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/filesystem \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/stack \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/deque \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/fstream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/filesystem \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/stack \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/deque \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4PhysicsVectorType.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4PhysicsVector.icc \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/materials/include/G4MaterialPropertiesTable.icc \
@@ -495,7 +495,7 @@ CMakeFiles/rich.dir/rich.cpp.o: /Users/theojanson/Project/McGillPhysics/HelixRic
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4ApplicationState.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/tracking/include/G4UserTrackingAction.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/run/include/G4RunManagerKernel.hh \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/list \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/list \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/intercoms/include/G4UImanager.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/intercoms/include/icomsdefs.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4VStateDependent.hh \
@@ -518,19 +518,23 @@ CMakeFiles/rich.dir/rich.cpp.o: /Users/theojanson/Project/McGillPhysics/HelixRic
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/electromagnetic/xrays/include/G4Cerenkov.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/bosons/include/G4OpticalPhoton.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR/include/PhysicsList.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/run/include/G4VModularPhysicsList.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/run/include/G4VPhysicsConstructor.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/run/include/G4PhysicsListHelper.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/run/include/G4PhysicsListOrderingParameter.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4ThreadLocalSingleton.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4Cache.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4CacheDetails.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/run/include/G4VUPLSplitter.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/run/include/G4VUserPhysicsList.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/cuts/include/G4ProductionCutsTable.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/cuts/include/G4MaterialCutsCouple.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/cuts/include/G4ProductionCuts.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/cuts/include/G4MCCIndexConversionTable.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/run/include/G4VUPLSplitter.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/optical/include/G4OpBoundaryProcess.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/HEPRandom/include/G4RandomTools.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/HEPRandom/include/G4RandomDirection.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4TwoVector.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Vector/TwoVector.h \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Vector/TwoVector.icc \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/management/include/G4VDiscreteProcess.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/materials/include/G4OpticalSurface.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4Physics2DVector.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4Physics2DVector.icc \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/materials/include/G4SurfaceProperty.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR/include/StackingAction.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR/include/RunAction.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/run/include/G4UserRunAction.hh \
@@ -545,7 +549,15 @@ CMakeFiles/rich.dir/rich.cpp.o: /Users/theojanson/Project/McGillPhysics/HelixRic
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR/include/SimulationConstants.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4SystemOfUnits.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4UnitsTable.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4UnitsTable.icc
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4UnitsTable.icc \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/physics_lists/constructors/electromagnetic/include/G4OpticalPhysics.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/run/include/G4VPhysicsConstructor.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/run/include/G4PhysicsListHelper.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/run/include/G4PhysicsListOrderingParameter.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4ThreadLocalSingleton.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4Cache.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4CacheDetails.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/electromagnetic/utils/include/G4OpticalParameters.hh
 
 CMakeFiles/rich.dir/src/DetectorConstruction.cpp.o: /Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR/src/DetectorConstruction.cpp \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR/include/DetectorConstruction.hh \
@@ -554,19 +566,19 @@ CMakeFiles/rich.dir/src/DetectorConstruction.cpp.o: /Users/theojanson/Project/Mc
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4ios.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4Types.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4-build/source/global/include/G4GlobalConfig.hh \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/complex \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__config \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/complex \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/pthread.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/type_traits \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cstddef \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__cxx_version \
-  /Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include/stddef.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include/__stddef_max_align_t.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__nullptr \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/stdexcept \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/exception \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cstdlib \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/stdlib.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/type_traits \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cstddef \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/version \
+  /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include/stddef.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include/__stddef_max_align_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__nullptr \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/stdexcept \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/exception \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cstdlib \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/Availability.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/AvailabilityVersions.h \
@@ -609,8 +621,8 @@ CMakeFiles/rich.dir/src/DetectorConstruction.cpp.o: /Users/theojanson/Project/Mc
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_size_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_uid_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/resource.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/stdint.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include/stdint.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/stdint.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include/stdint.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/stdint.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types/_uint8_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types/_uint16_t.h \
@@ -632,16 +644,13 @@ CMakeFiles/rich.dir/src/DetectorConstruction.cpp.o: /Users/theojanson/Project/Mc
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/malloc/_malloc.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_dev_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_mode_t.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/math.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/math.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/limits \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__undef_macros \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/iosfwd \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/wchar.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/iosfwd \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/wchar.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/stddef.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/wchar.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_mbstate_t.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include/stdarg.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/stdio.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include/stdarg.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_va_list.h \
@@ -657,68 +666,56 @@ CMakeFiles/rich.dir/src/DetectorConstruction.cpp.o: /Users/theojanson/Project/Mc
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/__wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_wint_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types/_wctype_t.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/ctype.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/ctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/ctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_ctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/runetype.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cmath \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/sstream \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/ostream \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/ios \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__locale \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/string \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/string_view \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__string \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/algorithm \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/initializer_list \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cstring \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/string.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cmath \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/math.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/math.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/limits \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__undef_macros \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/sstream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/ostream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/ios \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__locale \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/string \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/string_view \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__string \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/algorithm \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/initializer_list \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cstring \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/string.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/string.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_rsize_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_errno_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/strings.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/utility \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__tuple \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cstdint \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__debug \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/memory \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/typeinfo \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/new \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/iterator \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__functional_base \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/tuple \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/atomic \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cassert \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/assert.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/functional \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/bit \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cstdio \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cwchar \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cwctype \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cctype \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/wctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/wctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types/_wctrans_t.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/mutex \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__mutex_base \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/chrono \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/ctime \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/ratio \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/climits \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/limits.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include/limits.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/utility \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__tuple \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cstdint \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__debug \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/memory \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/typeinfo \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/new \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/iterator \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__functional_base \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/tuple \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/atomic \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__threading_support \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/chrono \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/ctime \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/ratio \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/climits \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/limits.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/machine/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/i386/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/i386/_limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/syslimits.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/system_error \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__errc \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cerrno \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/errno.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/errno.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/errno.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/errno.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__threading_support \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/pthread/sched.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/pthread/pthread_impl.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_pthread/_pthread_cond_t.h \
@@ -734,7 +731,23 @@ CMakeFiles/rich.dir/src/DetectorConstruction.cpp.o: /Users/theojanson/Project/Mc
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/qos.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_mach_port_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sched.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/locale.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cassert \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/assert.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/functional \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/bit \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cstdio \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cwchar \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cwctype \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cctype \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/wctype.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/wctype.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types/_wctrans_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/mutex \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__mutex_base \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/system_error \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__errc \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cerrno \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/locale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/locale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_locale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/xlocale.h \
@@ -746,10 +759,9 @@ CMakeFiles/rich.dir/src/DetectorConstruction.cpp.o: /Users/theojanson/Project/Mc
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/xlocale/_string.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/xlocale/_time.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/xlocale/_wchar.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/stddef.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/xlocale/_wctype.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/streambuf \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/locale \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/streambuf \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/locale \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/nl_types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_u_char.h \
@@ -777,12 +789,12 @@ CMakeFiles/rich.dir/src/DetectorConstruction.cpp.o: /Users/theojanson/Project/Mc
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_fsblkcnt_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types/_nl_item.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__bsd_locale_defaults.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/bitset \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__bit_reference \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/istream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/bitset \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__bit_reference \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/istream \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/tls.hh \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/iostream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/iostream \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4String.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4String.icc \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/templates.hh \
@@ -790,13 +802,13 @@ CMakeFiles/rich.dir/src/DetectorConstruction.cpp.o: /Users/theojanson/Project/Mc
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4VExceptionHandler.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4ExceptionSeverity.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4EnvironmentUtils.hh \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/iomanip \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/map \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__tree \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__node_handle \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/optional \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/vector \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__split_buffer \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/iomanip \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/map \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__tree \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__node_handle \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/optional \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/vector \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__split_buffer \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/run/include/G4VUserPrimaryGeneratorAction.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/materials/include/G4MaterialTable.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/solids/CSG/include/G4Tubs.hh \
@@ -841,10 +853,10 @@ CMakeFiles/rich.dir/src/DetectorConstruction.cpp.o: /Users/theojanson/Project/Mc
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/graphics_reps/include/G4Visible.icc \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/solids/CSG/include/G4Tubs.icc \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR/include/PrimaryGeneratorAction.hh \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/fstream \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/filesystem \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/stack \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/deque \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/fstream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/filesystem \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/stack \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/deque \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/electromagnetic/xrays/include/G4Cerenkov.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/HEPRandom/include/Randomize.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/Randomize.h \
@@ -853,7 +865,7 @@ CMakeFiles/rich.dir/src/DetectorConstruction.cpp.o: /Users/theojanson/Project/Mc
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandomEngine.icc \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/JamesRandom.h \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/MixMaxRng.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/array \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/array \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/MTwistEngine.h \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RanecuEngine.h \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RanluxEngine.h \
@@ -901,9 +913,9 @@ CMakeFiles/rich.dir/src/DetectorConstruction.cpp.o: /Users/theojanson/Project/Mc
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/geomwdefs.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4AutoLock.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4Threading.hh \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/condition_variable \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/future \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/thread \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/condition_variable \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/future \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/thread \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4VPhysicalVolume.icc \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4StepPoint.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4Allocator.hh \
@@ -947,7 +959,7 @@ CMakeFiles/rich.dir/src/DetectorConstruction.cpp.o: /Users/theojanson/Project/Mc
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/ptl/include/PTL/Globals.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/ptl/include/PTL/Types.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/ptl/include/PTL/Utility.hh \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/set \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/set \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4Step.icc \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4Track.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/trkdefs.hh \
@@ -1024,32 +1036,31 @@ CMakeFiles/rich.dir/src/DetectorConstruction.cpp.o: /Users/theojanson/Project/Mc
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4Physics2DVector.icc \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/materials/include/G4SurfaceProperty.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR/include/PhysicsList.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/run/include/G4VModularPhysicsList.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/run/include/G4VUserPhysicsList.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/run/include/rundefs.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/run/include/G4VPhysicsConstructor.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/management/include/G4ParticleTable.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/management/include/G4ParticleTableIterator.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/management/include/G4ParticleTable.icc \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/run/include/G4PhysicsListHelper.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/run/include/G4PhysicsListOrderingParameter.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4ThreadLocalSingleton.hh \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/list \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4Cache.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4CacheDetails.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/run/include/G4VUPLSplitter.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/run/include/G4VUserPhysicsList.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/cuts/include/G4ProductionCutsTable.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/cuts/include/G4MaterialCutsCouple.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/cuts/include/G4ProductionCuts.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/cuts/include/G4MCCIndexConversionTable.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/run/include/G4VUPLSplitter.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/optical/include/G4OpBoundaryProcess.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/HEPRandom/include/G4RandomTools.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/HEPRandom/include/G4RandomDirection.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4TwoVector.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Vector/TwoVector.h \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Vector/TwoVector.icc \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/management/include/G4VDiscreteProcess.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/volumes/include/G4LogicalBorderSurface.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4LogicalSurface.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4LogicalSurface.icc \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/volumes/include/G4LogicalBorderSurface.icc \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/volumes/include/G4LogicalSkinSurface.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/volumes/include/G4LogicalSkinSurface.icc \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/random \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/numeric \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/random \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/numeric \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/event/include/G4ParticleGun.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/event/include/G4VPrimaryGenerator.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/management/include/G4PrimaryVertex.hh \
@@ -1062,19 +1073,19 @@ CMakeFiles/rich.dir/src/EventAction.cpp.o: /Users/theojanson/Project/McGillPhysi
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4ios.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4Types.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4-build/source/global/include/G4GlobalConfig.hh \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/complex \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__config \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/complex \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/pthread.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/type_traits \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cstddef \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__cxx_version \
-  /Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include/stddef.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include/__stddef_max_align_t.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__nullptr \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/stdexcept \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/exception \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cstdlib \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/stdlib.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/type_traits \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cstddef \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/version \
+  /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include/stddef.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include/__stddef_max_align_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__nullptr \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/stdexcept \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/exception \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cstdlib \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/Availability.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/AvailabilityVersions.h \
@@ -1117,8 +1128,8 @@ CMakeFiles/rich.dir/src/EventAction.cpp.o: /Users/theojanson/Project/McGillPhysi
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_size_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_uid_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/resource.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/stdint.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include/stdint.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/stdint.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include/stdint.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/stdint.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types/_uint8_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types/_uint16_t.h \
@@ -1140,16 +1151,13 @@ CMakeFiles/rich.dir/src/EventAction.cpp.o: /Users/theojanson/Project/McGillPhysi
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/malloc/_malloc.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_dev_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_mode_t.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/math.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/math.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/limits \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__undef_macros \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/iosfwd \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/wchar.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/iosfwd \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/wchar.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/stddef.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/wchar.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_mbstate_t.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include/stdarg.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/stdio.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include/stdarg.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_va_list.h \
@@ -1165,68 +1173,56 @@ CMakeFiles/rich.dir/src/EventAction.cpp.o: /Users/theojanson/Project/McGillPhysi
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/__wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_wint_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types/_wctype_t.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/ctype.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/ctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/ctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_ctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/runetype.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cmath \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/sstream \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/ostream \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/ios \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__locale \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/string \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/string_view \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__string \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/algorithm \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/initializer_list \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cstring \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/string.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cmath \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/math.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/math.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/limits \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__undef_macros \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/sstream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/ostream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/ios \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__locale \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/string \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/string_view \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__string \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/algorithm \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/initializer_list \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cstring \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/string.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/string.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_rsize_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_errno_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/strings.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/utility \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__tuple \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cstdint \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__debug \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/memory \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/typeinfo \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/new \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/iterator \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__functional_base \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/tuple \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/atomic \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cassert \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/assert.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/functional \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/bit \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cstdio \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cwchar \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cwctype \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cctype \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/wctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/wctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types/_wctrans_t.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/mutex \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__mutex_base \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/chrono \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/ctime \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/ratio \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/climits \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/limits.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include/limits.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/utility \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__tuple \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cstdint \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__debug \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/memory \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/typeinfo \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/new \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/iterator \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__functional_base \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/tuple \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/atomic \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__threading_support \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/chrono \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/ctime \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/ratio \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/climits \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/limits.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/machine/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/i386/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/i386/_limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/syslimits.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/system_error \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__errc \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cerrno \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/errno.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/errno.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/errno.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/errno.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__threading_support \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/pthread/sched.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/pthread/pthread_impl.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_pthread/_pthread_cond_t.h \
@@ -1242,7 +1238,23 @@ CMakeFiles/rich.dir/src/EventAction.cpp.o: /Users/theojanson/Project/McGillPhysi
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/qos.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_mach_port_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sched.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/locale.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cassert \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/assert.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/functional \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/bit \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cstdio \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cwchar \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cwctype \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cctype \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/wctype.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/wctype.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types/_wctrans_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/mutex \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__mutex_base \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/system_error \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__errc \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cerrno \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/locale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/locale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_locale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/xlocale.h \
@@ -1254,10 +1266,9 @@ CMakeFiles/rich.dir/src/EventAction.cpp.o: /Users/theojanson/Project/McGillPhysi
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/xlocale/_string.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/xlocale/_time.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/xlocale/_wchar.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/stddef.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/xlocale/_wctype.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/streambuf \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/locale \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/streambuf \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/locale \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/nl_types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_u_char.h \
@@ -1285,12 +1296,12 @@ CMakeFiles/rich.dir/src/EventAction.cpp.o: /Users/theojanson/Project/McGillPhysi
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_fsblkcnt_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types/_nl_item.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__bsd_locale_defaults.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/bitset \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__bit_reference \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/istream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/bitset \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__bit_reference \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/istream \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/tls.hh \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/iostream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/iostream \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4String.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4String.icc \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/templates.hh \
@@ -1298,11 +1309,11 @@ CMakeFiles/rich.dir/src/EventAction.cpp.o: /Users/theojanson/Project/McGillPhysi
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4VExceptionHandler.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4ExceptionSeverity.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4EnvironmentUtils.hh \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/iomanip \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/map \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__tree \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__node_handle \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/optional \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/iomanip \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/map \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__tree \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__node_handle \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/optional \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR/include/RunAction.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/run/include/G4UserRunAction.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/analysis/accumulables/include/G4Accumulable.hh \
@@ -1323,8 +1334,8 @@ CMakeFiles/rich.dir/src/EventAction.cpp.o: /Users/theojanson/Project/McGillPhysi
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/management/include/G4PrimaryParticle.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/digits_hits/hits/include/G4HCofThisEvent.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/digits_hits/hits/include/G4VHitsCollection.hh \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/vector \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__split_buffer \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/vector \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__split_buffer \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/digits_hits/digits/include/G4DCofThisEvent.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/digits_hits/digits/include/G4VDigiCollection.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/event/include/G4TrajectoryContainer.hh \
@@ -1335,8 +1346,8 @@ CMakeFiles/rich.dir/src/EventAction.cpp.o: /Users/theojanson/Project/McGillPhysi
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/ptl/include/PTL/Globals.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/ptl/include/PTL/Types.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/ptl/include/PTL/Utility.hh \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/set \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/array \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/set \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/array \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/run/include/G4RunManager.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/run/include/rundefs.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/event/include/G4EventManager.hh \
@@ -1356,9 +1367,9 @@ CMakeFiles/rich.dir/src/EventAction.cpp.o: /Users/theojanson/Project/McGillPhysi
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/geomwdefs.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4AutoLock.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4Threading.hh \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/condition_variable \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/future \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/thread \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/condition_variable \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/future \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/thread \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4Region.icc \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4VPhysicalVolume.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/HEPGeometry/include/geomdefs.hh \
@@ -1406,10 +1417,10 @@ CMakeFiles/rich.dir/src/EventAction.cpp.o: /Users/theojanson/Project/McGillPhysi
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/materials/include/G4MaterialPropertyVector.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4PhysicsOrderedFreeVector.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4PhysicsVector.hh \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/fstream \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/filesystem \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/stack \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/deque \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/fstream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/filesystem \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/stack \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/deque \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4PhysicsVectorType.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4PhysicsVector.icc \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/materials/include/G4MaterialPropertiesTable.icc \
@@ -1558,31 +1569,50 @@ CMakeFiles/rich.dir/src/EventAction.cpp.o: /Users/theojanson/Project/McGillPhysi
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4ApplicationState.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/tracking/include/G4UserTrackingAction.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/run/include/G4RunManagerKernel.hh \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/list
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/list
 
 CMakeFiles/rich.dir/src/PhysicsList.cpp.o: /Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR/src/PhysicsList.cpp \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR/include/PhysicsList.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/run/include/G4VModularPhysicsList.hh \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/vector \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__config \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/run/include/G4VUserPhysicsList.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4ios.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4Types.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4-build/source/global/include/G4GlobalConfig.hh \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/complex \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/pthread.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/iosfwd \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/wchar.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/wchar.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/cdefs.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_symbol_aliasing.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_posix_availability.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/machine/_types.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/i386/_types.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_pthread/_pthread_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/type_traits \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cstddef \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/version \
+  /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include/stddef.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include/__stddef_max_align_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__nullptr \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/stdexcept \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/exception \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cstdlib \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/stdlib.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/Availability.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/AvailabilityVersions.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/AvailabilityInternal.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_null.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_size_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_mbstate_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/cdefs.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_symbol_aliasing.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_posix_availability.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/machine/_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/i386/_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_pthread/_pthread_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/wait.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_pid_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_id_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/signal.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/appleapiopts.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/machine/signal.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/i386/signal.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/machine/_mcontext.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/i386/_mcontext.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/mach/machine/_structs.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/mach/i386/_structs.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/machine/types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/i386/types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_int8_t.h \
@@ -1595,11 +1625,43 @@ CMakeFiles/rich.dir/src/PhysicsList.cpp.o: /Users/theojanson/Project/McGillPhysi
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_u_int64_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_intptr_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_uintptr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_pthread/_pthread_attr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_sigaltstack.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_ucontext.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_sigset_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_size_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_uid_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/resource.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/stdint.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include/stdint.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/stdint.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types/_uint8_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types/_uint16_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types/_uint32_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types/_uint64_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types/_intmax_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types/_uintmax_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_timeval.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/machine/endian.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/i386/endian.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_endian.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/libkern/_OSByteOrder.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/libkern/i386/_OSByteOrder.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/alloca.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_ct_rune_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_rune_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_wchar_t.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include/stdarg.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/stdio.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_null.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/malloc/_malloc.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_dev_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_mode_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/iosfwd \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/wchar.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/stddef.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/wchar.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_mbstate_t.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include/stdarg.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_va_list.h \
@@ -1615,125 +1677,56 @@ CMakeFiles/rich.dir/src/PhysicsList.cpp.o: /Users/theojanson/Project/McGillPhysi
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/__wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_wint_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types/_wctype_t.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/ctype.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/ctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/ctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_ctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/runetype.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__bit_reference \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/bit \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/limits \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/type_traits \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cstddef \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__cxx_version \
-  /Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include/stddef.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include/__stddef_max_align_t.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__nullptr \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__undef_macros \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__debug \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/algorithm \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/initializer_list \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cstring \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/string.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cmath \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/math.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/math.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/limits \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__undef_macros \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/sstream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/ostream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/ios \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__locale \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/string \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/string_view \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__string \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/algorithm \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/initializer_list \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cstring \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/string.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/string.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_rsize_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_errno_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/strings.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/utility \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__tuple \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cstdint \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/stdint.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include/stdint.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/stdint.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types/_uint8_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types/_uint16_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types/_uint32_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types/_uint64_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types/_intmax_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types/_uintmax_t.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/memory \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/typeinfo \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/exception \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cstdlib \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/stdlib.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/stdlib.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/wait.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_pid_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_id_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/signal.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/appleapiopts.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/machine/signal.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/i386/signal.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/machine/_mcontext.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/i386/_mcontext.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/mach/machine/_structs.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/mach/i386/_structs.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_pthread/_pthread_attr_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_sigaltstack.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_ucontext.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_sigset_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_uid_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/resource.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_timeval.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/machine/endian.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/i386/endian.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_endian.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/libkern/_OSByteOrder.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/libkern/i386/_OSByteOrder.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/alloca.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/malloc/_malloc.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_dev_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_mode_t.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/math.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/math.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/new \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/iterator \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__functional_base \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/tuple \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/stdexcept \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/atomic \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cassert \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/assert.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/functional \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/climits \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/limits.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include/limits.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/utility \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__tuple \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cstdint \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__debug \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/memory \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/typeinfo \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/new \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/iterator \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__functional_base \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/tuple \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/atomic \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__threading_support \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/chrono \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/ctime \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/ratio \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/climits \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/limits.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/machine/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/i386/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/i386/_limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/syslimits.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__split_buffer \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4ios.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4Types.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4-build/source/global/include/G4GlobalConfig.hh \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/complex \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cmath \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/sstream \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/ostream \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/ios \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__locale \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/string \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/string_view \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__string \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cstdio \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cwchar \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cwctype \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cctype \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/wctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/wctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types/_wctrans_t.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/mutex \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__mutex_base \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/chrono \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/ctime \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/ratio \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/system_error \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__errc \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cerrno \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/errno.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/errno.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/errno.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/errno.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__threading_support \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/pthread/sched.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/pthread/pthread_impl.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_pthread/_pthread_cond_t.h \
@@ -1749,7 +1742,23 @@ CMakeFiles/rich.dir/src/PhysicsList.cpp.o: /Users/theojanson/Project/McGillPhysi
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/qos.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_mach_port_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sched.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/locale.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cassert \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/assert.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/functional \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/bit \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cstdio \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cwchar \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cwctype \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cctype \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/wctype.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/wctype.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types/_wctrans_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/mutex \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__mutex_base \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/system_error \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__errc \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cerrno \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/locale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/locale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_locale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/xlocale.h \
@@ -1761,10 +1770,9 @@ CMakeFiles/rich.dir/src/PhysicsList.cpp.o: /Users/theojanson/Project/McGillPhysi
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/xlocale/_string.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/xlocale/_time.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/xlocale/_wchar.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/stddef.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/xlocale/_wctype.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/streambuf \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/locale \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/streambuf \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/locale \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/nl_types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_u_char.h \
@@ -1792,11 +1800,12 @@ CMakeFiles/rich.dir/src/PhysicsList.cpp.o: /Users/theojanson/Project/McGillPhysi
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_fsblkcnt_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types/_nl_item.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__bsd_locale_defaults.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/bitset \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/istream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/bitset \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__bit_reference \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/istream \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/tls.hh \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/iostream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/iostream \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/globals.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4String.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4String.icc \
@@ -1805,35 +1814,28 @@ CMakeFiles/rich.dir/src/PhysicsList.cpp.o: /Users/theojanson/Project/McGillPhysi
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4VExceptionHandler.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4ExceptionSeverity.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4EnvironmentUtils.hh \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/iomanip \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/map \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__tree \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__node_handle \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/optional \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/iomanip \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/map \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__tree \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__node_handle \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/optional \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/run/include/rundefs.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/run/include/G4VPhysicsConstructor.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/management/include/G4ParticleTable.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4Threading.hh \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/condition_variable \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/future \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/thread \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/management/include/G4ParticleDefinition.hh \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/vector \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__split_buffer \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Units/PhysicalConstants.h \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Units/SystemOfUnits.h \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/management/include/G4PDefManager.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/management/include/pwdefs.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4AutoLock.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4Threading.hh \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/condition_variable \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/future \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/thread \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/management/include/G4ParticleDefinition.icc \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/management/include/G4ParticleTable.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/management/include/G4ParticleTableIterator.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/management/include/G4ParticleTable.icc \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/run/include/G4PhysicsListHelper.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/run/include/G4PhysicsListOrderingParameter.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4ThreadLocalSingleton.hh \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/list \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4Cache.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4CacheDetails.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/run/include/G4VUPLSplitter.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/run/include/G4VUserPhysicsList.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/cuts/include/G4ProductionCutsTable.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/cuts/include/G4MaterialCutsCouple.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/cuts/include/G4ProductionCuts.hh \
@@ -1842,19 +1844,20 @@ CMakeFiles/rich.dir/src/PhysicsList.cpp.o: /Users/theojanson/Project/McGillPhysi
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4GeomSplitter.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/geomwdefs.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4Region.icc \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/run/include/G4VUPLSplitter.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/electromagnetic/xrays/include/G4Cerenkov.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/HEPRandom/include/Randomize.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/Randomize.h \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/DualRand.h \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandomEngine.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/fstream \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/filesystem \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/stack \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/deque \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/fstream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/filesystem \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/stack \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/deque \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandomEngine.icc \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/JamesRandom.h \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/MixMaxRng.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/array \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/array \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/MTwistEngine.h \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RanecuEngine.h \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RanluxEngine.h \
@@ -1959,7 +1962,7 @@ CMakeFiles/rich.dir/src/PhysicsList.cpp.o: /Users/theojanson/Project/McGillPhysi
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/ptl/include/PTL/Globals.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/ptl/include/PTL/Types.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/ptl/include/PTL/Utility.hh \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/set \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/set \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4Step.icc \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4Track.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/trkdefs.hh \
@@ -1984,21 +1987,131 @@ CMakeFiles/rich.dir/src/PhysicsList.cpp.o: /Users/theojanson/Project/McGillPhysi
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4ParticleChange.icc \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/management/include/G4ProcessType.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/bosons/include/G4OpticalPhoton.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/physics_lists/constructors/decay/include/G4DecayPhysics.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/decay/include/G4Decay.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/management/include/G4VRestDiscreteProcess.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4ParticleChangeForDecay.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/decay/include/G4DecayProcessType.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/physics_lists/constructors/decay/include/G4RadioactiveDecayPhysics.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/physics_lists/constructors/electromagnetic/include/G4EmStandardPhysics.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/leptons/include/G4Electron.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/optical/include/G4OpBoundaryProcess.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/HEPRandom/include/G4RandomTools.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/HEPRandom/include/G4RandomDirection.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4TwoVector.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Vector/TwoVector.h \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Vector/TwoVector.icc \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/management/include/G4VDiscreteProcess.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/materials/include/G4OpticalSurface.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4Physics2DVector.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4Physics2DVector.icc \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/materials/include/G4SurfaceProperty.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/bosons/include/G4BosonConstructor.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/leptons/include/G4LeptonConstructor.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/ions/include/G4IonConstructor.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/management/include/G4ParticleTypes.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/bosons/include/G4ChargedGeantino.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/bosons/include/G4Geantino.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/bosons/include/G4Gamma.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/bosons/include/G4UnknownParticle.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/leptons/include/G4MuonPlus.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/leptons/include/G4MuonMinus.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/leptons/include/G4TauMinus.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/leptons/include/G4TauPlus.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/leptons/include/G4Electron.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/leptons/include/G4Positron.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/electromagnetic/standard/include/G4eMultipleScattering.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/electromagnetic/utils/include/G4VMultipleScattering.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/leptons/include/G4NeutrinoTau.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/leptons/include/G4AntiNeutrinoTau.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/leptons/include/G4NeutrinoMu.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/leptons/include/G4AntiNeutrinoMu.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/leptons/include/G4NeutrinoE.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/leptons/include/G4AntiNeutrinoE.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/mesons/include/G4PionPlus.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/mesons/include/G4PionMinus.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/mesons/include/G4PionZero.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/mesons/include/G4Eta.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/mesons/include/G4EtaPrime.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/mesons/include/G4KaonPlus.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/mesons/include/G4KaonMinus.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/mesons/include/G4KaonZero.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/mesons/include/G4AntiKaonZero.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/mesons/include/G4KaonZeroLong.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/mesons/include/G4KaonZeroShort.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/mesons/include/G4DMesonPlus.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/mesons/include/G4DMesonMinus.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/mesons/include/G4DMesonZero.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/mesons/include/G4AntiDMesonZero.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/mesons/include/G4DsMesonPlus.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/mesons/include/G4DsMesonMinus.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/mesons/include/G4JPsi.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/mesons/include/G4Etac.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/mesons/include/G4BMesonPlus.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/mesons/include/G4BMesonMinus.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/mesons/include/G4BMesonZero.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/mesons/include/G4AntiBMesonZero.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/mesons/include/G4BsMesonZero.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/mesons/include/G4AntiBsMesonZero.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/mesons/include/G4Upsilon.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/barions/include/G4Proton.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/management/include/G4Ions.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/barions/include/G4AntiProton.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/barions/include/G4Neutron.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/barions/include/G4AntiNeutron.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/barions/include/G4Lambda.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/barions/include/G4SigmaPlus.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/barions/include/G4SigmaZero.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/barions/include/G4SigmaMinus.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/barions/include/G4XiMinus.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/barions/include/G4XiZero.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/barions/include/G4OmegaMinus.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/barions/include/G4AntiLambda.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/barions/include/G4AntiSigmaPlus.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/barions/include/G4AntiSigmaZero.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/barions/include/G4AntiSigmaMinus.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/barions/include/G4AntiXiMinus.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/barions/include/G4AntiXiZero.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/barions/include/G4AntiOmegaMinus.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/barions/include/G4LambdacPlus.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/barions/include/G4SigmacPlusPlus.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/barions/include/G4SigmacPlus.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/barions/include/G4SigmacZero.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/barions/include/G4XicPlus.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/barions/include/G4XicZero.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/barions/include/G4OmegacZero.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/barions/include/G4AntiLambdacPlus.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/barions/include/G4AntiSigmacPlusPlus.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/barions/include/G4AntiSigmacPlus.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/barions/include/G4AntiSigmacZero.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/barions/include/G4AntiXicPlus.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/barions/include/G4AntiXicZero.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/barions/include/G4AntiOmegacZero.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/barions/include/G4Lambdab.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/barions/include/G4SigmabPlus.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/barions/include/G4SigmabZero.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/barions/include/G4SigmabMinus.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/barions/include/G4XibZero.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/barions/include/G4XibMinus.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/barions/include/G4OmegabMinus.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/barions/include/G4AntiLambdab.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/barions/include/G4AntiSigmabPlus.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/barions/include/G4AntiSigmabZero.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/barions/include/G4AntiSigmabMinus.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/barions/include/G4AntiXibZero.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/barions/include/G4AntiXibMinus.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/barions/include/G4AntiOmegabMinus.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/ions/include/G4Alpha.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/ions/include/G4Deuteron.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/ions/include/G4He3.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/ions/include/G4Triton.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/ions/include/G4AntiAlpha.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/ions/include/G4AntiDeuteron.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/ions/include/G4AntiHe3.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/ions/include/G4AntiTriton.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/ions/include/G4GenericIon.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/management/include/G4ProcessManager.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/management/include/G4ProcessVector.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/management/include/G4ProcessVector.icc \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/management/include/G4ProcessManager.icc \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/electromagnetic/utils/include/G4EmSaturation.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/electromagnetic/utils/include/G4LossTableManager.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4ThreadLocalSingleton.hh \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/list \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4Cache.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4CacheDetails.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/electromagnetic/utils/include/G4VEnergyLossProcess.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/management/include/G4VContinuousDiscreteProcess.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4ParticleChangeForMSC.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4ParticleChangeForMSC.icc \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/electromagnetic/utils/include/G4EmModelManager.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/electromagnetic/utils/include/G4EmTableType.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/electromagnetic/utils/include/G4EmProcessSubType.hh \
@@ -2007,8 +2120,23 @@ CMakeFiles/rich.dir/src/PhysicsList.cpp.o: /Users/theojanson/Project/McGillPhysi
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/electromagnetic/utils/include/G4VEmAngularDistribution.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/electromagnetic/utils/include/G4EmElementSelector.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4PhysicsLogVector.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/electromagnetic/utils/include/G4VMscModel.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4UnitsTable.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4UnitsTable.icc \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4ParticleChangeForLoss.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/electromagnetic/utils/include/G4EmParameters.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/electromagnetic/utils/include/G4MscStepLimitType.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/electromagnetic/utils/include/G4NuclearFormfactorType.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/electromagnetic/utils/include/G4DNAModelSubType.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/electromagnetic/standard/include/G4ComptonScattering.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/electromagnetic/utils/include/G4VEmProcess.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4ParticleChangeForGamma.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/electromagnetic/utils/include/G4EmDataHandler.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/electromagnetic/standard/include/G4GammaConversion.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/electromagnetic/standard/include/G4eMultipleScattering.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/electromagnetic/utils/include/G4VMultipleScattering.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4ParticleChangeForMSC.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4ParticleChangeForMSC.icc \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/electromagnetic/utils/include/G4VMscModel.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/navigation/include/G4SafetyHelper.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/navigation/include/G4Navigator.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4AffineTransform.hh \
@@ -2060,98 +2188,18 @@ CMakeFiles/rich.dir/src/PhysicsList.cpp.o: /Users/theojanson/Project/McGillPhysi
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/navigation/include/G4RegularNavigation.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/navigation/include/G4VExternalNavigation.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/navigation/include/G4Navigator.icc \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/electromagnetic/utils/include/G4VEnergyLossProcess.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4UnitsTable.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4UnitsTable.icc \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4ParticleChangeForLoss.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/electromagnetic/utils/include/G4EmParameters.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/electromagnetic/utils/include/G4NuclearFormfactorType.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/electromagnetic/utils/include/G4DNAModelSubType.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/electromagnetic/utils/include/G4EmSaturation.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/electromagnetic/standard/include/G4eBremsstrahlung.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/electromagnetic/standard/include/G4eIonisation.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/management/include/G4ProcessManager.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/management/include/G4ProcessVector.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/management/include/G4ProcessVector.icc \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/management/include/G4ProcessManager.icc \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/optical/include/G4OpAbsorption.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/management/include/G4VDiscreteProcess.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/optical/include/G4OpRayleigh.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/optical/include/G4OpBoundaryProcess.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/HEPRandom/include/G4RandomTools.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/HEPRandom/include/G4RandomDirection.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4TwoVector.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Vector/TwoVector.h \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Vector/TwoVector.icc \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/materials/include/G4OpticalSurface.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4Physics2DVector.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4Physics2DVector.icc \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/materials/include/G4SurfaceProperty.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/electromagnetic/standard/include/G4ionIonisation.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/electromagnetic/standard/include/G4eBremsstrahlung.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/electromagnetic/standard/include/G4hMultipleScattering.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/electromagnetic/standard/include/G4hIonisation.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR/include/SimulationConstants.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4SystemOfUnits.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/optical/include/G4OpMieHG.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/electromagnetic/lowenergy/include/G4RayleighScattering.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/electromagnetic/utils/include/G4VEmProcess.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4ParticleChangeForGamma.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/electromagnetic/utils/include/G4EmDataHandler.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/electromagnetic/standard/include/G4PhotoElectricEffect.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/electromagnetic/standard/include/G4ComptonScattering.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/ions/include/G4IonConstructor.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR/include/DetectorConstruction.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/run/include/G4VUserDetectorConstruction.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/run/include/G4VUserPrimaryGeneratorAction.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/solids/CSG/include/G4Tubs.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4GeomTypes.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4-build/source/geometry/include/G4GeomConfig.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/solids/CSG/include/G4CSGSolid.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/graphics_reps/include/G4Polyhedron.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/graphics_reps/include/HepPolyhedron.h \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/HEPGeometry/include/G4Point3D.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/HEPGeometry/include/G4Normal3D.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/graphics_reps/include/G4Visible.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/graphics_reps/include/G4Visible.icc \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/solids/CSG/include/G4Tubs.icc \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR/include/PrimaryGeneratorAction.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/materials/include/G4NistManager.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/materials/include/G4NistElementBuilder.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/materials/include/G4NistMaterialBuilder.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/materials/include/G4ICRU90StoppingData.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4LPhysicsFreeVector.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4PhysicsFreeVector.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4Pow.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/solids/CSG/include/G4Box.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/solids/CSG/include/G4Box.icc \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/volumes/include/G4PVPlacement.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4PhysicalConstants.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR/include/TrackerSD.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/digits_hits/detector/include/G4VSensitiveDetector.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/digits_hits/hits/include/G4VHit.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/digits_hits/hits/include/G4HCofThisEvent.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/digits_hits/hits/include/G4VHitsCollection.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/digits_hits/detector/include/G4VReadOutGeometry.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/digits_hits/detector/include/G4SensitiveVolumeList.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/digits_hits/detector/include/G4CollectionNameVector.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/digits_hits/detector/include/G4VSDFilter.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR/include/TrackerHit.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/digits_hits/hits/include/G4THitsCollection.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR/include/StackingAction.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/event/include/G4UserStackingAction.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/event/include/G4ClassificationOfNewTrack.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/digits_hits/detector/include/G4SDManager.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/digits_hits/detector/include/G4SDStructure.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/digits_hits/detector/include/G4HCtable.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/volumes/include/G4LogicalBorderSurface.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4LogicalSurface.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4LogicalSurface.icc \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/volumes/include/G4LogicalBorderSurface.icc \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/volumes/include/G4LogicalSkinSurface.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/volumes/include/G4LogicalSkinSurface.icc \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/random \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/numeric \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/event/include/G4ParticleGun.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/event/include/G4VPrimaryGenerator.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/management/include/G4PrimaryVertex.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/management/include/G4PrimaryParticle.hh
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/optical/include/G4OpAbsorption.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/optical/include/G4OpRayleigh.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/electromagnetic/xrays/include/G4Scintillation.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/HEPRandom/include/G4Poisson.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/management/include/G4VRestDiscreteProcess.hh
 
 CMakeFiles/rich.dir/src/PrimaryGeneratorAction.cpp.o: /Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR/src/PrimaryGeneratorAction.cpp \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR/include/PrimaryGeneratorAction.hh \
@@ -2160,19 +2208,19 @@ CMakeFiles/rich.dir/src/PrimaryGeneratorAction.cpp.o: /Users/theojanson/Project/
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4ios.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4Types.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4-build/source/global/include/G4GlobalConfig.hh \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/complex \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__config \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/complex \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/pthread.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/type_traits \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cstddef \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__cxx_version \
-  /Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include/stddef.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include/__stddef_max_align_t.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__nullptr \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/stdexcept \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/exception \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cstdlib \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/stdlib.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/type_traits \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cstddef \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/version \
+  /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include/stddef.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include/__stddef_max_align_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__nullptr \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/stdexcept \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/exception \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cstdlib \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/Availability.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/AvailabilityVersions.h \
@@ -2215,8 +2263,8 @@ CMakeFiles/rich.dir/src/PrimaryGeneratorAction.cpp.o: /Users/theojanson/Project/
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_size_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_uid_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/resource.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/stdint.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include/stdint.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/stdint.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include/stdint.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/stdint.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types/_uint8_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types/_uint16_t.h \
@@ -2238,16 +2286,13 @@ CMakeFiles/rich.dir/src/PrimaryGeneratorAction.cpp.o: /Users/theojanson/Project/
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/malloc/_malloc.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_dev_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_mode_t.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/math.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/math.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/limits \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__undef_macros \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/iosfwd \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/wchar.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/iosfwd \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/wchar.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/stddef.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/wchar.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_mbstate_t.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include/stdarg.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/stdio.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include/stdarg.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_va_list.h \
@@ -2263,68 +2308,56 @@ CMakeFiles/rich.dir/src/PrimaryGeneratorAction.cpp.o: /Users/theojanson/Project/
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/__wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_wint_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types/_wctype_t.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/ctype.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/ctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/ctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_ctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/runetype.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cmath \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/sstream \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/ostream \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/ios \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__locale \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/string \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/string_view \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__string \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/algorithm \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/initializer_list \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cstring \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/string.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cmath \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/math.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/math.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/limits \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__undef_macros \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/sstream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/ostream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/ios \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__locale \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/string \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/string_view \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__string \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/algorithm \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/initializer_list \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cstring \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/string.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/string.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_rsize_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_errno_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/strings.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/utility \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__tuple \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cstdint \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__debug \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/memory \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/typeinfo \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/new \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/iterator \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__functional_base \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/tuple \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/atomic \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cassert \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/assert.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/functional \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/bit \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cstdio \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cwchar \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cwctype \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cctype \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/wctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/wctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types/_wctrans_t.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/mutex \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__mutex_base \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/chrono \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/ctime \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/ratio \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/climits \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/limits.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include/limits.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/utility \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__tuple \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cstdint \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__debug \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/memory \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/typeinfo \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/new \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/iterator \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__functional_base \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/tuple \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/atomic \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__threading_support \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/chrono \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/ctime \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/ratio \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/climits \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/limits.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/machine/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/i386/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/i386/_limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/syslimits.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/system_error \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__errc \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cerrno \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/errno.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/errno.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/errno.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/errno.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__threading_support \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/pthread/sched.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/pthread/pthread_impl.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_pthread/_pthread_cond_t.h \
@@ -2340,7 +2373,23 @@ CMakeFiles/rich.dir/src/PrimaryGeneratorAction.cpp.o: /Users/theojanson/Project/
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/qos.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_mach_port_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sched.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/locale.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cassert \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/assert.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/functional \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/bit \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cstdio \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cwchar \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cwctype \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cctype \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/wctype.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/wctype.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types/_wctrans_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/mutex \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__mutex_base \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/system_error \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__errc \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cerrno \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/locale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/locale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_locale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/xlocale.h \
@@ -2352,10 +2401,9 @@ CMakeFiles/rich.dir/src/PrimaryGeneratorAction.cpp.o: /Users/theojanson/Project/
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/xlocale/_string.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/xlocale/_time.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/xlocale/_wchar.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/stddef.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/xlocale/_wctype.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/streambuf \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/locale \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/streambuf \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/locale \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/nl_types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_u_char.h \
@@ -2383,12 +2431,12 @@ CMakeFiles/rich.dir/src/PrimaryGeneratorAction.cpp.o: /Users/theojanson/Project/
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_fsblkcnt_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types/_nl_item.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__bsd_locale_defaults.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/bitset \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__bit_reference \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/istream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/bitset \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__bit_reference \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/istream \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/tls.hh \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/iostream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/iostream \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4String.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4String.icc \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/templates.hh \
@@ -2396,16 +2444,16 @@ CMakeFiles/rich.dir/src/PrimaryGeneratorAction.cpp.o: /Users/theojanson/Project/
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4VExceptionHandler.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4ExceptionSeverity.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4EnvironmentUtils.hh \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/iomanip \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/map \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__tree \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__node_handle \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/optional \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/fstream \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/filesystem \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/stack \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/deque \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__split_buffer \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/iomanip \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/map \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__tree \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__node_handle \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/optional \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/fstream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/filesystem \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/stack \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/deque \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__split_buffer \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/event/include/G4Event.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/event/include/evtdefs.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4Allocator.hh \
@@ -2419,7 +2467,7 @@ CMakeFiles/rich.dir/src/PrimaryGeneratorAction.cpp.o: /Users/theojanson/Project/
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/management/include/G4PrimaryParticle.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/digits_hits/hits/include/G4HCofThisEvent.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/digits_hits/hits/include/G4VHitsCollection.hh \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/vector \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/vector \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/digits_hits/digits/include/G4DCofThisEvent.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/digits_hits/digits/include/G4VDigiCollection.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/event/include/G4TrajectoryContainer.hh \
@@ -2430,8 +2478,8 @@ CMakeFiles/rich.dir/src/PrimaryGeneratorAction.cpp.o: /Users/theojanson/Project/
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/ptl/include/PTL/Globals.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/ptl/include/PTL/Types.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/ptl/include/PTL/Utility.hh \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/set \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/array \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/set \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/array \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/event/include/G4ParticleGun.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/event/include/G4VPrimaryGenerator.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/management/include/G4ParticleDefinition.hh \
@@ -2440,9 +2488,9 @@ CMakeFiles/rich.dir/src/PrimaryGeneratorAction.cpp.o: /Users/theojanson/Project/
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/management/include/G4PDefManager.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4AutoLock.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4Threading.hh \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/condition_variable \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/future \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/thread \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/condition_variable \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/future \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/thread \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/management/include/G4ParticleDefinition.icc \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/management/include/G4ParticleMomentum.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/bosons/include/G4Geantino.hh \
@@ -2602,8 +2650,8 @@ CMakeFiles/rich.dir/src/PrimaryGeneratorAction.cpp.o: /Users/theojanson/Project/
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4UnitsTable.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4UnitsTable.icc \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/bosons/include/G4ChargedGeantino.hh \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/random \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/numeric
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/random \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/numeric
 
 CMakeFiles/rich.dir/src/RunAction.cpp.o: /Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR/src/RunAction.cpp \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR/include/PrimaryGeneratorAction.hh \
@@ -2612,19 +2660,19 @@ CMakeFiles/rich.dir/src/RunAction.cpp.o: /Users/theojanson/Project/McGillPhysics
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4ios.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4Types.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4-build/source/global/include/G4GlobalConfig.hh \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/complex \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__config \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/complex \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/pthread.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/type_traits \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cstddef \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__cxx_version \
-  /Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include/stddef.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include/__stddef_max_align_t.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__nullptr \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/stdexcept \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/exception \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cstdlib \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/stdlib.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/type_traits \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cstddef \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/version \
+  /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include/stddef.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include/__stddef_max_align_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__nullptr \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/stdexcept \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/exception \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cstdlib \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/Availability.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/AvailabilityVersions.h \
@@ -2667,8 +2715,8 @@ CMakeFiles/rich.dir/src/RunAction.cpp.o: /Users/theojanson/Project/McGillPhysics
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_size_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_uid_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/resource.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/stdint.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include/stdint.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/stdint.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include/stdint.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/stdint.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types/_uint8_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types/_uint16_t.h \
@@ -2690,16 +2738,13 @@ CMakeFiles/rich.dir/src/RunAction.cpp.o: /Users/theojanson/Project/McGillPhysics
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/malloc/_malloc.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_dev_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_mode_t.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/math.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/math.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/limits \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__undef_macros \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/iosfwd \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/wchar.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/iosfwd \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/wchar.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/stddef.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/wchar.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_mbstate_t.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include/stdarg.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/stdio.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include/stdarg.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_va_list.h \
@@ -2715,68 +2760,56 @@ CMakeFiles/rich.dir/src/RunAction.cpp.o: /Users/theojanson/Project/McGillPhysics
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/__wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_wint_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types/_wctype_t.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/ctype.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/ctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/ctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_ctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/runetype.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cmath \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/sstream \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/ostream \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/ios \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__locale \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/string \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/string_view \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__string \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/algorithm \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/initializer_list \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cstring \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/string.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cmath \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/math.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/math.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/limits \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__undef_macros \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/sstream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/ostream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/ios \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__locale \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/string \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/string_view \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__string \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/algorithm \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/initializer_list \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cstring \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/string.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/string.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_rsize_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_errno_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/strings.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/utility \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__tuple \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cstdint \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__debug \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/memory \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/typeinfo \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/new \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/iterator \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__functional_base \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/tuple \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/atomic \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cassert \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/assert.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/functional \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/bit \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cstdio \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cwchar \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cwctype \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cctype \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/wctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/wctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types/_wctrans_t.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/mutex \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__mutex_base \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/chrono \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/ctime \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/ratio \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/climits \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/limits.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include/limits.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/utility \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__tuple \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cstdint \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__debug \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/memory \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/typeinfo \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/new \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/iterator \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__functional_base \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/tuple \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/atomic \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__threading_support \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/chrono \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/ctime \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/ratio \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/climits \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/limits.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/machine/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/i386/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/i386/_limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/syslimits.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/system_error \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__errc \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cerrno \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/errno.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/errno.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/errno.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/errno.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__threading_support \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/pthread/sched.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/pthread/pthread_impl.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_pthread/_pthread_cond_t.h \
@@ -2792,7 +2825,23 @@ CMakeFiles/rich.dir/src/RunAction.cpp.o: /Users/theojanson/Project/McGillPhysics
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/qos.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_mach_port_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sched.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/locale.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cassert \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/assert.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/functional \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/bit \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cstdio \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cwchar \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cwctype \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cctype \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/wctype.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/wctype.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types/_wctrans_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/mutex \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__mutex_base \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/system_error \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__errc \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cerrno \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/locale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/locale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_locale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/xlocale.h \
@@ -2804,10 +2853,9 @@ CMakeFiles/rich.dir/src/RunAction.cpp.o: /Users/theojanson/Project/McGillPhysics
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/xlocale/_string.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/xlocale/_time.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/xlocale/_wchar.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/stddef.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/xlocale/_wctype.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/streambuf \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/locale \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/streambuf \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/locale \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/nl_types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_u_char.h \
@@ -2835,12 +2883,12 @@ CMakeFiles/rich.dir/src/RunAction.cpp.o: /Users/theojanson/Project/McGillPhysics
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_fsblkcnt_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types/_nl_item.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__bsd_locale_defaults.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/bitset \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__bit_reference \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/istream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/bitset \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__bit_reference \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/istream \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/tls.hh \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/iostream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/iostream \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4String.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4String.icc \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/templates.hh \
@@ -2848,19 +2896,19 @@ CMakeFiles/rich.dir/src/RunAction.cpp.o: /Users/theojanson/Project/McGillPhysics
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4VExceptionHandler.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4ExceptionSeverity.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4EnvironmentUtils.hh \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/iomanip \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/map \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__tree \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__node_handle \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/optional \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/fstream \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/filesystem \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/stack \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/deque \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__split_buffer \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/iomanip \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/map \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__tree \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__node_handle \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/optional \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/fstream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/filesystem \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/stack \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/deque \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__split_buffer \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR/include/DetectorConstruction.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/run/include/G4VUserDetectorConstruction.hh \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/vector \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/vector \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/materials/include/G4MaterialTable.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/solids/CSG/include/G4Tubs.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4GeomTypes.hh \
@@ -2911,7 +2959,7 @@ CMakeFiles/rich.dir/src/RunAction.cpp.o: /Users/theojanson/Project/McGillPhysics
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandomEngine.icc \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/JamesRandom.h \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/MixMaxRng.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/array \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/array \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/MTwistEngine.h \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RanecuEngine.h \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RanluxEngine.h \
@@ -2959,9 +3007,9 @@ CMakeFiles/rich.dir/src/RunAction.cpp.o: /Users/theojanson/Project/McGillPhysics
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/geomwdefs.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4AutoLock.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4Threading.hh \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/condition_variable \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/future \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/thread \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/condition_variable \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/future \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/thread \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4VPhysicalVolume.icc \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4StepPoint.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4Allocator.hh \
@@ -3005,7 +3053,7 @@ CMakeFiles/rich.dir/src/RunAction.cpp.o: /Users/theojanson/Project/McGillPhysics
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/ptl/include/PTL/Globals.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/ptl/include/PTL/Types.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/ptl/include/PTL/Utility.hh \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/set \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/set \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4Step.icc \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4Track.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/trkdefs.hh \
@@ -3123,7 +3171,7 @@ CMakeFiles/rich.dir/src/RunAction.cpp.o: /Users/theojanson/Project/McGillPhysics
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4ApplicationState.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/tracking/include/G4UserTrackingAction.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/run/include/G4RunManagerKernel.hh \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/list \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/list \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/run/include/G4Run.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/analysis/accumulables/include/G4AccumulableManager.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/analysis/accumulables/include/G4AccumulableManager.icc \
@@ -3139,11 +3187,15 @@ CMakeFiles/rich.dir/src/SimulationConstants.cpp.o: /Users/theojanson/Project/McG
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4SystemOfUnits.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Units/SystemOfUnits.h \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4UnitsTable.hh \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/vector \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__config \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/vector \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/pthread.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/iosfwd \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/wchar.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/iosfwd \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/wchar.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/stddef.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include/stddef.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include/__stddef_max_align_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__nullptr \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/wchar.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types.h \
@@ -3174,8 +3226,8 @@ CMakeFiles/rich.dir/src/SimulationConstants.cpp.o: /Users/theojanson/Project/McG
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_ct_rune_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_rune_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_wchar_t.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include/stdarg.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/stdio.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include/stdarg.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_va_list.h \
@@ -3191,34 +3243,31 @@ CMakeFiles/rich.dir/src/SimulationConstants.cpp.o: /Users/theojanson/Project/McG
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/__wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_wint_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types/_wctype_t.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/ctype.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/ctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/ctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_ctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/runetype.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__bit_reference \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/bit \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/limits \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/type_traits \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cstddef \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__cxx_version \
-  /Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include/stddef.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include/__stddef_max_align_t.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__nullptr \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__undef_macros \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__debug \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/algorithm \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/initializer_list \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cstring \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/string.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__bit_reference \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/bit \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/limits \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/type_traits \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cstddef \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/version \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__undef_macros \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__debug \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/algorithm \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/initializer_list \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cstring \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/string.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/string.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_rsize_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_errno_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/strings.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/utility \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__tuple \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cstdint \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/stdint.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include/stdint.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/utility \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__tuple \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cstdint \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/stdint.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include/stdint.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/stdint.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types/_uint8_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types/_uint16_t.h \
@@ -3226,11 +3275,11 @@ CMakeFiles/rich.dir/src/SimulationConstants.cpp.o: /Users/theojanson/Project/McG
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types/_uint64_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types/_intmax_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types/_uintmax_t.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/memory \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/typeinfo \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/exception \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cstdlib \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/stdlib.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/memory \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/typeinfo \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/exception \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cstdlib \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/wait.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_pid_t.h \
@@ -3259,59 +3308,27 @@ CMakeFiles/rich.dir/src/SimulationConstants.cpp.o: /Users/theojanson/Project/McG
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/malloc/_malloc.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_dev_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_mode_t.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/math.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/math.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/new \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/iterator \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__functional_base \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/tuple \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/stdexcept \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/atomic \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cassert \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/assert.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/functional \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/climits \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/limits.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include/limits.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/new \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/iterator \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__functional_base \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/tuple \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/stdexcept \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/atomic \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__threading_support \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/chrono \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/ctime \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/ratio \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/climits \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/limits.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/machine/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/i386/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/i386/_limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/syslimits.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__split_buffer \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4ThreeVector.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/globals.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4ios.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4Types.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4-build/source/global/include/G4GlobalConfig.hh \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/complex \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cmath \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/sstream \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/ostream \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/ios \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__locale \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/string \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/string_view \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__string \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cstdio \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cwchar \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cwctype \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cctype \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/wctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/wctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types/_wctrans_t.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/mutex \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__mutex_base \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/chrono \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/ctime \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/ratio \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/system_error \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__errc \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cerrno \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/errno.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/errno.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/errno.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/errno.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__threading_support \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/pthread/sched.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/pthread/pthread_impl.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_pthread/_pthread_cond_t.h \
@@ -3327,7 +3344,39 @@ CMakeFiles/rich.dir/src/SimulationConstants.cpp.o: /Users/theojanson/Project/McG
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/qos.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_mach_port_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sched.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/locale.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cassert \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/assert.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/functional \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__split_buffer \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4ThreeVector.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/globals.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4ios.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4Types.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4-build/source/global/include/G4GlobalConfig.hh \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/complex \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cmath \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/math.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/math.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/sstream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/ostream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/ios \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__locale \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/string \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/string_view \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__string \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cstdio \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cwchar \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cwctype \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cctype \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/wctype.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/wctype.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types/_wctrans_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/mutex \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__mutex_base \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/system_error \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__errc \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cerrno \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/locale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/locale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_locale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/xlocale.h \
@@ -3339,10 +3388,9 @@ CMakeFiles/rich.dir/src/SimulationConstants.cpp.o: /Users/theojanson/Project/McG
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/xlocale/_string.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/xlocale/_time.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/xlocale/_wchar.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/stddef.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/xlocale/_wctype.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/streambuf \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/locale \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/streambuf \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/locale \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/nl_types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_u_char.h \
@@ -3370,11 +3418,11 @@ CMakeFiles/rich.dir/src/SimulationConstants.cpp.o: /Users/theojanson/Project/McG
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_fsblkcnt_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types/_nl_item.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__bsd_locale_defaults.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/bitset \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/istream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/bitset \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/istream \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/tls.hh \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/iostream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/iostream \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4String.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4String.icc \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/templates.hh \
@@ -3382,11 +3430,11 @@ CMakeFiles/rich.dir/src/SimulationConstants.cpp.o: /Users/theojanson/Project/McG
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4VExceptionHandler.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4ExceptionSeverity.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4EnvironmentUtils.hh \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/iomanip \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/map \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__tree \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__node_handle \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/optional \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/iomanip \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/map \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__tree \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__node_handle \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/optional \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Vector/ThreeVector.h \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Utility/defs.h \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Vector/ThreeVector.icc \
@@ -3398,19 +3446,19 @@ CMakeFiles/rich.dir/src/StackingAction.cpp.o: /Users/theojanson/Project/McGillPh
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4ios.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4Types.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4-build/source/global/include/G4GlobalConfig.hh \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/complex \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__config \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/complex \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/pthread.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/type_traits \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cstddef \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__cxx_version \
-  /Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include/stddef.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include/__stddef_max_align_t.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__nullptr \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/stdexcept \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/exception \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cstdlib \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/stdlib.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/type_traits \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cstddef \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/version \
+  /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include/stddef.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include/__stddef_max_align_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__nullptr \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/stdexcept \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/exception \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cstdlib \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/Availability.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/AvailabilityVersions.h \
@@ -3453,8 +3501,8 @@ CMakeFiles/rich.dir/src/StackingAction.cpp.o: /Users/theojanson/Project/McGillPh
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_size_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_uid_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/resource.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/stdint.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include/stdint.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/stdint.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include/stdint.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/stdint.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types/_uint8_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types/_uint16_t.h \
@@ -3476,16 +3524,13 @@ CMakeFiles/rich.dir/src/StackingAction.cpp.o: /Users/theojanson/Project/McGillPh
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/malloc/_malloc.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_dev_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_mode_t.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/math.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/math.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/limits \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__undef_macros \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/iosfwd \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/wchar.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/iosfwd \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/wchar.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/stddef.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/wchar.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_mbstate_t.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include/stdarg.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/stdio.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include/stdarg.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_va_list.h \
@@ -3501,68 +3546,56 @@ CMakeFiles/rich.dir/src/StackingAction.cpp.o: /Users/theojanson/Project/McGillPh
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/__wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_wint_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types/_wctype_t.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/ctype.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/ctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/ctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_ctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/runetype.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cmath \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/sstream \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/ostream \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/ios \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__locale \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/string \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/string_view \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__string \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/algorithm \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/initializer_list \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cstring \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/string.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cmath \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/math.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/math.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/limits \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__undef_macros \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/sstream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/ostream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/ios \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__locale \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/string \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/string_view \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__string \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/algorithm \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/initializer_list \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cstring \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/string.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/string.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_rsize_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_errno_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/strings.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/utility \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__tuple \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cstdint \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__debug \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/memory \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/typeinfo \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/new \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/iterator \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__functional_base \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/tuple \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/atomic \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cassert \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/assert.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/functional \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/bit \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cstdio \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cwchar \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cwctype \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cctype \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/wctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/wctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types/_wctrans_t.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/mutex \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__mutex_base \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/chrono \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/ctime \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/ratio \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/climits \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/limits.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include/limits.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/utility \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__tuple \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cstdint \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__debug \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/memory \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/typeinfo \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/new \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/iterator \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__functional_base \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/tuple \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/atomic \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__threading_support \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/chrono \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/ctime \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/ratio \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/climits \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/limits.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/machine/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/i386/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/i386/_limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/syslimits.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/system_error \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__errc \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cerrno \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/errno.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/errno.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/errno.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/errno.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__threading_support \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/pthread/sched.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/pthread/pthread_impl.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_pthread/_pthread_cond_t.h \
@@ -3578,7 +3611,23 @@ CMakeFiles/rich.dir/src/StackingAction.cpp.o: /Users/theojanson/Project/McGillPh
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/qos.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_mach_port_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sched.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/locale.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cassert \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/assert.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/functional \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/bit \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cstdio \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cwchar \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cwctype \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cctype \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/wctype.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/wctype.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types/_wctrans_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/mutex \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__mutex_base \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/system_error \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__errc \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cerrno \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/locale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/locale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_locale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/xlocale.h \
@@ -3590,10 +3639,9 @@ CMakeFiles/rich.dir/src/StackingAction.cpp.o: /Users/theojanson/Project/McGillPh
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/xlocale/_string.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/xlocale/_time.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/xlocale/_wchar.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/stddef.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/xlocale/_wctype.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/streambuf \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/locale \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/streambuf \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/locale \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/nl_types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_u_char.h \
@@ -3621,12 +3669,12 @@ CMakeFiles/rich.dir/src/StackingAction.cpp.o: /Users/theojanson/Project/McGillPh
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_fsblkcnt_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types/_nl_item.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__bsd_locale_defaults.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/bitset \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__bit_reference \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/istream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/bitset \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__bit_reference \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/istream \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/tls.hh \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/iostream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/iostream \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4String.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4String.icc \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/templates.hh \
@@ -3634,29 +3682,29 @@ CMakeFiles/rich.dir/src/StackingAction.cpp.o: /Users/theojanson/Project/McGillPh
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4VExceptionHandler.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4ExceptionSeverity.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4EnvironmentUtils.hh \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/iomanip \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/map \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__tree \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__node_handle \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/optional \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/iomanip \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/map \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__tree \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__node_handle \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/optional \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/event/include/G4UserStackingAction.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/event/include/G4ClassificationOfNewTrack.hh \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/fstream \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/filesystem \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/stack \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/deque \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__split_buffer \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/fstream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/filesystem \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/stack \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/deque \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__split_buffer \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/management/include/G4ParticleDefinition.hh \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/vector \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/vector \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Units/PhysicalConstants.h \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Units/SystemOfUnits.h \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/management/include/G4PDefManager.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/management/include/pwdefs.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4AutoLock.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4Threading.hh \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/condition_variable \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/future \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/thread \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/condition_variable \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/future \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/thread \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/management/include/G4ParticleDefinition.icc \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/management/include/G4ParticleTypes.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/bosons/include/G4ChargedGeantino.hh \
@@ -3758,17 +3806,70 @@ CMakeFiles/rich.dir/src/StackingAction.cpp.o: /Users/theojanson/Project/McGillPh
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/ions/include/G4AntiHe3.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/ions/include/G4AntiTriton.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/ions/include/G4GenericIon.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4Track.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/trkdefs.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/management/include/G4VProcess.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/HEPRandom/include/Randomize.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/Randomize.h \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/DualRand.h \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandomEngine.h \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandomEngine.icc \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/JamesRandom.h \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/MixMaxRng.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/array \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/MTwistEngine.h \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RanecuEngine.h \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RanluxEngine.h \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/Ranlux64Engine.h \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RanshiEngine.h \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandBinomial.h \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/Random.h \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/Random.icc \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Utility/memory.h \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandBinomial.icc \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandBreitWigner.h \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandFlat.h \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Utility/thread_local.h \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandFlat.icc \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandBreitWigner.icc \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandChiSquare.h \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandChiSquare.icc \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandExponential.h \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandExponential.icc \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandExpZiggurat.h \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandBit.h \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandBit.icc \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandGamma.h \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandGamma.icc \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandGauss.h \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandGauss.icc \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandGaussQ.h \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandGaussQ.icc \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandGaussZiggurat.h \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandGeneral.h \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandGeneral.icc \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandLandau.h \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandLandau.icc \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandPoissonQ.h \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandPoisson.h \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandPoisson.icc \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandPoissonQ.icc \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandStudentT.h \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandStudentT.icc \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4PhysicsTable.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4PhysicsVector.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4Log.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4PhysicsVectorType.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4PhysicsVector.icc \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4PhysicsTable.icc \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4VParticleChange.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4TrackFastVector.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4FastVector.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4TrackStatus.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4SteppingControl.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4Step.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4ThreeVector.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Vector/ThreeVector.h \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Utility/defs.h \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Vector/ThreeVector.icc \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4LogicalVolume.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4Region.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4GeomSplitter.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/geomwdefs.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4Region.icc \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4VPhysicalVolume.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/HEPGeometry/include/geomdefs.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4RotationMatrix.hh \
@@ -3786,23 +3887,17 @@ CMakeFiles/rich.dir/src/StackingAction.cpp.o: /Users/theojanson/Project/McGillPh
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Vector/RotationZ.h \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Vector/RotationZ.icc \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Vector/Rotation.icc \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4GeomSplitter.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/geomwdefs.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4VPhysicalVolume.icc \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4LogicalVolume.icc \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4StepPoint.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4Allocator.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4AllocatorPool.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/management/include/G4DynamicParticle.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/HEPGeometry/include/G4LorentzVector.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4Log.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/management/include/G4ParticleMomentum.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/management/include/G4ElectronOccupancy.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/management/include/G4DynamicParticle.icc \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4TrackStatus.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4StepStatus.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4TouchableHandle.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4VTouchable.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4VTouchable.icc \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4ReferenceCountedHandle.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4VUserTrackInformation.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4PhysicsModelCatalog.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/materials/include/G4Material.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/materials/include/G4Element.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/materials/include/G4Isotope.hh \
@@ -3813,9 +3908,6 @@ CMakeFiles/rich.dir/src/StackingAction.cpp.o: /Users/theojanson/Project/McGillPh
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/materials/include/G4MaterialPropertiesIndex.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/materials/include/G4MaterialPropertyVector.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4PhysicsOrderedFreeVector.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4PhysicsVector.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4PhysicsVectorType.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4PhysicsVector.icc \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/materials/include/G4MaterialPropertiesTable.icc \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/materials/include/G4IonisParamMat.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4Exp.hh \
@@ -3825,21 +3917,35 @@ CMakeFiles/rich.dir/src/StackingAction.cpp.o: /Users/theojanson/Project/McGillPh
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4DataVector.icc \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/materials/include/G4ElementVector.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/materials/include/G4MaterialTable.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4LogicalVolume.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4Region.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4Region.icc \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4LogicalVolume.icc \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4StepPoint.icc \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4TrackVector.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4Profiler.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4Profiler.icc \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/ptl/include/PTL/Globals.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/ptl/include/PTL/Types.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/ptl/include/PTL/Utility.hh \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/set \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/array \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/set \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4Step.icc \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4Track.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/trkdefs.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/management/include/G4DynamicParticle.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/HEPGeometry/include/G4LorentzVector.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/management/include/G4ParticleMomentum.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/management/include/G4ElectronOccupancy.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/management/include/G4DynamicParticle.icc \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4VUserTrackInformation.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4PhysicsModelCatalog.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4Track.icc \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4Step.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4StepPoint.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4SteppingControl.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4StepStatus.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4StepPoint.icc \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4TrackVector.hh \
-  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4Step.icc
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4VParticleChange.icc \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4ForceCondition.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4GPILSelection.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4ParticleChange.hh \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4ParticleChange.icc \
+  /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/management/include/G4ProcessType.hh
 
 CMakeFiles/rich.dir/src/SteppingAction.cpp.o: /Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR/src/SteppingAction.cpp \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR/include/SteppingAction.hh \
@@ -3848,19 +3954,19 @@ CMakeFiles/rich.dir/src/SteppingAction.cpp.o: /Users/theojanson/Project/McGillPh
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4ios.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4Types.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4-build/source/global/include/G4GlobalConfig.hh \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/complex \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__config \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/complex \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/pthread.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/type_traits \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cstddef \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__cxx_version \
-  /Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include/stddef.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include/__stddef_max_align_t.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__nullptr \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/stdexcept \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/exception \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cstdlib \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/stdlib.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/type_traits \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cstddef \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/version \
+  /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include/stddef.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include/__stddef_max_align_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__nullptr \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/stdexcept \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/exception \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cstdlib \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/Availability.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/AvailabilityVersions.h \
@@ -3903,8 +4009,8 @@ CMakeFiles/rich.dir/src/SteppingAction.cpp.o: /Users/theojanson/Project/McGillPh
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_size_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_uid_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/resource.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/stdint.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include/stdint.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/stdint.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include/stdint.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/stdint.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types/_uint8_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types/_uint16_t.h \
@@ -3926,16 +4032,13 @@ CMakeFiles/rich.dir/src/SteppingAction.cpp.o: /Users/theojanson/Project/McGillPh
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/malloc/_malloc.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_dev_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_mode_t.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/math.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/math.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/limits \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__undef_macros \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/iosfwd \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/wchar.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/iosfwd \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/wchar.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/stddef.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/wchar.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_mbstate_t.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include/stdarg.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/stdio.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include/stdarg.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_va_list.h \
@@ -3951,68 +4054,56 @@ CMakeFiles/rich.dir/src/SteppingAction.cpp.o: /Users/theojanson/Project/McGillPh
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/__wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_wint_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types/_wctype_t.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/ctype.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/ctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/ctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_ctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/runetype.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cmath \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/sstream \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/ostream \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/ios \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__locale \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/string \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/string_view \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__string \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/algorithm \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/initializer_list \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cstring \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/string.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cmath \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/math.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/math.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/limits \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__undef_macros \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/sstream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/ostream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/ios \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__locale \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/string \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/string_view \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__string \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/algorithm \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/initializer_list \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cstring \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/string.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/string.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_rsize_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_errno_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/strings.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/utility \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__tuple \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cstdint \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__debug \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/memory \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/typeinfo \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/new \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/iterator \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__functional_base \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/tuple \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/atomic \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cassert \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/assert.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/functional \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/bit \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cstdio \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cwchar \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cwctype \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cctype \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/wctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/wctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types/_wctrans_t.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/mutex \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__mutex_base \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/chrono \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/ctime \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/ratio \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/climits \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/limits.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include/limits.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/utility \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__tuple \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cstdint \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__debug \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/memory \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/typeinfo \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/new \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/iterator \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__functional_base \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/tuple \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/atomic \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__threading_support \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/chrono \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/ctime \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/ratio \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/climits \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/limits.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/machine/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/i386/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/i386/_limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/syslimits.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/system_error \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__errc \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cerrno \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/errno.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/errno.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/errno.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/errno.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__threading_support \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/pthread/sched.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/pthread/pthread_impl.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_pthread/_pthread_cond_t.h \
@@ -4028,7 +4119,23 @@ CMakeFiles/rich.dir/src/SteppingAction.cpp.o: /Users/theojanson/Project/McGillPh
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/qos.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_mach_port_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sched.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/locale.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cassert \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/assert.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/functional \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/bit \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cstdio \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cwchar \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cwctype \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cctype \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/wctype.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/wctype.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types/_wctrans_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/mutex \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__mutex_base \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/system_error \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__errc \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cerrno \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/locale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/locale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_locale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/xlocale.h \
@@ -4040,10 +4147,9 @@ CMakeFiles/rich.dir/src/SteppingAction.cpp.o: /Users/theojanson/Project/McGillPh
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/xlocale/_string.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/xlocale/_time.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/xlocale/_wchar.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/stddef.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/xlocale/_wctype.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/streambuf \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/locale \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/streambuf \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/locale \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/nl_types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_u_char.h \
@@ -4071,12 +4177,12 @@ CMakeFiles/rich.dir/src/SteppingAction.cpp.o: /Users/theojanson/Project/McGillPh
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_fsblkcnt_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types/_nl_item.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__bsd_locale_defaults.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/bitset \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__bit_reference \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/istream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/bitset \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__bit_reference \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/istream \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/tls.hh \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/iostream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/iostream \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4String.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4String.icc \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/templates.hh \
@@ -4084,21 +4190,21 @@ CMakeFiles/rich.dir/src/SteppingAction.cpp.o: /Users/theojanson/Project/McGillPh
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4VExceptionHandler.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4ExceptionSeverity.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4EnvironmentUtils.hh \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/iomanip \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/map \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__tree \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__node_handle \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/optional \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/fstream \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/filesystem \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/stack \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/deque \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__split_buffer \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/iomanip \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/map \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__tree \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__node_handle \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/optional \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/fstream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/filesystem \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/stack \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/deque \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__split_buffer \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR/include/EventAction.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/event/include/G4UserEventAction.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR/include/DetectorConstruction.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/run/include/G4VUserDetectorConstruction.hh \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/vector \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/vector \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/run/include/G4VUserPrimaryGeneratorAction.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/materials/include/G4MaterialTable.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/solids/CSG/include/G4Tubs.hh \
@@ -4151,7 +4257,7 @@ CMakeFiles/rich.dir/src/SteppingAction.cpp.o: /Users/theojanson/Project/McGillPh
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandomEngine.icc \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/JamesRandom.h \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/MixMaxRng.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/array \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/array \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/MTwistEngine.h \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RanecuEngine.h \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RanluxEngine.h \
@@ -4199,9 +4305,9 @@ CMakeFiles/rich.dir/src/SteppingAction.cpp.o: /Users/theojanson/Project/McGillPh
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/geomwdefs.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4AutoLock.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4Threading.hh \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/condition_variable \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/future \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/thread \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/condition_variable \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/future \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/thread \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4VPhysicalVolume.icc \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4StepPoint.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4Allocator.hh \
@@ -4245,7 +4351,7 @@ CMakeFiles/rich.dir/src/SteppingAction.cpp.o: /Users/theojanson/Project/McGillPh
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/ptl/include/PTL/Globals.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/ptl/include/PTL/Types.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/ptl/include/PTL/Utility.hh \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/set \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/set \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4Step.icc \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4Track.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/trkdefs.hh \
@@ -4355,7 +4461,7 @@ CMakeFiles/rich.dir/src/SteppingAction.cpp.o: /Users/theojanson/Project/McGillPh
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4ApplicationState.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/tracking/include/G4UserTrackingAction.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/run/include/G4RunManagerKernel.hh \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/list \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/list \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR/include/SimulationConstants.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4SystemOfUnits.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4UnitsTable.hh \
@@ -4369,19 +4475,19 @@ CMakeFiles/rich.dir/src/TrackerHit.cpp.o: /Users/theojanson/Project/McGillPhysic
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4ios.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4Types.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4-build/source/global/include/G4GlobalConfig.hh \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/complex \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__config \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/complex \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/pthread.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/type_traits \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cstddef \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__cxx_version \
-  /Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include/stddef.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include/__stddef_max_align_t.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__nullptr \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/stdexcept \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/exception \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cstdlib \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/stdlib.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/type_traits \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cstddef \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/version \
+  /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include/stddef.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include/__stddef_max_align_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__nullptr \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/stdexcept \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/exception \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cstdlib \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/Availability.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/AvailabilityVersions.h \
@@ -4424,8 +4530,8 @@ CMakeFiles/rich.dir/src/TrackerHit.cpp.o: /Users/theojanson/Project/McGillPhysic
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_size_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_uid_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/resource.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/stdint.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include/stdint.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/stdint.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include/stdint.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/stdint.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types/_uint8_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types/_uint16_t.h \
@@ -4447,16 +4553,13 @@ CMakeFiles/rich.dir/src/TrackerHit.cpp.o: /Users/theojanson/Project/McGillPhysic
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/malloc/_malloc.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_dev_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_mode_t.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/math.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/math.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/limits \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__undef_macros \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/iosfwd \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/wchar.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/iosfwd \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/wchar.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/stddef.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/wchar.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_mbstate_t.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include/stdarg.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/stdio.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include/stdarg.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_va_list.h \
@@ -4472,68 +4575,56 @@ CMakeFiles/rich.dir/src/TrackerHit.cpp.o: /Users/theojanson/Project/McGillPhysic
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/__wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_wint_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types/_wctype_t.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/ctype.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/ctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/ctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_ctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/runetype.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cmath \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/sstream \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/ostream \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/ios \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__locale \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/string \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/string_view \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__string \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/algorithm \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/initializer_list \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cstring \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/string.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cmath \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/math.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/math.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/limits \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__undef_macros \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/sstream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/ostream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/ios \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__locale \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/string \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/string_view \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__string \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/algorithm \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/initializer_list \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cstring \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/string.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/string.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_rsize_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_errno_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/strings.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/utility \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__tuple \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cstdint \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__debug \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/memory \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/typeinfo \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/new \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/iterator \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__functional_base \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/tuple \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/atomic \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cassert \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/assert.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/functional \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/bit \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cstdio \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cwchar \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cwctype \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cctype \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/wctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/wctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types/_wctrans_t.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/mutex \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__mutex_base \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/chrono \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/ctime \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/ratio \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/climits \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/limits.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include/limits.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/utility \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__tuple \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cstdint \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__debug \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/memory \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/typeinfo \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/new \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/iterator \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__functional_base \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/tuple \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/atomic \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__threading_support \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/chrono \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/ctime \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/ratio \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/climits \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/limits.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/machine/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/i386/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/i386/_limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/syslimits.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/system_error \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__errc \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cerrno \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/errno.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/errno.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/errno.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/errno.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__threading_support \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/pthread/sched.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/pthread/pthread_impl.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_pthread/_pthread_cond_t.h \
@@ -4549,7 +4640,23 @@ CMakeFiles/rich.dir/src/TrackerHit.cpp.o: /Users/theojanson/Project/McGillPhysic
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/qos.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_mach_port_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sched.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/locale.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cassert \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/assert.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/functional \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/bit \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cstdio \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cwchar \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cwctype \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cctype \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/wctype.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/wctype.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types/_wctrans_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/mutex \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__mutex_base \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/system_error \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__errc \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cerrno \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/locale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/locale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_locale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/xlocale.h \
@@ -4561,10 +4668,9 @@ CMakeFiles/rich.dir/src/TrackerHit.cpp.o: /Users/theojanson/Project/McGillPhysic
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/xlocale/_string.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/xlocale/_time.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/xlocale/_wchar.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/stddef.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/xlocale/_wctype.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/streambuf \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/locale \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/streambuf \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/locale \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/nl_types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_u_char.h \
@@ -4592,12 +4698,12 @@ CMakeFiles/rich.dir/src/TrackerHit.cpp.o: /Users/theojanson/Project/McGillPhysic
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_fsblkcnt_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types/_nl_item.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__bsd_locale_defaults.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/bitset \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__bit_reference \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/istream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/bitset \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__bit_reference \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/istream \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/tls.hh \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/iostream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/iostream \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4String.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4String.icc \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/templates.hh \
@@ -4605,13 +4711,13 @@ CMakeFiles/rich.dir/src/TrackerHit.cpp.o: /Users/theojanson/Project/McGillPhysic
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4VExceptionHandler.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4ExceptionSeverity.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4EnvironmentUtils.hh \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/iomanip \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/map \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__tree \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__node_handle \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/optional \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/vector \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__split_buffer \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/iomanip \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/map \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__tree \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__node_handle \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/optional \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/vector \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__split_buffer \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/digits_hits/hits/include/G4THitsCollection.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/digits_hits/hits/include/G4VHitsCollection.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4Allocator.hh \
@@ -4631,19 +4737,19 @@ CMakeFiles/rich.dir/src/TrackerSD.cpp.o: /Users/theojanson/Project/McGillPhysics
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4ios.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4Types.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4-build/source/global/include/G4GlobalConfig.hh \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/complex \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__config \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/complex \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/pthread.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/type_traits \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cstddef \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__cxx_version \
-  /Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include/stddef.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include/__stddef_max_align_t.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__nullptr \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/stdexcept \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/exception \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cstdlib \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/stdlib.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/type_traits \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cstddef \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/version \
+  /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include/stddef.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include/__stddef_max_align_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__nullptr \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/stdexcept \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/exception \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cstdlib \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/Availability.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/AvailabilityVersions.h \
@@ -4686,8 +4792,8 @@ CMakeFiles/rich.dir/src/TrackerSD.cpp.o: /Users/theojanson/Project/McGillPhysics
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_size_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_uid_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/resource.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/stdint.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include/stdint.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/stdint.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include/stdint.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/stdint.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types/_uint8_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types/_uint16_t.h \
@@ -4709,16 +4815,13 @@ CMakeFiles/rich.dir/src/TrackerSD.cpp.o: /Users/theojanson/Project/McGillPhysics
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/malloc/_malloc.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_dev_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_mode_t.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/math.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/math.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/limits \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__undef_macros \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/iosfwd \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/wchar.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/iosfwd \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/wchar.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/stddef.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/wchar.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_mbstate_t.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include/stdarg.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/stdio.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include/stdarg.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_va_list.h \
@@ -4734,68 +4837,56 @@ CMakeFiles/rich.dir/src/TrackerSD.cpp.o: /Users/theojanson/Project/McGillPhysics
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/__wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_wint_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types/_wctype_t.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/ctype.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/ctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/ctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_ctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/runetype.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cmath \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/sstream \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/ostream \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/ios \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__locale \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/string \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/string_view \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__string \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/algorithm \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/initializer_list \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cstring \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/string.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cmath \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/math.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/math.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/limits \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__undef_macros \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/sstream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/ostream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/ios \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__locale \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/string \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/string_view \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__string \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/algorithm \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/initializer_list \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cstring \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/string.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/string.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_rsize_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_errno_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/strings.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/utility \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__tuple \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cstdint \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__debug \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/memory \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/typeinfo \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/new \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/iterator \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__functional_base \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/tuple \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/atomic \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cassert \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/assert.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/functional \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/bit \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cstdio \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cwchar \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cwctype \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cctype \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/wctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/wctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types/_wctrans_t.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/mutex \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__mutex_base \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/chrono \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/ctime \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/ratio \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/climits \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/limits.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include/limits.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/utility \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__tuple \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cstdint \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__debug \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/memory \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/typeinfo \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/new \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/iterator \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__functional_base \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/tuple \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/atomic \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__threading_support \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/chrono \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/ctime \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/ratio \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/climits \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/limits.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/machine/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/i386/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/i386/_limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/syslimits.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/system_error \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__errc \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/cerrno \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/errno.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/errno.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/errno.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/errno.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__threading_support \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/pthread/sched.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/pthread/pthread_impl.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_pthread/_pthread_cond_t.h \
@@ -4811,7 +4902,23 @@ CMakeFiles/rich.dir/src/TrackerSD.cpp.o: /Users/theojanson/Project/McGillPhysics
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/qos.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_mach_port_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sched.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/locale.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cassert \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/assert.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/functional \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/bit \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cstdio \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cwchar \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cwctype \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cctype \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/wctype.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/wctype.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types/_wctrans_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/mutex \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__mutex_base \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/system_error \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__errc \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cerrno \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/locale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/locale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_locale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/xlocale.h \
@@ -4823,10 +4930,9 @@ CMakeFiles/rich.dir/src/TrackerSD.cpp.o: /Users/theojanson/Project/McGillPhysics
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/xlocale/_string.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/xlocale/_time.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/xlocale/_wchar.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/stddef.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/xlocale/_wctype.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/streambuf \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/locale \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/streambuf \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/locale \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/nl_types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_u_char.h \
@@ -4854,12 +4960,12 @@ CMakeFiles/rich.dir/src/TrackerSD.cpp.o: /Users/theojanson/Project/McGillPhysics
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_fsblkcnt_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types/_nl_item.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__bsd_locale_defaults.h \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/bitset \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__bit_reference \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/istream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/bitset \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__bit_reference \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/istream \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/tls.hh \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/iostream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/iostream \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4String.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4String.icc \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/templates.hh \
@@ -4867,13 +4973,13 @@ CMakeFiles/rich.dir/src/TrackerSD.cpp.o: /Users/theojanson/Project/McGillPhysics
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4VExceptionHandler.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4ExceptionSeverity.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4EnvironmentUtils.hh \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/iomanip \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/map \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__tree \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__node_handle \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/optional \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/vector \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/__split_buffer \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/iomanip \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/map \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__tree \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__node_handle \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/optional \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/vector \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__split_buffer \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4Step.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4ThreeVector.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Vector/ThreeVector.h \
@@ -4902,9 +5008,9 @@ CMakeFiles/rich.dir/src/TrackerSD.cpp.o: /Users/theojanson/Project/McGillPhysics
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/geomwdefs.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4AutoLock.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4Threading.hh \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/condition_variable \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/future \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/thread \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/condition_variable \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/future \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/thread \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4VPhysicalVolume.icc \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4StepPoint.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4Allocator.hh \
@@ -4926,10 +5032,10 @@ CMakeFiles/rich.dir/src/TrackerSD.cpp.o: /Users/theojanson/Project/McGillPhysics
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/materials/include/G4MaterialPropertyVector.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4PhysicsOrderedFreeVector.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4PhysicsVector.hh \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/fstream \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/filesystem \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/stack \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/deque \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/fstream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/filesystem \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/stack \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/deque \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4Log.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4PhysicsVectorType.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4PhysicsVector.icc \
@@ -4953,8 +5059,8 @@ CMakeFiles/rich.dir/src/TrackerSD.cpp.o: /Users/theojanson/Project/McGillPhysics
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/ptl/include/PTL/Globals.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/ptl/include/PTL/Types.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/ptl/include/PTL/Utility.hh \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/set \
-  /Library/Developer/CommandLineTools/usr/include/c++/v1/array \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/set \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/array \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4Step.icc \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4Track.hh \
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/trkdefs.hh \
@@ -5083,6 +5189,50 @@ CMakeFiles/rich.dir/src/TrackerSD.cpp.o: /Users/theojanson/Project/McGillPhysics
   /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/intercoms/include/G4UIcmdWith3VectorAndUnit.hh
 
 
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/intercoms/include/G4UIcmdWith3VectorAndUnit.hh:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/intercoms/include/G4UIcmdWithADoubleAndUnit.hh:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR/src/TrackerHit.cpp:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4VNotifier.hh:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/analysis/accumulables/include/G4AccumulableManager.icc:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/run/include/G4Run.hh:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/HEPNumerics/include/G4DataInterpolation.hh:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/event/include/G4SPSRandomGenerator.hh:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/management/include/G4IonTable.hh:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR/src/PrimaryGeneratorAction.cpp:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/optical/include/G4OpRayleigh.hh:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/electromagnetic/standard/include/G4hIonisation.hh:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/electromagnetic/standard/include/G4hMultipleScattering.hh:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/electromagnetic/standard/include/G4eBremsstrahlung.hh:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/electromagnetic/utils/include/G4VMscModel.hh:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4ParticleChangeForMSC.hh:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4ParticleChangeForGamma.hh:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/electromagnetic/utils/include/G4NuclearFormfactorType.hh:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/electromagnetic/utils/include/G4EmParameters.hh:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/electromagnetic/standard/include/G4ionIonisation.hh:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/electromagnetic/utils/include/G4EmElementSelector.hh:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/management/include/G4VContinuousDiscreteProcess.hh:
+
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/ions/include/G4AntiHe3.hh:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/ions/include/G4AntiDeuteron.hh:
@@ -5092,6 +5242,8 @@ CMakeFiles/rich.dir/src/TrackerSD.cpp.o: /Users/theojanson/Project/McGillPhysics
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/barions/include/G4AntiOmegabMinus.hh:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/barions/include/G4AntiSigmabPlus.hh:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/HEPRandom/include/G4Poisson.hh:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/barions/include/G4OmegabMinus.hh:
 
@@ -5106,6 +5258,8 @@ CMakeFiles/rich.dir/src/TrackerSD.cpp.o: /Users/theojanson/Project/McGillPhysics
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/barions/include/G4AntiXicPlus.hh:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/barions/include/G4AntiSigmacPlus.hh:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/barions/include/G4AntiSigmacPlusPlus.hh:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/barions/include/G4AntiLambdacPlus.hh:
 
@@ -5125,11 +5279,11 @@ CMakeFiles/rich.dir/src/TrackerSD.cpp.o: /Users/theojanson/Project/McGillPhysics
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/barions/include/G4Neutron.hh:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/mesons/include/G4AntiBsMesonZero.hh:
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/barions/include/G4AntiProton.hh:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/management/include/G4Ions.hh:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/mesons/include/G4BsMesonZero.hh:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/mesons/include/G4AntiBMesonZero.hh:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/intercoms/include/G4UIcmdWithAString.hh:
 
@@ -5139,17 +5293,19 @@ CMakeFiles/rich.dir/src/TrackerSD.cpp.o: /Users/theojanson/Project/McGillPhysics
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/mesons/include/G4DsMesonMinus.hh:
 
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/mesons/include/G4DsMesonPlus.hh:
+
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/mesons/include/G4DMesonPlus.hh:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/mesons/include/G4KaonZeroLong.hh:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/mesons/include/G4AntiKaonZero.hh:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/mesons/include/G4KaonMinus.hh:
-
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/mesons/include/G4EtaPrime.hh:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/mesons/include/G4Eta.hh:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/electromagnetic/utils/include/G4LossTableManager.hh:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/barions/include/G4XibZero.hh:
 
@@ -5159,93 +5315,27 @@ CMakeFiles/rich.dir/src/TrackerSD.cpp.o: /Users/theojanson/Project/McGillPhysics
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/leptons/include/G4AntiNeutrinoMu.hh:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/leptons/include/G4TauPlus.hh:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/leptons/include/G4MuonMinus.hh:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/leptons/include/G4MuonPlus.hh:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/management/include/G4ParticleTypes.hh:
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR/src/SimulationConstants.cpp:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/barions/include/G4SigmaMinus.hh:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/leptons/include/G4AntiNeutrinoTau.hh:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR/src/SimulationConstants.cpp:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4VNotifier.hh:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/analysis/accumulables/include/G4AccumulableManager.icc:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/run/include/G4Run.hh:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/HEPNumerics/include/G4DataInterpolation.hh:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/event/include/G4SPSRandomGenerator.hh:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/event/include/G4GeneralParticleSource.hh:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/management/include/G4Ions.hh:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/management/include/G4IonTable.hh:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR/src/PrimaryGeneratorAction.cpp:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/ions/include/G4IonConstructor.hh:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4ParticleChangeForGamma.hh:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/ions/include/G4AntiTriton.hh:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/mesons/include/G4DMesonMinus.hh:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Vector/TwoVector.h:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4TwoVector.hh:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/optical/include/G4OpRayleigh.hh:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/management/include/G4VDiscreteProcess.hh:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/electromagnetic/standard/include/G4eBremsstrahlung.hh:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/electromagnetic/utils/include/G4NuclearFormfactorType.hh:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/electromagnetic/utils/include/G4EmParameters.hh:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/electromagnetic/lowenergy/include/G4RayleighScattering.hh:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/electromagnetic/utils/include/G4VEnergyLossProcess.hh:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/electromagnetic/utils/include/G4VMscModel.hh:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4ParticleChangeForMSC.hh:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/management/include/G4VContinuousDiscreteProcess.hh:
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/leptons/include/G4NeutrinoTau.hh:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/leptons/include/G4Electron.hh:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/physics_lists/constructors/electromagnetic/include/G4EmStandardPhysics.hh:
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/leptons/include/G4TauPlus.hh:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/intercoms/include/G4UIcmdWithADoubleAndUnit.hh:
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/leptons/include/G4MuonPlus.hh:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR/src/TrackerHit.cpp:
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/bosons/include/G4UnknownParticle.hh:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/physics_lists/constructors/decay/include/G4RadioactiveDecayPhysics.hh:
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/management/include/G4ParticleTypes.hh:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/electromagnetic/utils/include/G4EmElementSelector.hh:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4ParticleChangeForDecay.hh:
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/ions/include/G4IonConstructor.hh:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR/src/PhysicsList.cpp:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/event/include/G4ParticleGun.hh:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/barions/include/G4AntiSigmacPlusPlus.hh:
-
-/Library/Developer/CommandLineTools/usr/include/c++/v1/random:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/optical/include/G4OpMieHG.hh:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/volumes/include/G4LogicalSkinSurface.icc:
 
@@ -5254,22 +5344,6 @@ CMakeFiles/rich.dir/src/TrackerSD.cpp.o: /Users/theojanson/Project/McGillPhysics
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/volumes/include/G4LogicalBorderSurface.icc:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4LogicalSurface.hh:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/materials/include/G4SurfaceProperty.hh:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4Physics2DVector.hh:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/barions/include/G4XiZero.hh:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/leptons/include/G4Positron.hh:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/materials/include/G4OpticalSurface.hh:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/digits_hits/hits/include/G4THitsCollection.hh:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/digits_hits/detector/include/G4SensitiveVolumeList.hh:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/digits_hits/detector/include/G4VReadOutGeometry.hh:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/digits_hits/hits/include/G4VHit.hh:
 
@@ -5291,13 +5365,29 @@ CMakeFiles/rich.dir/src/TrackerSD.cpp.o: /Users/theojanson/Project/McGillPhysics
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4PhysicsFreeVector.hh:
 
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/electromagnetic/utils/include/G4OpticalParameters.hh:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4Cache.hh:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/mesons/include/G4KaonPlus.hh:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4ThreadLocalSingleton.hh:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/event/include/G4VPrimaryGenerator.hh:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/run/include/G4PhysicsListOrderingParameter.hh:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/run/include/G4VPhysicsConstructor.hh:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/physics_lists/constructors/electromagnetic/include/G4OpticalPhysics.hh:
+
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR/src/RunAction.cpp:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4UnitsTable.icc:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4SystemOfUnits.hh:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/event/include/G4UserEventAction.hh:
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR/include/SimulationConstants.hh:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/mesons/include/G4Upsilon.hh:
 
@@ -5313,29 +5403,33 @@ CMakeFiles/rich.dir/src/TrackerSD.cpp.o: /Users/theojanson/Project/McGillPhysics
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/run/include/G4UserRunAction.hh:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR/include/RunAction.hh:
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/materials/include/G4SurfaceProperty.hh:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4Physics2DVector.hh:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/barions/include/G4XiZero.hh:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/leptons/include/G4Positron.hh:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/digits_hits/hits/include/G4THitsCollection.hh:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/materials/include/G4OpticalSurface.hh:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/management/include/G4VDiscreteProcess.hh:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/ions/include/G4AntiTriton.hh:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/mesons/include/G4DMesonMinus.hh:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Vector/TwoVector.h:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4TwoVector.hh:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/run/include/G4VUPLSplitter.hh:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/cuts/include/G4MaterialCutsCouple.hh:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/run/include/G4VUserPhysicsList.hh:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/event/include/G4SingleParticleSource.hh:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4CacheDetails.hh:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4Cache.hh:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/mesons/include/G4KaonPlus.hh:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4ThreadLocalSingleton.hh:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/event/include/G4VPrimaryGenerator.hh:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/run/include/G4PhysicsListOrderingParameter.hh:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/run/include/G4VPhysicsConstructor.hh:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/run/include/G4VModularPhysicsList.hh:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR/include/PhysicsList.hh:
 
@@ -5344,8 +5438,6 @@ CMakeFiles/rich.dir/src/TrackerSD.cpp.o: /Users/theojanson/Project/McGillPhysics
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/barions/include/G4AntiSigmabZero.hh:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/solids/CSG/include/G4Tubs.icc:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/graphics_reps/include/G4Visible.icc:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/graphics_reps/include/G4Visible.hh:
 
@@ -5359,13 +5451,11 @@ CMakeFiles/rich.dir/src/TrackerSD.cpp.o: /Users/theojanson/Project/McGillPhysics
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4GeomTypes.hh:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/run/include/G4VUserPrimaryGeneratorAction.hh:
-
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR/include/DetectorConstruction.hh:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/barions/include/G4Lambda.hh:
-
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/management/include/G4VRestDiscreteProcess.hh:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/barions/include/G4Lambda.hh:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/intercoms/include/G4UIcommandStatus.hh:
 
@@ -5375,9 +5465,7 @@ CMakeFiles/rich.dir/src/TrackerSD.cpp.o: /Users/theojanson/Project/McGillPhysics
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/intercoms/include/icomsdefs.hh:
 
-/Library/Developer/CommandLineTools/usr/include/c++/v1/list:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/run/include/G4RunManagerKernel.hh:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/list:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/intercoms/include/G4UItokenNum.hh:
 
@@ -5389,7 +5477,11 @@ CMakeFiles/rich.dir/src/TrackerSD.cpp.o: /Users/theojanson/Project/McGillPhysics
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/intercoms/include/G4UImessenger.hh:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/tracking/include/G4VSteppingVerbose.hh:
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/tracking/include/G4UserSteppingAction.hh:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/leptons/include/G4NeutrinoE.hh:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/management/include/G4ProcessManager.icc:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/mesons/include/G4AntiDMesonZero.hh:
 
@@ -5415,6 +5507,8 @@ CMakeFiles/rich.dir/src/TrackerSD.cpp.o: /Users/theojanson/Project/McGillPhysics
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4VParticleChange.hh:
 
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4PhysicsTable.icc:
+
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4PhysicsTable.hh:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/management/include/G4ProcessManager.hh:
@@ -5429,23 +5523,15 @@ CMakeFiles/rich.dir/src/TrackerSD.cpp.o: /Users/theojanson/Project/McGillPhysics
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/navigation/include/G4VExternalNavigation.hh:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/electromagnetic/standard/include/G4ComptonScattering.hh:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/electromagnetic/utils/include/G4DNAModelSubType.hh:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/navigation/include/G4ReplicaNavigation.icc:
-
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/navigation/include/G4ParameterisedNavigation.icc:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4VPVParameterisation.hh:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/navigation/include/G4ParameterisedNavigation.hh:
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/navigation/include/G4VoxelNavigation.icc:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4SmartVoxelHeader.hh:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4SmartVoxelNode.hh:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4SmartVoxelProxy.hh:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4BlockingList.icc:
 
@@ -5471,6 +5557,8 @@ CMakeFiles/rich.dir/src/TrackerSD.cpp.o: /Users/theojanson/Project/McGillPhysics
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/volumes/include/G4NavigationHistory.icc:
 
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/volumes/include/G4NavigationHistoryPool.hh:
+
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/volumes/include/G4NavigationLevel.icc:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/digits_hits/detector/include/G4VSDFilter.hh:
@@ -5485,8 +5573,6 @@ CMakeFiles/rich.dir/src/TrackerSD.cpp.o: /Users/theojanson/Project/McGillPhysics
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/volumes/include/G4NavigationHistory.hh:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/volumes/include/G4TouchableHistory.hh:
-
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/volumes/include/G4TouchableHistoryHandle.hh:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/cuts/include/G4ProductionCuts.hh:
@@ -5499,9 +5585,9 @@ CMakeFiles/rich.dir/src/TrackerSD.cpp.o: /Users/theojanson/Project/McGillPhysics
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/volumes/include/G4GRSVolume.hh:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Geometry/Normal3D.h:
-
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Geometry/Vector3D.h:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Geometry/Transform3D.h:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/navigation/include/G4Navigator.hh:
 
@@ -5529,19 +5615,9 @@ CMakeFiles/rich.dir/src/TrackerSD.cpp.o: /Users/theojanson/Project/McGillPhysics
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandLandau.h:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/decay/include/G4DecayProcessType.hh:
-
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandGeneral.icc:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandGeneral.h:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/barions/include/G4SigmaZero.hh:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/optical/include/G4OpBoundaryProcess.hh:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandGaussQ.icc:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandGaussQ.h:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandGauss.icc:
 
@@ -5559,25 +5635,17 @@ CMakeFiles/rich.dir/src/TrackerSD.cpp.o: /Users/theojanson/Project/McGillPhysics
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandBit.h:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandExpZiggurat.h:
-
-/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include/limits.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_uintptr_t.h:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandExponential.h:
-
-/Library/Developer/CommandLineTools/usr/include/c++/v1/ctime:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandChiSquare.h:
-
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Utility/thread_local.h:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/electromagnetic/standard/include/G4eMultipleScattering.hh:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandBinomial.icc:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/ctime:
+
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Utility/memory.h:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/electromagnetic/standard/include/G4GammaConversion.hh:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Geometry/BasicVector3D.h:
 
@@ -5587,17 +5655,23 @@ CMakeFiles/rich.dir/src/TrackerSD.cpp.o: /Users/theojanson/Project/McGillPhysics
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/Ranlux64Engine.h:
 
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RanecuEngine.h:
+
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4VSolid.icc:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/MixMaxRng.h:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/navigation/include/G4NormalNavigation.icc:
 
-/Library/Developer/CommandLineTools/usr/include/c++/v1/system_error:
-
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/DualRand.h:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/event/include/G4PrimaryTransformer.hh:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/JamesRandom.h:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/ptl/include/PTL/Types.hh:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4TrackVector.hh:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/materials/include/G4MaterialTable.hh:
 
@@ -5607,17 +5681,25 @@ CMakeFiles/rich.dir/src/TrackerSD.cpp.o: /Users/theojanson/Project/McGillPhysics
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4DataVector.icc:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/system_error:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4DataVector.hh:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/materials/include/G4MaterialPropertiesTable.icc:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/electromagnetic/utils/include/G4VEnergyLossProcess.hh:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/deque:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__tuple:
+
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4PhysicsVector.icc:
 
-/Library/Developer/CommandLineTools/usr/include/c++/v1/future:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/pthread/pthread_impl.h:
 
-/Library/Developer/CommandLineTools/usr/include/c++/v1/stack:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/fstream:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4PhysicsVector.hh:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandChiSquare.icc:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/materials/include/G4MaterialPropertyVector.hh:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/materials/include/G4MaterialPropertiesIndex.hh:
 
@@ -5631,25 +5713,19 @@ CMakeFiles/rich.dir/src/TrackerSD.cpp.o: /Users/theojanson/Project/McGillPhysics
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/materials/include/G4IsotopeVector.hh:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/materials/include/G4IonisParamElm.hh:
-
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/mesons/include/G4KaonZero.hh:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4ReferenceCountedHandle.hh:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/tracking/include/G4TrackingManager.hh:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4VTouchable.hh:
-
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/management/include/G4ParticleMomentum.hh:
-
-/Library/Developer/CommandLineTools/usr/include/c++/v1/cerrno:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/event/include/G4ClassificationOfNewTrack.hh:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/HEPGeometry/include/G4LorentzVector.hh:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/management/include/G4ParticleDefinition.icc:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__bit_reference:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4PhysicsOrderedFreeVector.hh:
 
@@ -5661,17 +5737,11 @@ CMakeFiles/rich.dir/src/TrackerSD.cpp.o: /Users/theojanson/Project/McGillPhysics
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4LogicalVolume.icc:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4VTouchable.icc:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/pthread.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_sigset_t.h:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4VPhysicalVolume.icc:
-
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Vector/RotationZ.icc:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/navigation/include/G4RegularNavigation.hh:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/stack:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Vector/RotationZ.h:
 
@@ -5685,23 +5755,31 @@ CMakeFiles/rich.dir/src/TrackerSD.cpp.o: /Users/theojanson/Project/McGillPhysics
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Vector/LorentzVector.icc:
 
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4RotationMatrix.hh:
+
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4VPhysicalVolume.hh:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4Log.hh:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__node_handle:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Vector/TwoVector.icc:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/thread:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4Region.icc:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_size_t.h:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/management/include/G4VProcess.hh:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/future:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4SmartVoxelHeader.icc:
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/electromagnetic/standard/include/G4ComptonScattering.hh:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4Region.hh:
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/electromagnetic/utils/include/G4DNAModelSubType.hh:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/barions/include/G4SigmacPlus.hh:
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/navigation/include/G4ReplicaNavigation.icc:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/condition_variable:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4AutoLock.hh:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/event/include/G4SPSPosDistribution.hh:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/barions/include/G4SigmacPlus.hh:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4LogicalVolume.hh:
 
@@ -5709,89 +5787,29 @@ CMakeFiles/rich.dir/src/TrackerSD.cpp.o: /Users/theojanson/Project/McGillPhysics
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/trkdefs.hh:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandPoissonQ.icc:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RanluxEngine.h:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR/include/StackingAction.hh:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Units/SystemOfUnits.h:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4Step.icc:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/libkern/_OSByteOrder.h:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4Track.hh:
-
-/Library/Developer/CommandLineTools/usr/include/c++/v1/thread:
-
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/event/include/G4UserStackingAction.hh:
 
-/Library/Developer/CommandLineTools/usr/include/c++/v1/array:
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/event/include/G4StackManager.hh:
 
-/Library/Developer/CommandLineTools/usr/include/c++/v1/__config:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/signal.h:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4TrackVector.hh:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/filesystem:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/JamesRandom.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_mode_t.h:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/ptl/include/PTL/Types.hh:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/barions/include/G4AntiSigmaPlus.hh:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/xlocale/__wctype.h:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/management/include/G4ElectronOccupancy.hh:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/HEPGeometry/include/G4Normal3D.hh:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/ptl/include/PTL/Globals.hh:
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/ptl/include/PTL/Utility.hh:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4Profiler.hh:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4TrackStatus.hh:
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/materials/include/G4NistElementBuilder.hh:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/event/include/G4VUserEventInformation.hh:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_fd_clr.h:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/leptons/include/G4NeutrinoE.hh:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/management/include/G4ProcessManager.icc:
-
-/Library/Developer/CommandLineTools/usr/include/c++/v1/vector:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4SmartVoxelNode.icc:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/management/include/G4PrimaryParticle.hh:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_ino64_t.h:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Vector/Rotation.h:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Vector/ThreeVector.icc:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Vector/ThreeVector.h:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Utility/defs.h:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/HEPRandom/include/Randomize.hh:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4ThreeVector.hh:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/electromagnetic/utils/include/G4EmTableType.hh:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/management/include/pwdefs.hh:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/management/include/G4PrimaryVertex.hh:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR/src/EventAction.cpp:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/event/include/evtdefs.hh:
-
-/Library/Developer/CommandLineTools/usr/include/c++/v1/optional:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/electromagnetic/utils/include/G4EmSaturation.hh:
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/digits_hits/digits/include/G4VDigiCollection.hh:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/electromagnetic/utils/include/G4VEmFluctuationModel.hh:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/electromagnetic/utils/include/G4EmSaturation.hh:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4Profiler.icc:
 
@@ -5801,25 +5819,67 @@ CMakeFiles/rich.dir/src/TrackerSD.cpp.o: /Users/theojanson/Project/McGillPhysics
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/digits_hits/digits/include/G4DCofThisEvent.hh:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/event/include/G4SPSEneDistribution.hh:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_errno_t.h:
-
-/Library/Developer/CommandLineTools/usr/include/c++/v1/__tree:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_in_port_t.h:
-
-/Library/Developer/CommandLineTools/usr/include/c++/v1/condition_variable:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cwchar:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/digits_hits/hits/include/G4VHitsCollection.hh:
 
-/Library/Developer/CommandLineTools/usr/include/c++/v1/iomanip:
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4SmartVoxelNode.icc:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/cdefs.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__undef_macros:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_mach_port_t.h:
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/management/include/G4PrimaryParticle.hh:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4EnvironmentUtils.hh:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_ino64_t.h:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Vector/Rotation.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/ostream:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Vector/ThreeVector.icc:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4VTouchable.hh:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/tracking/include/G4TrackingManager.hh:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Vector/ThreeVector.h:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Utility/defs.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/ratio:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/HEPRandom/include/Randomize.hh:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/climits:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4ThreeVector.hh:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/electromagnetic/utils/include/G4EmTableType.hh:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cstdlib:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/management/include/pwdefs.hh:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/bosons/include/G4BosonConstructor.hh:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/management/include/G4PrimaryVertex.hh:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR/src/EventAction.cpp:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/event/include/evtdefs.hh:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/mesons/include/G4KaonMinus.hh:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__tree:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/materials/include/G4IonisParamElm.hh:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/digits_hits/detector/include/G4VReadOutGeometry.hh:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/map:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/tracking/include/G4VSteppingVerbose.hh:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/iomanip:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4ExceptionSeverity.hh:
 
@@ -5829,25 +5889,25 @@ CMakeFiles/rich.dir/src/TrackerSD.cpp.o: /Users/theojanson/Project/McGillPhysics
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/templates.hh:
 
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandomEngine.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/iostream:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/machine/_mcontext.h:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4ios.hh:
-
-/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include/__stddef_max_align_t.h:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/globals.hh:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandBinomial.h:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/navigation/include/G4VoxelNavigation.icc:
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4SmartVoxelProxy.hh:
 
-/Library/Developer/CommandLineTools/usr/include/c++/v1/fstream:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/istream:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4RotationMatrix.hh:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/bitset:
 
-/Library/Developer/CommandLineTools/usr/include/c++/v1/__bit_reference:
-
-/Library/Developer/CommandLineTools/usr/include/c++/v1/bitset:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__bsd_locale_defaults.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_fsfilcnt_t.h:
 
@@ -5857,11 +5917,9 @@ CMakeFiles/rich.dir/src/TrackerSD.cpp.o: /Users/theojanson/Project/McGillPhysics
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_fd_copy.h:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/materials/include/G4NistElementBuilder.hh:
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/HEPRandom/include/G4RandomTools.hh:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/digits_hits/digits/include/G4VDigiCollection.hh:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_fd_clr.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_fd_isset.h:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/electromagnetic/xrays/include/G4Cerenkov.hh:
 
@@ -5879,9 +5937,9 @@ CMakeFiles/rich.dir/src/TrackerSD.cpp.o: /Users/theojanson/Project/McGillPhysics
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_fd_def.h:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/barions/include/G4AntiSigmabMinus.hh:
-
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/event/include/G4GeneralParticleSourceData.hh:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/barions/include/G4AntiSigmabMinus.hh:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/i386/endian.h:
 
@@ -5899,11 +5957,11 @@ CMakeFiles/rich.dir/src/TrackerSD.cpp.o: /Users/theojanson/Project/McGillPhysics
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_key_t.h:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/event/include/G4TrajectoryContainer.hh:
-
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4StepStatus.hh:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/electromagnetic/utils/include/G4EmDataHandler.hh:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/locale:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4Exp.hh:
 
@@ -5911,9 +5969,19 @@ CMakeFiles/rich.dir/src/TrackerSD.cpp.o: /Users/theojanson/Project/McGillPhysics
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_ino_t.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_in_port_t.h:
+
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/electromagnetic/utils/include/G4VMultipleScattering.hh:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4PhysicsVectorType.hh:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/electromagnetic/utils/include/G4VEmAngularDistribution.hh:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4StepPoint.icc:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_u_int.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_gid_t.h:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/management/include/G4DynamicParticle.icc:
 
@@ -5923,13 +5991,11 @@ CMakeFiles/rich.dir/src/TrackerSD.cpp.o: /Users/theojanson/Project/McGillPhysics
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_caddr_t.h:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/barions/include/G4AntiSigmaMinus.hh:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_u_char.h:
-
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/barions/include/G4AntiXiMinus.hh:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/types.h:
+
+/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include/stddef.h:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/tls.hh:
 
@@ -5939,57 +6005,79 @@ CMakeFiles/rich.dir/src/TrackerSD.cpp.o: /Users/theojanson/Project/McGillPhysics
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/nl_types.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/xlocale/_wchar.h:
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4Step.icc:
 
-/Library/Developer/CommandLineTools/usr/include/c++/v1/locale:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/libkern/_OSByteOrder.h:
 
-/Library/Developer/CommandLineTools/usr/include/c++/v1/streambuf:
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4Track.hh:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/xlocale/_wctype.h:
 
-/Library/Developer/CommandLineTools/usr/include/c++/v1/stddef.h:
-
-/Library/Developer/CommandLineTools/usr/include/c++/v1/bit:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/xlocale/_wchar.h:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Vector/RotationY.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/xlocale/_string.h:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/ions/include/G4Deuteron.hh:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/array:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4LPhysicsFreeVector.hh:
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/cuts/include/G4ProductionCutsTable.hh:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4Allocator.hh:
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandGaussZiggurat.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/xlocale/_ctype.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/errno.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sched.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/mutex:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/locale.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/cdefs.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_mach_port_t.h:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4EnvironmentUtils.hh:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/barions/include/G4XiMinus.hh:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/event/include/G4EventManager.hh:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/event/include/G4ParticleGun.hh:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/wctype.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cctype:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__threading_support:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cstdio:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/navigation/include/G4ParameterisedNavigation.hh:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/bit:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/Random.icc:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/assert.h:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/event/include/G4SmartTrackStack.hh:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_locale.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/qos.h:
 
-/Library/Developer/CommandLineTools/usr/include/c++/v1/numeric:
-
-/Library/Developer/CommandLineTools/usr/include/c++/v1/stdint.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_locale.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_pthread/_pthread_t.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_uid_t.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/vector:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Vector/AxisAngle.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_pthread/_pthread_rwlock_t.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/pthread/qos.h:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/barions/include/G4AntiLambdab.hh:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cwctype:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/xlocale.h:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/electromagnetic/utils/include/G4VEmModel.hh:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/random:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/event/include/G4StackedTrack.hh:
 
@@ -6001,35 +6089,13 @@ CMakeFiles/rich.dir/src/TrackerSD.cpp.o: /Users/theojanson/Project/McGillPhysics
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4Threading.hh:
 
-/Library/Developer/CommandLineTools/usr/include/c++/v1/climits:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/iterator:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/pthread/pthread_impl.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/strings.h:
 
-/Library/Developer/CommandLineTools/usr/include/c++/v1/deque:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/new:
 
-/Library/Developer/CommandLineTools/usr/include/c++/v1/__nullptr:
-
-/Library/Developer/CommandLineTools/usr/include/c++/v1/__threading_support:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/volumes/include/G4GRSSolid.icc:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4AllocatorPool.hh:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/navigation/include/G4NormalNavigation.hh:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_wchar_t.h:
-
-/Library/Developer/CommandLineTools/usr/include/c++/v1/ratio:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4PhysicsTable.icc:
-
-/Library/Developer/CommandLineTools/usr/include/c++/v1/errno.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/pthread/qos.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_ucontext.h:
-
-/Library/Developer/CommandLineTools/usr/include/c++/v1/functional:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/syslimits.h:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4LogicalVolumeStore.hh:
 
@@ -6039,12 +6105,6 @@ CMakeFiles/rich.dir/src/TrackerSD.cpp.o: /Users/theojanson/Project/McGillPhysics
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_endian.h:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR/include/PrimaryGeneratorAction.hh:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_u_int32_t.h:
-
-/Library/Developer/CommandLineTools/usr/include/c++/v1/chrono:
-
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/graphics_reps/include/HepPolyhedron.h:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4TrackFastVector.hh:
@@ -6053,73 +6113,43 @@ CMakeFiles/rich.dir/src/TrackerSD.cpp.o: /Users/theojanson/Project/McGillPhysics
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/i386/_limits.h:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/physics_lists/constructors/decay/include/G4DecayPhysics.hh:
-
-/Library/Developer/CommandLineTools/usr/include/c++/v1/stdexcept:
-
-/Library/Developer/CommandLineTools/usr/include/c++/v1/algorithm:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/i386/limits.h:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/intercoms/include/G4UImanager.hh:
-
-/Library/Developer/CommandLineTools/usr/include/c++/v1/filesystem:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/limits.h:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/barions/include/G4XiMinus.hh:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/stdlib.h:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/event/include/G4EventManager.hh:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/locale.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_u_short.h:
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/leptons/include/G4MuonMinus.hh:
 
-/Library/Developer/CommandLineTools/usr/include/c++/v1/__mutex_base:
+/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include/limits.h:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4Exception.hh:
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/tracking/include/G4TrackingMessenger.hh:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/run/include/G4RunManager.hh:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types/_uint64_t.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_pthread/_pthread_condattr_t.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_time_t.h:
 
-/Library/Developer/CommandLineTools/usr/include/c++/v1/mutex:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/limits.h:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/ptl/include/PTL/Utility.hh:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_mode_t.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/iosfwd:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_pthread/_pthread_mutexattr_t.h:
 
-/Library/Developer/CommandLineTools/usr/include/c++/v1/cctype:
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/run/include/rundefs.hh:
 
-/Library/Developer/CommandLineTools/usr/include/c++/v1/cwctype:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/stdint.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_ctermid.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/atomic:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_off_t.h:
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4LogicalSurface.icc:
 
-/Library/Developer/CommandLineTools/usr/include/c++/v1/cstdint:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_blksize_t.h:
 
-/Library/Developer/CommandLineTools/usr/include/c++/v1/cwchar:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/libkern/i386/_OSByteOrder.h:
 
-/Library/Developer/CommandLineTools/usr/include/c++/v1/atomic:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__functional_base:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandomEngine.h:
-
-/Library/Developer/CommandLineTools/usr/include/c++/v1/__functional_base:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/volumes/include/G4NavigationHistoryPool.hh:
-
-/Library/Developer/CommandLineTools/usr/include/c++/v1/new:
-
-/Library/Developer/CommandLineTools/usr/include/c++/v1/memory:
-
-/Library/Developer/CommandLineTools/usr/include/c++/v1/__cxx_version:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/runetype.h:
-
-/Library/Developer/CommandLineTools/usr/include/c++/v1/cstring:
-
-/Library/Developer/CommandLineTools/usr/include/c++/v1/__tuple:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/stdexcept:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/materials/include/G4Element.hh:
 
@@ -6127,85 +6157,107 @@ CMakeFiles/rich.dir/src/TrackerSD.cpp.o: /Users/theojanson/Project/McGillPhysics
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_int8_t.h:
 
-/Library/Developer/CommandLineTools/usr/include/c++/v1/utility:
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/run/include/G4VUserPrimaryGeneratorAction.hh:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/syslimits.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/memory:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/strings.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sched.h:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/mesons/include/G4PionMinus.hh:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cstdint:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/i386/types.h:
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/ions/include/G4Deuteron.hh:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_rsize_t.h:
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4LPhysicsFreeVector.hh:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4Allocator.hh:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/xlocale/_ctype.h:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/mesons/include/G4AntiBMesonZero.hh:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/utility:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__mutex_base:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types/_wctrans_t.h:
-
-/Library/Developer/CommandLineTools/usr/include/c++/v1/tuple:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Vector/LorentzVector.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/string.h:
 
-/Library/Developer/CommandLineTools/usr/include/c++/v1/initializer_list:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/string.h:
 
-/Library/Developer/CommandLineTools/usr/include/c++/v1/string.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_ctype.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_sigaltstack.h:
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/management/include/G4ParticleTableIterator.hh:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4GeomSplitter.hh:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_pthread/_pthread_rwlock_t.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_posix_availability.h:
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Vector/AxisAngle.h:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/Random.icc:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_uid_t.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/assert.h:
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR/include/RunAction.hh:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types/_uint16_t.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cstring:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/management/include/G4ParticleDefinition.hh:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_uintptr_t.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types/_intmax_t.h:
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandExponential.h:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/run/include/G4VUPLSplitter.hh:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/initializer_list:
 
-/Library/Developer/CommandLineTools/usr/include/c++/v1/__locale:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/algorithm:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/leptons/include/G4NeutrinoTau.hh:
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandChiSquare.h:
 
-/Library/Developer/CommandLineTools/usr/include/c++/v1/ios:
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/intercoms/include/G4UImanager.hh:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/resource.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/string:
 
-/Library/Developer/CommandLineTools/usr/include/c++/v1/cmath:
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/volumes/include/G4GRSSolid.icc:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_gid_t.h:
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4AllocatorPool.hh:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_u_int.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/ios:
 
-/Library/Developer/CommandLineTools/usr/include/c++/v1/sstream:
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4Types.hh:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/errno.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cmath:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4AffineTransform.icc:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Vector/RotationX.icc:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/stdio.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/typeinfo:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/wchar.h:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/materials/include/G4Material.hh:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/mesons/include/G4JPsi.hh:
-
-/Library/Developer/CommandLineTools/usr/include/c++/v1/__bsd_locale_defaults.h:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/management/include/G4ParticleTableIterator.hh:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_ctype.h:
-
-/Library/Developer/CommandLineTools/usr/include/c++/v1/ctype.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/xlocale/_stdio.h:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/event/include/G4SPSEneDistribution.hh:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_errno_t.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types/_intmax_t.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types/_uint16_t.h:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/management/include/G4ParticleDefinition.hh:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/machine/types.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types/_wctype_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_wint_t.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/runetype.h:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/barions/include/G4AntiXicZero.hh:
 
@@ -6219,37 +6271,21 @@ CMakeFiles/rich.dir/src/TrackerSD.cpp.o: /Users/theojanson/Project/McGillPhysics
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_timespec.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/math.h:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR/src/TrackerSD.cpp:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_fsblkcnt_t.h:
+
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Vector/RotationX.h:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/leptons/include/G4TauMinus.hh:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/time.h:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/digits_hits/hits/include/G4HCofThisEvent.hh:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_ctermid.h:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4PhysicsLogVector.hh:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/stdio.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/xlocale/_time.h:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/barions/include/G4SigmacPlusPlus.hh:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/tracking/include/G4SteppingManager.hh:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR/rich.cpp:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/graphics_reps/include/G4Polyhedron.hh:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/machine/_types.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/i386/_mcontext.h:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/materials/include/G4ICRU90StoppingData.hh:
-
-/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include/stdarg.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_ssize_t.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_off_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_xlocale.h:
 
@@ -6261,15 +6297,55 @@ CMakeFiles/rich.dir/src/TrackerSD.cpp.o: /Users/theojanson/Project/McGillPhysics
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4PhysicsModelCatalog.hh:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR/include/SimulationConstants.hh:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__nullptr:
 
-/Library/Developer/CommandLineTools/usr/include/c++/v1/complex:
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/digits_hits/hits/include/G4HCofThisEvent.hh:
 
-/Library/Developer/CommandLineTools/usr/include/c++/v1/cassert:
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4PhysicsLogVector.hh:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/mesons/include/G4DsMesonPlus.hh:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/stdio.h:
 
-/Library/Developer/CommandLineTools/usr/include/c++/v1/typeinfo:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/xlocale/_time.h:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/mesons/include/G4PionMinus.hh:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/i386/types.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_rsize_t.h:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/intercoms/include/G4UIcommand.hh:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/xlocale/_stdlib.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__string:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/barions/include/G4SigmacPlusPlus.hh:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/tracking/include/G4SteppingManager.hh:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/run/include/G4RunManager.hh:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4Exception.hh:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR/rich.cpp:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/graphics_reps/include/G4Polyhedron.hh:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/machine/_types.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/i386/_mcontext.h:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/materials/include/G4ICRU90StoppingData.hh:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/exception:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__locale:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_ssize_t.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/numeric:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cerrno:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_wctype.h:
 
@@ -6279,65 +6355,27 @@ CMakeFiles/rich.dir/src/TrackerSD.cpp.o: /Users/theojanson/Project/McGillPhysics
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_va_list.h:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR/include/SteppingAction.hh:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_u_int64_t.h:
-
-/Library/Developer/CommandLineTools/usr/include/c++/v1/stdio.h:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/bosons/include/G4UnknownParticle.hh:
-
-/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include/stddef.h:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Geometry/Point3D.h:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4-build/source/global/include/G4GlobalConfig.hh:
-
-/Library/Developer/CommandLineTools/usr/include/c++/v1/limits:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR/src/TrackerSD.cpp:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_fsblkcnt_t.h:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/tracking/include/G4TrackingMessenger.hh:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types/_uint64_t.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_time_t.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/math.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_pthread/_pthread_attr_t.h:
-
-/Library/Developer/CommandLineTools/usr/include/c++/v1/wchar.h:
-
-/Library/Developer/CommandLineTools/usr/include/c++/v1/__undef_macros:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/materials/include/G4MaterialPropertiesTable.icc:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/barions/include/G4OmegacZero.hh:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_pthread/_pthread_once_t.h:
-
-/Library/Developer/CommandLineTools/usr/include/c++/v1/math.h:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/event/include/G4StackManager.hh:
-
-/Library/Developer/CommandLineTools/usr/include/c++/v1/limits.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types/_uint32_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/malloc/_malloc.h:
 
-/Library/Developer/CommandLineTools/usr/include/c++/v1/iosfwd:
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/electromagnetic/xrays/include/G4Scintillation.hh:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/navigation/include/G4NormalNavigation.hh:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_wchar_t.h:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4SteppingControl.hh:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/stdio.h:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/MTwistEngine.h:
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4VPhysicalVolume.icc:
 
-/Library/Developer/CommandLineTools/usr/include/c++/v1/iostream:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_sigset_t.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/pthread.h:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/MTwistEngine.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_suseconds_t.h:
 
@@ -6345,11 +6383,25 @@ CMakeFiles/rich.dir/src/TrackerSD.cpp.o: /Users/theojanson/Project/McGillPhysics
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/HEPGeometry/include/geomdefs.hh:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/barions/include/G4AntiProton.hh:
-
-/Library/Developer/CommandLineTools/usr/include/c++/v1/__split_buffer:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/limits:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_pid_t.h:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4TrackStatus.hh:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/event/include/G4VUserEventInformation.hh:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/barions/include/G4SigmaZero.hh:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/optical/include/G4OpBoundaryProcess.hh:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandGaussQ.icc:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/wchar.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/stddef.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/locale.h:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/electromagnetic/utils/include/G4EmProcessSubType.hh:
 
@@ -6363,31 +6415,57 @@ CMakeFiles/rich.dir/src/TrackerSD.cpp.o: /Users/theojanson/Project/McGillPhysics
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types/_uint8_t.h:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4LogicalSurface.icc:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_u_short.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_blksize_t.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_symbol_aliasing.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/libkern/i386/_OSByteOrder.h:
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandGaussQ.h:
 
-/Library/Developer/CommandLineTools/usr/include/c++/v1/cstdio:
+/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include/stdint.h:
 
-/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/barions/include/G4AntiSigmaMinus.hh:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_u_char.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__config:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/event/include/G4SingleParticleSource.hh:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4CacheDetails.hh:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/set:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/tuple:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/mesons/include/G4JPsi.hh:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/stdint.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/resource.h:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/barions/include/G4LambdacPlus.hh:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4Track.icc:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/intercoms/include/G4UIcommand.hh:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_ucontext.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/xlocale/_stdlib.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_pthread/_pthread_mutex_t.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/functional:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__debug:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4GeomSplitter.hh:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_sigaltstack.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/chrono:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4AffineTransform.hh:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_stdio.h:
 
-/Library/Developer/CommandLineTools/usr/include/c++/v1/istream:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_size_t.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_pthread/_pthread_attr_t.h:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/materials/include/G4NistManager.hh:
 
@@ -6401,9 +6479,15 @@ CMakeFiles/rich.dir/src/TrackerSD.cpp.o: /Users/theojanson/Project/McGillPhysics
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/wctype.h:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Vector/AxisAngle.icc:
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/run/include/G4RunManagerKernel.hh:
 
-/Library/Developer/CommandLineTools/usr/include/c++/v1/map:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/math.h:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR/include/SteppingAction.hh:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_u_int64_t.h:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Vector/AxisAngle.icc:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_pthread/_pthread_rwlockattr_t.h:
 
@@ -6411,19 +6495,33 @@ CMakeFiles/rich.dir/src/TrackerSD.cpp.o: /Users/theojanson/Project/McGillPhysics
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_clock_t.h:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/tracking/include/G4UserSteppingAction.hh:
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR/include/PrimaryGeneratorAction.hh:
 
-/Library/Developer/CommandLineTools/usr/include/c++/v1/__node_handle:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_u_int32_t.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_u_int16_t.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/i386/limits.h:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandExpZiggurat.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/sstream:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/type_traits:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandChiSquare.icc:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/streambuf:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/materials/include/G4MaterialPropertyVector.hh:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_int16_t.h:
 
-/Library/Developer/CommandLineTools/usr/include/c++/v1/__errc:
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/navigation/include/G4SafetyHelper.hh:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_id_t.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/AvailabilityInternal.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_dev_t.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_pthread/_pthread_mutex_t.h:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/run/include/G4VUserDetectorConstruction.hh:
 
@@ -6431,75 +6529,83 @@ CMakeFiles/rich.dir/src/TrackerSD.cpp.o: /Users/theojanson/Project/McGillPhysics
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/alloca.h:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/navigation/include/G4SafetyHelper.hh:
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/digits_hits/detector/include/G4CollectionNameVector.hh:
 
-/Library/Developer/CommandLineTools/usr/include/c++/v1/__string:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/mach/i386/_structs.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_id_t.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_rune_t.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/AvailabilityInternal.h:
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandBreitWigner.h:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandomEngine.icc:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/pthread/sched.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_null.h:
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/barions/include/G4AntiXibMinus.hh:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/electromagnetic/standard/include/G4PhotoElectricEffect.hh:
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4TouchableHandle.hh:
 
-/Library/Developer/CommandLineTools/usr/include/c++/v1/stdlib.h:
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR/include/TrackerHit.hh:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Geometry/Transform3D.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_u_int8_t.h:
 
-/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include/stdint.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/mach/machine/_structs.h:
 
-/Library/Developer/CommandLineTools/usr/include/c++/v1/iterator:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_mbstate_t.h:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/ions/include/G4Alpha.hh:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_ct_rune_t.h:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/event/include/G4TrackStack.hh:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/errno.h:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4DataVector.hh:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/pthread/sched.h:
-
-/Library/Developer/CommandLineTools/usr/include/c++/v1/set:
-
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/run/include/G4PhysicsListHelper.hh:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/appleapiopts.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/signal.h:
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandPoissonQ.icc:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4Types.hh:
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RanluxEngine.h:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RanecuEngine.h:
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR/include/StackingAction.hh:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/Availability.h:
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Units/SystemOfUnits.h:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/tracking/include/G4VTrajectory.hh:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cassert:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4ParticleChangeForMSC.icc:
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/barions/include/G4OmegacZero.hh:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4String.icc:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_pthread/_pthread_once_t.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/i386/signal.h:
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandomEngine.icc:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/decay/include/G4Decay.hh:
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/event/include/G4TrajectoryContainer.hh:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/volumes/include/G4LogicalBorderSurface.hh:
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Geometry/Normal3D.h:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/analysis/accumulables/include/G4VAccumulable.icc:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/ctype.h:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Vector/Rotation.icc:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_null.h:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/barions/include/G4AntiXibZero.hh:
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/barions/include/G4AntiSigmaPlus.hh:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/barions/include/G4SigmabZero.hh:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/xlocale/__wctype.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_pthread/_pthread_types.h:
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/management/include/G4ElectronOccupancy.hh:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/stdint.h:
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/HEPGeometry/include/G4Normal3D.hh:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/i386/_types.h:
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/ptl/include/PTL/Globals.hh:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/event/include/G4GeneralParticleSource.hh:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__errc:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/machine/endian.h:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/electromagnetic/utils/include/G4EmModelManager.hh:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/wait.h:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/event/include/G4SPSAngDistribution.hh:
 
@@ -6517,88 +6623,90 @@ CMakeFiles/rich.dir/src/TrackerSD.cpp.o: /Users/theojanson/Project/McGillPhysics
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_int32_t.h:
 
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4VTouchable.icc:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/digits_hits/detector/include/G4SensitiveVolumeList.hh:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/__split_buffer:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/AvailabilityVersions.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/optional:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/tracking/include/G4VTrajectory.hh:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4ParticleChangeForMSC.icc:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4String.icc:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/i386/signal.h:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/volumes/include/G4LogicalBorderSurface.hh:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/analysis/accumulables/include/G4VAccumulable.icc:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Vector/Rotation.icc:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/barions/include/G4AntiXibZero.hh:
+
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/barions/include/G4SigmabZero.hh:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_pthread/_pthread_types.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_pthread/_pthread_condattr_t.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/i386/_types.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/Availability.h:
+
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/digits_hits/detector/include/G4SDManager.hh:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/management/include/G4ParticleTable.hh:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/_types.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_symbol_aliasing.h:
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/mesons/include/G4AntiBsMesonZero.hh:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/complex:
 
 /Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandFlat.icc:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/stdlib.h:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/electromagnetic/utils/include/G4EmModelManager.hh:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_u_int16_t.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/wait.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_posix_availability.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/AvailabilityVersions.h:
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/graphics_reps/include/G4Visible.icc:
 
-/Library/Developer/CommandLineTools/usr/include/c++/v1/__debug:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/string_view:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/HEPRandom/include/G4RandomTools.hh:
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Geometry/Point3D.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_fd_isset.h:
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4-build/source/global/include/G4GlobalConfig.hh:
 
-/Library/Developer/CommandLineTools/usr/include/c++/v1/locale.h:
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4Log.hh:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/intercoms/include/G4UIcmdWith3VectorAndUnit.hh:
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Vector/TwoVector.icc:
 
-/Library/Developer/CommandLineTools/usr/include/c++/v1/wctype.h:
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4Region.icc:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/machine/endian.h:
+/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include/__stddef_max_align_t.h:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandBreitWigner.h:
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/volumes/include/G4TouchableHistory.hh:
 
-/Library/Developer/CommandLineTools/usr/include/c++/v1/type_traits:
+/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include/stdarg.h:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/cuts/include/G4ProductionCutsTable.hh:
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/management/include/G4VProcess.hh:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Random/RandGaussZiggurat.h:
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4SmartVoxelHeader.icc:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/errno.h:
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4Region.hh:
 
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/global/management/include/G4AutoLock.hh:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/cstddef:
 
-/Library/Developer/CommandLineTools/usr/include/c++/v1/exception:
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/leptons/include/G4LeptonConstructor.hh:
 
-/Library/Developer/CommandLineTools/usr/include/c++/v1/string:
+/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/event/include/G4UserEventAction.hh:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_mbstate_t.h:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/ions/include/G4Alpha.hh:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_ct_rune_t.h:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/processes/electromagnetic/utils/include/G4VEmAngularDistribution.hh:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/track/include/G4StepPoint.icc:
-
-/Library/Developer/CommandLineTools/usr/include/c++/v1/cstdlib:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/digits_hits/detector/include/G4CollectionNameVector.hh:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/mach/i386/_structs.h:
-
-/Library/Developer/CommandLineTools/usr/include/c++/v1/string_view:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_rune_t.h:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/particles/hadrons/barions/include/G4AntiXibMinus.hh:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4TouchableHandle.hh:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/Applications/HelixRich/HR/include/TrackerHit.hh:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_u_int8_t.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/mach/machine/_structs.h:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/geometry/management/include/G4AffineTransform.icc:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/externals/clhep/include/CLHEP/Vector/RotationX.icc:
-
-/Users/theojanson/Project/McGillPhysics/HelixRich/Code/geant4/source/run/include/rundefs.hh:
-
-/Library/Developer/CommandLineTools/usr/include/c++/v1/cstddef:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/c++/v1/version:

@@ -30,34 +30,36 @@
 #ifndef PhysicsList_h
 #define PhysicsList_h 1
 
-#include "G4VModularPhysicsList.hh"
+#include "G4VUserPhysicsList.hh"
 #include "G4Cerenkov.hh"
 #include "G4ParticleTable.hh"
-#include "G4Material.hh"
+#include "G4OpBoundaryProcess.hh"
 
 
-class PhysicsList : public G4VModularPhysicsList
+
+class PhysicsList : public G4VUserPhysicsList
 {
   public:
-    PhysicsList(G4Material* agel);
+    PhysicsList();
     virtual ~PhysicsList();
     void ConstructParticle();
     void ConstructProcess();
-    G4Cerenkov* theCerenkovProcess;
 
     //these methods Construct particles
-    // void ConstructBosons();
     void ConstructLeptons();
     void ConstructBosons();
     void ConstructEM();
+    void ConstructBaryons();
     void ConstructIons();
-    G4Cerenkov* ConstructOp();
+    void ConstructOp();
     virtual void SetCuts();
 
    private:
     G4ParticleTable* theParticleTable;
-  	G4ParticleTable::G4PTblDicIterator* theParticleIterator;
-    G4Material* Agel;
+  	G4ParticleTable::G4PTblDicIterator* particleIterator;
+    G4Cerenkov* cerenkovProcess;
+    G4OpBoundaryProcess* boundaryProcess;
+
 
 };
 #endif

@@ -73,13 +73,10 @@ void TrackerSD::Initialize(G4HCofThisEvent* HCE)
 G4bool TrackerSD::ProcessHits(G4Step* aStep, G4TouchableHistory*)
 {
 	G4ThreeVector position = aStep->GetPostStepPoint()->GetPosition();
-	G4double x = position.X;
-	G4double y = position.Y;
-	G4double z = position.Z;
 	G4double energy = aStep->GetPostStepPoint()->GetKineticEnergy();
 
 	//Get only primary particle hits
-	if (SimulationConstants::particle_to_detect == "primary")
+	if (SimulationConstants::PARTICLE_TO_DETECT == "primary")
 	{
 		if (aStep->GetPostStepPoint()->GetPhysicalVolume() != detector)
 			return false;
@@ -87,15 +84,15 @@ G4bool TrackerSD::ProcessHits(G4Step* aStep, G4TouchableHistory*)
 			return false;
 	}
 	//Get only secondary particle hits
-	else if (SimulationConstants::particle_to_detect == "optical")
+	else if (SimulationConstants::PARTICLE_TO_DETECT == "optical")
 	{
-		if (aStep->GetPostStepPoint()->GetPhysicalVolume() != detector)
-			return false;
+		// if (aStep->GetPostStepPoint()->GetPhysicalVolume() != detector)
+		// 	return false;
 		if (aStep->GetTrack()->GetDefinition()->GetParticleType() != "opticalphoton")
 			return false; 
 	}
 	//Get all hits
-	else if (SimulationConstants::particle_to_detect == "all")
+	else if (SimulationConstants::PARTICLE_TO_DETECT == "all")
 	{
 		if (aStep->GetPostStepPoint()->GetPhysicalVolume() != detector)
 			return false;
@@ -120,7 +117,7 @@ void  TrackerSD::EndOfEvent(G4HCofThisEvent* HCE)
 	G4int NbHits = hitsCollection->entries();
 	if (outFile)
 	{
-		G4cout << "=============" << G4endl << "Sensitive Detector : " << NbHits << " optical photons detected" << G4endl;
+		// G4cout << "=============" << G4endl << "Sensitive Detector : " << NbHits << " optical photons detected" << G4endl;
 		outFile << "# " << NbHits << " Hits detected." << std::endl;
 		outFile << "# ";
 		if (savetime)
@@ -131,18 +128,18 @@ void  TrackerSD::EndOfEvent(G4HCofThisEvent* HCE)
 			outFile << "Energy (eV)";
 		outFile << std::endl;
 		for (G4int i=0;i<NbHits;i++) //looping overe hits 
-			(*hitsCollection)[i]->Print(outFile, savetime, saveposition, saveenergy);
+			(*hitsCollection)[i]->PrintStream(outFile, savetime, saveposition, saveenergy);
 		outFile << std::endl << std::endl;
 		outFile.close();
 	}
 
 	else 
 	{
-		G4cout << "=============" << G4endl << "Sensitive Detector : " << NbHits << " optical photons detected" << G4endl;
+		// G4cout << "=============" << G4endl << "Sensitive Detector : " << NbHits << " optical photons detected" << G4endl;
 		outFile.open("HelixRich.out", std::ofstream::app);
 		outFile << std::endl;
 		for (G4int i=0;i<NbHits;i++)
-			(*hitsCollection)[i]->Print(outFile, savetime, saveposition, saveenergy);
+			(*hitsCollection)[i]->PrintStream(outFile, savetime, saveposition, saveenergy);
 		outFile << std::endl << std::endl;
 		outFile.close();
 	}

@@ -48,7 +48,10 @@ class SteppingAction : public G4UserSteppingAction
   private:
     EventAction*  fEventAction;
     G4LogicalVolume* fScoringVolume;
-    std::ofstream eFile;
+	std::ofstream eFile;
+	std::ofstream oFile;
+  G4int   fCerenkovCounter;
+
 };
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......

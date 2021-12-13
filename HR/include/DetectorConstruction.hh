@@ -49,7 +49,6 @@ class DetectorConstruction : public G4VUserDetectorConstruction
       DetectorConstruction();
       virtual ~DetectorConstruction();
       virtual G4VPhysicalVolume* Construct();
-      G4Material* Aerogel;
 
       // G4LogicalVolume GetLogicalCurved()  { returnlogical_tile_curved;}
       // G4LogicalVolume GetLogicalBox()  { return logical_tile_box;}
@@ -72,5 +71,6 @@ class DetectorConstruction : public G4VUserDetectorConstruction
       G4Box* solid_detector;
       G4LogicalVolume* logical_detector;
       G4VPhysicalVolume* physical_detector;
+      G4Material* Aerogel;
 };
 #endif

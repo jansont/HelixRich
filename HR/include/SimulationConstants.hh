@@ -34,15 +34,17 @@ namespace SimulationConstants{
  /*------------------------------Detector geometry------------------------------*/
     //Global
     extern const G4int runCount;
+    extern const bool ShowTerminalUI;
+    extern const bool TRACKING;
     //World volume
-    extern const G4double worldX;
-    extern const G4double worldY;
-    extern const G4double worldZ;
-    extern const bool curved;
+    extern const G4double WORLDX;
+    extern const G4double WORLDY;
+    extern const G4double WORLDZ;
+    extern const bool CURVED;
     //Tile Volume: box
-    extern const G4double tileX; 
-    extern const G4double tileY;
-    extern const G4double tileZ; 
+    extern const G4double TILEX; 
+    extern const G4double TILEY;
+    extern const G4double TILEZ; 
     //Tile Volume: curved 
     extern const G4double pRMin; //Inner radius
     extern const G4double pRMax; //Outer radius
@@ -50,67 +52,65 @@ namespace SimulationConstants{
     extern const G4double pSPhi; //Starting phi angle in radians
     extern const G4double pDPhi; //Angle of the segment in radians 
     //Detector Volume
-    extern const G4double windowX; 
-    extern const G4double windowY;
-    extern const G4double windowZ; 
+    extern const G4double WINDOWX; 
+    extern const G4double WINDOWY;
+    extern const G4double WINDOWZ; 
 
     /*-------------------------------Detector Materials------------------------------*/
-    extern const G4double aerogel_density;
-    extern const G4double silica_density;
-    extern const G4double silica_prop;
-    extern const G4double water_prop;
-    extern const std::string surfaceModel;
-    extern const G4double aerogel_roughness;
-    extern const std::string davis_roughness;
-    extern const float refractive_index;
-    extern const std::string Aerogel_properties;
-    extern const float rindex_sdev;
-    extern const G4double PhotonMinEnergy_;
-    extern const G4double PhotonMaxEnergy_;
-    extern const std::string world_material_type;
-    extern const std::string altitude;
+    extern const bool ADD_TILE;
+    extern const bool ADD_TILE_GRADIENT;
+    extern const G4double AEROGEL_DENSITY;
+    extern const G4double SILICA_DENSITY;
+    extern const G4double SILICA_PROP;
+    extern const std::string SURFACE_MODEL;
+    extern const G4double AEROGEL_ROUGHNESS;
+    extern const std::string DAVIS_ROUGHNESS;
+    extern const float REFRACTIVE_INDEX;
+    extern const std::string AEROGEL_PROPERTIES;
+    extern const float REFRACTIVE_INDEX_SDEV;
+    extern const G4double PHOTON_MIN_ENERGY;
+    extern const G4double PHOTON_MAX_ENERGY;
+    extern const std::string WORLD_MATERIAL;
+    extern const std::string ALTITUDE;
 
     /*-------------------------------Sensitive Detector------------------------------*/
-    extern const bool air;
-    extern const std::string particle_to_detect;
+    extern const bool AIR;
+    extern const std::string PARTICLE_TO_DETECT;
 
     /*-------------------------------Particle Generator------------------------------*/
-    extern const std::string sourceParticle; 
-    extern const G4int n_particle; 
-    extern const G4double particleEnergy;
-    extern const std::string energyDistribution;
-    extern const G4double uniformEnergyRadius;  
-    extern const float E_sdev;
-    extern const std::string momentumDistribution;
-    extern const double mean_momentum_z;
-    extern const double sdev_momentum_z;
-    extern const double mean_momentum_x;
-    extern const double sdev_momentum_x;
-    extern const double mean_momentum_y;
-    extern const double sdev_momentum_y;
-    extern const double mean_theta;
-    extern const double sdev_theta;
-    extern const std::string source;
-    extern const G4double uniform_source_center;
-    extern const G4double uniform_source_radius;
-    extern const double mean_source_x;
-    extern const double sdev_source_x;
-    extern const double mean_source_y;
-    extern const double sdev_source_y;
+    extern const std::string SOURCE_PARTICLE; 
+    extern const G4int N_PARTICLE; 
+    extern const G4double PARTICLE_ENERGY;
+    extern const std::string ENERGY_DISTRIBUTION;
+    extern const G4double UNIFORM_ENERGY_RADIUS;  
+    extern const float ENERGY_SDEV;
+    extern const std::string MOMENTUM_DISTRIBUTION;
+    extern const double MEAN_MOMENTUM_X;
+    extern const double SDEV_MOMENTUM_X;
+    extern const double MEAN_MOMENTUM_Y;
+    extern const double SDEV_MOMENTUM_Y;
+    extern const double MEAN_THETA;
+    extern const double SDEV_THETA;
+    extern const std::string SOURCE_LOCATION;
+    extern const G4double UNIFORM_SOURCE_CENTRE;
+    extern const G4double UNIFORM_SOURCE_RADIUS;
+    extern const double MEAN_SOURCE_X;
+    extern const double SDEV_SOURCE_X;
+    extern const double MEAN_SOURCE_Y;
+    extern const double SDEV_SOURCE_Y;
 
     /*-------------------------------Physics Processes------------------------------*/
     //Electromagnetic processes
-    extern const bool multiple_scattering;
-    extern const bool ionization;
-    extern const bool bremsstrahlung;
-    extern const bool rayleigh;
-    extern const bool photoElectric;
-    extern const bool compton;
+    extern const bool MULTIPLE_SCATTERING;
+    extern const bool IONIZATION_PROCESS;
+    extern const bool BREMSSTRAHLUNG_PROCESS;
+
     //Optical processes 
-    extern const bool cerenkov;
-    extern const bool rayleigh_scattering;
-    extern const bool absorption;
-    extern const bool mie;
-    extern const G4int MaxNumPhotons;
-    extern const G4int maxBetaChange;
+    extern const bool RAYLEIGH_SCATTERING;
+    extern const bool ABSORPTION_PROCESS;
+    extern const bool BOUNDARY_PROCESS;
+    extern const bool COMPTON_SCATTERING;
+    extern const bool SCINTILLATION_PROCESS;
+    extern const G4int MAX_NUM_PHOTONS;
+    extern const G4int MAX_BETA_CHANGE;
 }

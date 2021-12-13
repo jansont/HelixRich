@@ -49,7 +49,7 @@ class TrackerHit : public G4VHit
       inline void* operator new(size_t);
       inline void  operator delete(void*);
 
-      void Print(std::ostream &stream = G4cout, bool printtime = true, bool printposition = false, bool printenergy = false);
+      void PrintStream(std::ostream &stream = G4cout, bool printtime = true, bool printposition = false, bool printenergy = false);
 
   public:
 
