@@ -1,5 +1,0 @@
-TODO: 
-
-- Get rid of ion - ionization. 
-- Check energy bounds
-- Get results
